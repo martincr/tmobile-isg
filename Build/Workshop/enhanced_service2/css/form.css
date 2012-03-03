@@ -1,0 +1,380 @@
+SELECT, INPUT, TEXTAREA {
+	font-size: .7em;
+	}
+TEXTAREA {
+	height: 10em;
+}
+.form fieldset {
+	overflow: hidden;
+	margin-bottom: 18px;
+	}
+.form fieldset.solid {
+	padding: 9px;
+	background: #F2F2F2;
+	}
+.form fieldset.border {
+	padding: 9px;
+	border: 1px solid #bebebe;
+	}
+.form fieldset.type3 {
+	background: #FFF;
+	}
+	
+.form fieldset.label-bold label {font-weight: bold;}
+.form fieldset.label-bold label.width-auto {font-weight: normal;}	
+	
+.form fieldset br {clear: both;}
+
+/* Inner divs */
+.form .row DIV {
+	float:left;
+	display:inline;
+	padding:2px 0;
+	}
+
+.form .row SELECT,
+.form .row INPUT,
+.form .row TEXTAREA,
+.form .row LABEL {float: left; margin-right: 5px;}
+
+.form .row select option {padding-right: 4px;}
+
+.form .row .align-top {
+	position: relative;
+	top: 3px;
+}
+
+* HTML .form .row .align-top {
+	top: 0px;
+}
+
+.form .row LABEL {
+	position:relative;
+	top:3px;
+	width: 120px;
+	font-size: .7em;
+	}
+.form .row INPUT.check-box {
+	position:relative;
+	top: 3px;
+	width: auto;
+	}
+	* HTML .form .row  INPUT.check-box {
+		top: 0px;
+		}
+
+.form .row label.width-auto {width: auto !important;}
+.form .row input.width-auto {width: auto !important;}
+
+.form .row.divider {
+	border-bottom: 1px solid #bebebe;
+	padding-bottom: 9px;
+	}
+
+.form .row.after-divider {
+	padding-top: 9px;
+	}
+
+.form .row label.error {color: #e20074;}
+
+.form .row select.wide  {width:128px;}
+.form .row textarea {width:126px;}
+.form .row input.short {width:20px !important;}
+.form .row input.medium {width:35px !important;}
+.form .row select.short {width:55px !important;}
+
+/*.form .row select#customer-address {
+	width:430px;
+	height:10em;
+}*/
+
+/* Buttons
+----------------------------------------------- */
+.form .row .btn,
+.form .row .btn-arrow {
+	padding: 0;
+	}
+.form .row .btn input,
+.form .row .btn-arrow input {
+	margin-right: 0;
+	}
+
+/* Form - layout width 432
+----------------------------------------------- */
+/* .row one-column
+----------------------------------------------- */
+.form .row.one-column label {
+	width: 160px;
+	}
+.form .row.one-column input {
+	width: 180px;
+	}
+.form .row.one-column select.wide {
+	width: 184px;
+	}
+.form .row.one-column textarea {
+	width: 180px;
+	}
+/* .row two-columns
+----------------------------------------------- */
+.form .row.two-columns div {
+	width: 206px;
+	}
+* HTML .form .row.two-columns div {
+	width: 185px;
+	w\idth: 207px;
+	}
+.form .row.two-columns label {
+	width: 75px;
+	}
+.form .row.two-columns input {
+	width: 100px;
+	}
+.form .row.two-columns select.wide {
+	width: 104px;
+	}
+* HTML .form .row.two-columns select.wide {
+	width: 100px;
+	w\idth: 104px;
+	}
+
+/* .row one-column - top
+----------------------------------------------- */
+.form .row.one-column div.top label {
+	width: 280px;
+	padding-bottom: 3px;
+	}
+.form .row.one-column div.top input {
+	width: 280px;
+	}
+.form .row.one-column div.top input.wide {
+	width: 432px;
+	}
+.form .row.one-column div.top textarea {
+	width: 280px;
+	}
+.form .row.one-column div.top textarea.wide {
+	width: 432px;
+	}
+.form .row.one-column div.top select.wide {
+	width: 284px;
+	}
+.form .row.one-column div.top select.x-wide {
+	margin-right: 0;
+	width: 432px;
+	height: 100px;
+	}
+
+/* .row two-columns - top
+----------------------------------------------- */
+.form .row.two-columns div.top label {
+	width: 180px;
+	padding-bottom: 3px;
+	}
+.form .row.two-columns div.top input {
+	width: 180px;
+	}
+.form .row.two-columns div.top select.wide {
+	width: 184px;
+	}
+/* Form - layout width 594
+----------------------------------------------- */
+/* .row one-column
+----------------------------------------------- */
+#two-columns .form .row.one-column label {
+	width: 160px;
+	}
+#two-columns .form .row.one-column input {
+	width: 220px;
+	}
+#two-columns .form .row.one-column select.wide {
+	width: 223px;
+	}
+
+/* .row one-column - top
+----------------------------------------------- */
+#two-columns .form .row.one-column div.top select.x-wide {
+	margin-right: 0;
+	width: 576px;
+	height: 100px;
+	}
+
+/* .row two-columns
+----------------------------------------------- */
+#two-columns .form .row.two-columns div {
+	width: 288px;
+	}
+* HTML #two-columns .form .row.two-columns div {
+	width: 265px;
+	w\idth: 288px;
+	}
+#two-columns .form .row.two-columns label {
+	width: 120px;
+	}
+/* Form - layout width 719
+----------------------------------------------- */
+/* .row one-column
+----------------------------------------------- */
+#one-column .form .row.one-column label {
+	width: 160px;
+	}
+#one-column .form .row.one-column input {
+	width: 220px;
+	}
+#one-column .form .row.one-column select.wide {
+	width: 224px;
+	}
+
+/* .row one-column - top
+----------------------------------------------- */
+#one-column .form .row.one-column div.top select.x-wide {
+	margin-right: 0;
+	width: 701px;
+	height: 100px;
+	}
+
+/* .row two-columns
+----------------------------------------------- */
+#one-column .form .row.two-columns div {
+	width: 350px;
+	}
+* HTML #one-column .form .row.two-columns div {
+	width: 330px;
+	w\idth: 350px;
+	}	
+#one-column .form .row.two-columns label {
+	width: 120px;
+	}
+#one-column .form .row.two-columns input {
+	width: 170px;
+	}
+#one-column .form .row.two-columns select.wide {
+	width: 174px;
+	}
+/* .row three-columns
+----------------------------------------------- */
+#one-column .form .row.three-columns div {
+	width: 230px;
+	}
+* HTML #one-column .form .row.three-columns div {
+	width: 220px;
+	w\idth: 230px;
+	}
+#one-column .form .row.three-columns label {
+	width: 80px;
+	}
+
+/* Error
+---------------------------------------------- */	
+.form .row .message-note {
+	float: right;
+	width: 200px;	
+	margin: 0 0 0 18px;
+	font-size: .8em;
+	color: #e20074;
+	}
+* HTML .form .row .message-note {
+	width: 165px;	
+	w\idth: 200px;	
+	}
+.form .row label.error-arrow {
+	background: url(../img/error_arrow.gif) 100% 45% no-repeat;
+	}
+	
+/* pound
+---------------------------------------------- */
+.form .row span.pound {
+	float: left;
+	padding: 2px 3px;;
+	font-size: .7em;
+	font-weight: bold;
+	margin-left: -12px;
+}
+
+/* Form on the front of card
+---------------------------------------------- */
+.form .card-front div {
+	width:365px;
+}
+.card-front {
+	width:364px;
+	height:216px;
+	padding: 0 15px;
+	background: url(../img/card_front.gif) no-repeat;
+	}
+* HTML .card-front {
+	width:394px;
+	w\idth:364px;
+	}
+.card-logo {
+	border-bottom: 1px solid #ccc;
+	margin:9px 0 12px;
+	}
+.card-logo IMG {
+	width:188px;
+	height:25px;
+	margin-bottom:4px;	/* wrong decision - need to be fixed in future */
+	}
+
+/* Form on the back of card (security code)
+---------------------------------------------- */
+.card-back-amex {
+	padding: 40px 15px 0 15px;
+	width:271px;
+	height:111px;
+	background: url(../img/card_back_amex.gif) no-repeat;
+	}
+.card-code label {
+	text-align: center;
+}
+.card-back-amex .note {
+	margin: 18px 0 0 -7px;
+	font-size:0.8em;
+	color:#999;
+	}
+
+/* Another kind of card/security numbers of the card */
+#content .form .card-front .number,
+.form .card-back-amex .number {
+	float: left;
+	margin-right: .5em;
+	padding: 0;
+	font-size: .8em;
+	font-weight: bold;
+	color: #999;
+}
+#content .form .card-front .subnote,
+.form .card-back-amex .subnote {
+	clear:left;
+	padding-bottom: 0;
+	color: #999;
+}
+
+/* Special case for Top Up on landing pages
+---------------------------------------------- */
+.form .top-up .row div {
+	width: 181px;
+}
+.form .top-up label {
+	width: 117px;
+	text-align: right;
+	font-weight: bold;
+}
+#content .form .top-up .row input.medium {
+	width: 50px !important;
+}
+#content .form .top-up p {
+	padding-top: 3px;
+	padding-bottom: 0;
+}
+#content .form .top-up .btn {
+	width: auto;
+	margin-top: 2px;
+	float: left;
+}
+/* Special case for Bills panel on landing pages
+---------------------------------------------- */
+/*.form select#bill-date {
+	width: 120px;
+	float: left;
+}*/

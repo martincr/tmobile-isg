@@ -1,0 +1,69 @@
+/*NEW STYLE FOR TAB_MENU*/
+
+.content-nav {
+	float:left;
+	width:432px;
+	background:url(../imgs/generic/mainNav_bg.gif) 0 100% repeat-x;
+	line-height:normal;
+	}
+div.content-nav.t-zoneNav {
+	width:431px;
+	margin:0 -10px 8px -5px;
+	}
+	
+	html>body div.content-nav.t-zoneNav {
+	width:430px;
+	margin:0 -9px 8px -9px;
+	}
+	
+	
+	.content-nav UL {
+		padding:10px 0 0 0;
+		margin:0;
+		list-style:none
+		}
+	.content-nav LI {
+		float:left;
+		padding:0;
+		margin:0
+		}
+	.content-nav SPAN {
+		float:left;
+		display:block;
+		padding:3px 8px 3px 8px;
+		border-right:solid 1px #BEBEBE
+		}
+	.content-nav A {
+		text-decoration:none;
+		font-size:0.7em
+		}
+	.content-nav A:link,
+	.content-nav A:visited {
+		color:#999
+		}
+	.content-nav A:hover,
+	.content-nav A:active {
+		color:#333
+		}
+
+	/* IE5-Mac hack \*/.content-nav A {float:none}/* End IE5-Mac hack */
+	
+	.content-nav .current {
+		background:url(../imgs/generic/mainNav_left_both.gif) no-repeat right top;
+		}
+	.content-nav .current SPAN {
+		display:block;
+		padding-right:14px;
+		background:url(../imgs/generic/mainNav_right_both.gif) no-repeat right bottom;
+		border-right:none;
+		font-weight:bold
+		}
+	.content-nav .current A:link,
+	.content-nav .current A:visited,
+	.content-nav .current A:hover,
+	.content-nav .current A:active {
+		color:#333
+		}
+	.content-nav .first SPAN {
+		border-left:solid 1px #BEBEBE
+		}

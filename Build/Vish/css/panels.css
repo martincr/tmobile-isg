@@ -1,0 +1,288 @@
+.panel {
+	position:relative;
+	float:left;
+	margin: 0px 12px 18px 0px;
+	border:1px solid #bebebe;
+	width:208px;
+}
+
+/* SMALL PANEL */
+.panel .panel-small {
+	height:100px;	
+}
+html>body .panel .panel-small {
+	min-height: 100px;
+	height: auto;
+}
+.panel .panel-small-link {
+	height:75px;	
+}
+html>body .panel .panel-small-link {
+	min-height: 75px;
+	height: auto;
+}
+
+/* MEDIUM PANEL */
+.panel .panel-medium {
+	height:142px;	
+}
+html>body .panel .panel-medium {
+	min-height: 142px;
+	height: auto;
+}
+.panel .panel-medium-link {
+	height:117px;
+	border:none;
+}
+html>body .panel .panel-medium-link {
+	min-height: 117px;
+	height: auto;
+}
+
+/* LARGE PANEL */
+.panel .panel-large {
+	height:214px;	
+}
+html>body .panel .panel-large {
+	min-height: 214px;
+	height: auto;
+}
+.panel .panel-large-link {
+	height:189px;	
+}
+html>body .panel .panel-large-link {
+	min-height: 189px;
+	height: auto;
+}
+.panel .panel-large-text {
+	height:166px;	
+}
+html>body .panel .panel-large-text {
+	min-height: 166px;
+	height: auto;
+}
+
+/* X-LARGE PANEL */
+.panel .panel-xlarge {
+	height:286px;	
+}
+html>body .panel .panel-xlarge {
+	min-height: 286px;
+	height: auto;
+}
+.panel .panel-xlarge-link {
+	height:261px;	
+}
+html>body .panel .panel-xlarge-link {
+	min-height: 261px;
+	height: auto;
+}
+.panel .panel-xlarge-text {
+	height:238px;	
+}
+html>body .panel .panel-xlarge-text {
+	min-height: 238px;
+	height: auto;
+}
+
+/* PANEL TEXT SETTINGS */
+.panel p, .panel label {
+	font-size:0.7em;
+	margin:0;
+	padding:0 0 5px 0;
+}
+.panel ul {
+	margin: 0;
+	padding: 0;
+}
+
+.panel ul li {
+	list-style: none;
+	background:url(../imgs/generic/4pxmagenta.gif) no-repeat 0 0.2em;
+	padding:0 0 0 10px;
+	font-size:0.7em;
+	line-height:1.25em;
+}
+.panel .float-list li {
+	float:left;
+	padding-right:10px;
+}
+.panel .offset-left {
+	position:relative;
+	top: -9px;
+	left: 9px;
+	margin-bottom:-9px;
+	padding-top:0;
+}
+.panel .offset-right {
+	position:relative;
+	top: -9px;
+	right:9px;
+	margin-bottom:-9px;
+	padding-top:0;
+}
+.panel .offset{
+	position:relative;
+	top:-9px;
+	margin-bottom:-9px;
+	padding-top:0;
+}
+html>body .panel .offset-left, .panel .offset-right, .panel .offset {margin-bottom:-9px;}
+
+.panel .cost {
+	font-size:1.5em;
+	color: #333;
+	font-weight:bold;
+	line-height:0.8em;
+}
+
+.panel .align-center {
+	text-align:center;
+}
+.panel .align-right {
+	text-align:right;
+}
+.panel .padding-left-9px {
+	margin-left:9px;
+}
+.panel .padding-right-9px {
+	padding-right:9px;
+}
+.panel .absolute-bottom-left {
+	position:absolute;
+	left:9px;
+	bottom:4px;
+}
+.panel .absolute-bottom-right {
+	position:absolute;
+	right:9px;
+	bottom:4px;
+}
+.overlap-background {
+	width:100%;
+	position:absolute;
+	z-index:2;
+}
+
+.panel .content {
+	position:relative;
+	padding:8px 9px 0 9px;
+}
+.panel .content a:link, 
+.panel .content a:visited{
+	color: #333;
+}
+
+.panel .content a:active, 
+.panel .content a:hover {
+	color: #e20074;
+}
+
+.panel .actionLink {
+	margin:0; 
+	background-color: #F2F2F2; 
+	padding: 5px 9px; 
+	border-top:1px solid #B6B6B6;
+}
+.panel .actionText {
+	margin:0; 
+	background-color: #F2F2F2; 
+	padding: 2px 9px 0 9px; 
+	border-top:1px solid #B6B6B6;
+	height:45px;
+	line-height:0.8em;
+}
+
+.panel h2{
+	background-position:9px 9px;
+	background-repeat:no-repeat;
+	padding:0;	
+	margin:0;
+}
+
+.panel .offset h2 {
+	background-position:9px 18px;
+	background-repeat:no-repeat;
+}
+.panel .content h2 {
+	background-position:0 0;
+}
+.panel .title-bottomright {
+	position:relative;
+	top:57%;
+	background-repeat:no-repeat;
+	background-position:95% 100%;
+}
+h2 span {position:absolute; left:-5000px;}
+.panel .line {
+	margin: 0 9px;
+	height: 1px;
+	overflow: hidden;
+	background:#e7e7e7;
+	clear:both;
+}
+
+/* PANEL BUILD EXTRAS - FOR TESTING */
+.panel .panel-small-footprint {
+	width:206px;
+	height:98px;
+	position:absolute;
+	border:dotted 1px black;
+	z-index:3;	
+}
+.panel .panel-medium-footprint {
+	width:206px;
+	height:140px;
+	position:absolute;
+	border:dotted 1px black;
+	z-index:3;	
+}
+.panel .panel-large-footprint {
+	width:206px;
+	height:212px;
+	position:absolute;
+	border:dotted 1px black;
+	z-index:3;	
+}
+.panel .panel-xlarge-footprint {
+	width:206px;
+	height:284px;
+	position:absolute;
+	border:dotted 1px black;
+	z-index:3;	
+}
+
+
+/* GENERIC */
+.float-left {
+	float:left;
+}
+.float-right {
+	float:right;
+}
+.width-40percent {
+	width:40%;
+}
+.width-50percent {
+	width:50%;
+}
+.width-60percent {
+	width:60%;
+}
+.width-70percent {
+	width:70%;
+}
+.width-80percent {
+	width:80%;
+}
+.width-100percent {
+	width:100%;
+}
+
+.panel input {
+	font-size:0.7em;
+	color: #666;
+	margin:3px 0;
+	padding:0;
+}
+

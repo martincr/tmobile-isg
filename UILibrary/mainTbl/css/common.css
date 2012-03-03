@@ -1,0 +1,21 @@
+body {
+	background:#fff;
+	margin:50px;
+	padding:0px;
+	font-family: Arial, Verdana, sans-serif;
+	color: #666;
+}
+a:link, a:visited {
+	color: #666;
+}
+	
+a:active, a:hover {
+	color: #e20074;
+}
+h3 {
+	color:#e20074;
+
+}
+pre{
+	display:inline;
+}

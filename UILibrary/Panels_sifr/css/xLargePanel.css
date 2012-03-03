@@ -1,0 +1,62 @@
+/*#box1-1 .title{
+	height:25px; 
+	background: url(../imgs/containers/ctitles/blocksD_box11.gif) no-repeat 9px 9px;
+}*/
+
+#box1-1 .content{
+	padding-right:80px;
+}
+
+#box1-1{
+	height:74px;
+	background:url(../imgs/containers/cbgrs/blocksD_box11.gif) 100% 0 no-repeat;
+	position:relative;
+	top:-9px;
+	padding-top:9px;
+	margin-bottom:-9px;
+}
+
+html>body #box1-1 {min-height: 79px; height: auto;}
+
+
+/*#box1-2 .title{
+	height:22px; 
+	background: url(../imgs/containers/ctitles/blocksD_box12.gif) no-repeat 9px 9px;
+}*/
+
+#box1-2 .content{
+	padding-right:60px;
+}
+
+#box1-2{
+	height:76px;
+	background:url(../imgs/containers/cbgrs/blocksD_box12.gif) 100% 50% no-repeat;
+}
+
+html>body #box1-2 {min-height: 76px; height: auto;}
+
+
+/*#box1-3 .title{	height:22px; background-image: url(../imgs/containers/ctitles/blocksD_box13.gif);}*/
+
+#box1-3 .content{padding-right:60px;}
+
+#box1-3{
+	height:100px;
+	background:url(../imgs/containers/cbgrs/blocksD_box13.gif) 100% 100% no-repeat;
+}
+
+html>body #box1-3 {min-height: 100px; height: auto;}
+
+
+
+#box2-1{ height:65px;}
+/*Increase Sifr Font and Right Aligned Sifr Headline*/
+#box2-1 .title {float:right; width:100px; height:80px;}
+/*Left Aligned Digit */
+#box2-1 .digits{left:9px;}
+
+
+/*Offset box*/
+/*#box3-1 .title{	height:55px; background-image:url(../imgs/containers/ctitles/blocksD_box31.gif);}*/
+#box3-1{height:113px;background:url(../imgs/containers/cbgrs/blocksD_box31.gif) 100% 0px no-repeat;}
+html>body #box3-1 {min-height: 113px; height: auto;}

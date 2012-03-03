@@ -1,0 +1,14 @@
+#box1-1 .title{
+	height:25px; 
+	background-image: url(../img/helpAdvice_box11.gif);
+}
+
+#box2-1 .digits{left:9px;}
+#box2-1 .title{height:80px;background:url(../img/phonesPlans_box21.gif) no-repeat 100% 20px;}
+
+/*Offset box*/
+#box3-1 .title{	height:55px; background-image:url(../img/welcomeToMyTMobile_box31.gif);}
+#box3-1{height:88px;background:url(../img/welcomeToMyTMobile_box31.gif) 100% 0 no-repeat;	}
+html>body #box3-1 {min-height: 77px; height: auto;}
+
+

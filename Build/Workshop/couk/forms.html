@@ -1,0 +1,794 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Forms</title>
+	<meta name="description" content=" " />
+	<meta name="keywords" content=" " />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="../common/css/presentation.css" type="text/css" />
+</head>
+
+<body style="margin:20px;">
+
+<div id="content">
+
+<!-- Content -->
+<h4 class="title">Forms - Type of Fieldset</h4>
+
+<div class="box" style="width: 432px;">
+
+<h4 class="title">Form <span class="highlight">Simple</span></h4>
+
+<div class="warning">Error message</div>
+
+<form action="#" class="form">
+	<fieldset>
+		<h4>Header of form</h4>
+		
+		<div class="row">
+			<div>
+				<label for="card-type" class="error">Card Type <span class="highlight">*</span></label>
+				<span class="pound">&pound;</span><input type="text" id="card-type" />
+			</div>
+			<br />
+		</div>	
+	
+
+		<div class="row">
+			<div>
+				<label for="card-type" class="error">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">1979</option>
+					<option value="2">1234</option>
+				</select>
+			</div>
+			<br />
+		</div>	
+		
+		<div class="row">
+			<div>
+				<label for="card-type" class="error">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<br />
+		</div>	
+	
+		<div class="row">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<br />
+		</div>	
+	
+
+		<div class="row">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<select>
+					<option value="1" selected="selected">1234</option>
+					<option value="2">2342</option>
+				</select>
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+		<br />
+		</div>
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+
+
+<div class="box" style="width:432px;">
+<h4 class="title">Form <span class="highlight">Type 1</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid">
+		<div class="row">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+		
+		<div class="row">	
+			<div>
+				<label for="card-expiry-mm">Card Expiry</label>
+				<input type="text" maxlength="2" id="card-expiry-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-expiry-yy" class="short" />
+				<label for="card-expiry-mm" class="width-auto">mm / yy</label>
+			</div>
+			<br />
+		 </div>
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+</div>
+
+<div class="clear"></div>
+
+<div class="box" style="width:432px;">
+<h4 class="title">Form <span class="highlight">Type 2</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid border">
+		<div class="row">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+
+		<div class="row">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+			
+	
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+
+
+<div class="box" style="width:432px;">
+<h4 class="title">Form <span class="highlight">Type 3</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="border">
+		
+		<div class="row">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+			
+		
+		<div class="row">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+
+		<div class="row">
+			<div>
+				<input type="radio" value="" class="align-top" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+		<div class="row">
+			<div>
+				<input type="checkbox" value="" class="align-top" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+
+<div class="box" style="width:432px;">
+<h4 class="title">Form <span class="highlight">Type 3 + label bold</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid border label-bold">
+		
+		<div class="row">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+			
+		
+		<div class="row">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+		
+		<div class="row">
+			<div>
+				<input type="radio" value="" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+			
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+	
+	
+<!-- TEST -->	
+	
+<div class="box" style="width:432px;">
+<h4 class="title">Form 432px <span class="highlight">one-column</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid">
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" />			
+			</div>
+			<br />
+		</div>	
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>		
+			</div>
+			<br />
+		</div>	
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>		
+			</div>
+			<br />
+		</div>	
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<div>
+				<input type="radio" value="" class="width-auto" name="test" /><label for="card-start-mm" class="width-auto">mm / yy</label><br />
+				<input type="radio" value="" class="width-auto" name="test" /><label for="card-start-mm" class="width-auto">mm / yy</label><br />
+				<input type="radio" value="" class="width-auto" name="test" /><label for="card-start-mm" class="width-auto">mm / yy</label><br />
+				<input type="radio" value="" class="width-auto" name="test" /><label for="card-start-mm" class="width-auto">mm / yy</label>
+				</div>
+			</div>
+			<br />
+		</div>	
+			
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+		
+		<div class="row one-column">
+			<div>
+				<input type="radio" value="" class="width-auto" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+			
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+
+
+<div class="box" style="width:432px;">
+<h4 class="title">Form 432px <span class="highlight">two-columns</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid border">
+		
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<br />
+		</div>	
+		
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<br />
+		</div>	
+		
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<br />
+		</div>	
+		
+		<div class="row two-columns">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br />
+		</div>
+		<div class="row two-columns">
+			<div>
+				<input type="radio" value="" class="width-auto" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br />
+		</div>
+
+		<div class="row two-columns">
+			<div class="top">
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div class="top">
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+		</div>	
+
+		<div class="row two-columns">
+			<div class="top">
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div class="top">
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+		</div>	
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+
+<div id="two-columns" class="box" style="width:594px;">
+<h4 class="title">Form 594px <span class="highlight">one-column</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid border">
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-type" class="error-arrow">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div class="message-note">Error message error message</div>
+		<br />
+		</div>	
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-type" class="error-arrow">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div class="message-note">Error message error message</div>
+		<br />
+		</div>	
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+		<br />
+		</div>	
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+	
+		<div class="row one-column">
+			<div>
+				<input type="radio" value="" class="width-auto" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>	
+		
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+
+<div id="two-columns" class="box" style="width:594px;">
+<h4 class="title">Form 594px <span class="highlight">two-columns</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid border">
+		
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+			
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>		
+			
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+	
+		<div class="row two-columns">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+
+		<div class="row two-columns">
+			<div>
+				<input type="radio" value="" class="width-auto" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+
+
+<div id="one-column" class="box" style="width:719px;">
+<h4 class="title">Form 719px <span class="highlight">one-column</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid">
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+			
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+		<br />
+		</div>
+		
+		<div class="row one-column">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+		<br />
+		</div>
+	
+	
+		<div class="row one-column">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+
+		<div class="row one-column">
+			<div>
+				<input type="radio" value="" class="width-auto" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+
+<div id="one-column" class="box" style="width:719px;">
+<h4 class="title">Form 719px <span class="highlight">two-columns</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid border">
+		
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+			
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>
+		
+		<div class="row two-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>
+	
+		<div class="row two-columns">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+
+		<div class="row two-columns">
+			<div>
+				<input type="radio" value="" class="width-auto" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+
+<div id="one-column" class="box" style="width:719px;">
+<h4 class="title">Form 719px <span class="highlight">three-columns</span></h4>
+
+<form action="#" class="form">
+	<fieldset class="solid border">
+		
+		<div class="row three-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+			
+		<div class="row three-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select class="wide">
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+		
+		<div class="row three-columns">
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<select>
+					<option value="1" selected="selected">Card Type</option>
+					<option value="2">Card Type</option>
+				</select>
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+			<div>
+				<label for="card-type">Card Type <span class="highlight">*</span></label>
+				<input type="text" id="card-type" />
+			</div>
+		<br />
+		</div>	
+		
+		<div class="row three-columns">
+			<div>
+				<label for="card-start-mm">Card Start</label>
+				<input type="text" maxlength="2" id="card-start-mm" class="short" />
+				<label class="width-auto">/</label>
+				<input type="text" maxlength="2" id="card-start-yy" class="short" />
+				<label for="card-start-mm" class="width-auto">mm / yy</label>
+			</div>	
+			<br /> 
+		</div>
+
+		<div class="row three-columns">
+			<div>
+				<input type="radio" value="" class="width-auto" /><label class="width-auto">Card Start</label>
+			</div>	
+			<br /> 
+		</div>
+		 
+	</fieldset>
+	<div class="btn-arrow btnshop float-right"><input type="submit" value="Confirm" class="medium" /></div>
+</form>
+
+
+</div>
+<div class="clear"></div>
+
+
+<!-- End of Content -->
+
+</div>
+
+</body>
+</html>

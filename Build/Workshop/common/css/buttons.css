@@ -1,0 +1,225 @@
+.btn,
+.btn-arrow {
+	float:left;
+	margin:0 0 3px 0;
+	background:#E0E4E7 url(../img/btns/btn-comm.gif) no-repeat;
+	border:solid 1px #D6D6D6;
+	border-color: #D6D6D6 #8F8F90 #8F8F90 #D6D6D6;
+	font-weight:bold;
+	font-size:.7em;
+	color:#666
+	}
+
+.btn-arrow {
+	background-position:100% 0
+	}
+
+/* Paddings & Display */
+.btn A,
+.btn-arrow A,
+.btn INPUT,
+.btn-arrow INPUT {
+	display:block;
+	text-align:center;
+	white-space:normal;
+	font-weight:bold;
+	font-size:1em
+	}
+.btn INPUT,
+.btn-arrow INPUT {
+	padding:1px 0 2px 0;
+	margin:0;
+	background:none;
+	border:solid 0 transparent;
+	cursor:pointer;
+        font-family: Arial, Verdana, sans-serif;
+	}
+:root .btn INPUT,
+:root .btn-arrow INPUT,
+* HTML .btn INPUT {
+	padding-top:1px;
+	padding-bottom:0
+	}
+* HTML .btn INPUT,
+* HTML .btn-arrow INPUT {
+	padding-top:0;
+	padding-bottom:0
+	}
+.btn A,
+.btn-arrow A {
+	padding-top:1px;
+	padding-bottom:2px
+	}
+/* --------------| No Arrow |-------------- */
+.btn .small {
+	width:60px
+	}
+.btn .medium {
+	width:91px
+	}
+.btn .large {
+	width:120px
+	}
+.btn .xlarge {
+	width:184px
+	}
+
+/* --------------| Cart & Arrow |-------------- */
+.btn-arrow A,
+.btn-arrow INPUT {
+	padding-right:20px;
+	background:url(../img/btns/arrow.gif) 100% 50% no-repeat
+	}
+
+.btn-arrow INPUT.small {
+	width:60px
+	}
+
+.btn-arrow A.small {
+	width:40px
+	}
+* HTML .btn-arrow A.small {
+	width:60px;
+	w\idth:40px
+	}
+
+.btn-arrow A.medium {
+	width:71px
+	}
+* HTML .btn-arrow A.medium {
+	width:91px;
+	w\idth:71px
+	}
+
+.btn-arrow INPUT.medium {
+	width:91px
+	}
+
+.btn-arrow A.large {
+	width:100px
+	}
+
+* HTML .btn-arrow A.large {
+	width:121px;
+	w\idth:100px
+	}
+
+.btn-arrow INPUT.large {
+	width:120px
+	}
+
+.btn-arrow A.xlarge {
+	width:164px
+	}
+	
+* HTML .btn-arrow A.xlarge {
+	width:183px;
+	w\idth:164px
+	}
+
+.btn-arrow INPUT.xlarge {
+	width:184px
+	}
+	
+/*\*//*/
+.btn-arrow INPUT.small {
+	width:40px
+	}
+
+.btn-arrow INPUT.medium {
+	width:71px
+	}
+
+.btn-arrow INPUT.large {
+	width:100px
+	}
+
+.btn-arrow INPUT.xlarge {
+	width:164px
+	}
+/**/
+
+:root .btn A.flex,
+* HTML .btn A.flex {
+	padding-left:8px;
+	padding-right:8px
+	}
+.btn-arrow INPUT.flex {
+	padding-left:5px
+	}
+.btn-arrow A.flex {
+	padding-left:5px
+	}
+:root .btn-arrow A.flex,
+* HTML .btn-arrow A.flex {
+	padding-left:8px;
+	padding-right:23px
+	}
+.btn-cart INPUT.flex {
+	padding-right:8px;
+	padding-left:27px
+	}
+:root .btn-cart INPUT.flex,
+* HTML .btn-cart INPUT.flex {
+	padding-left:23px
+	}
+.btn-cart A.flex {
+	padding-right:8px;
+	padding-left:27px
+	}
+/* --------------| Common color & bg |-------------- */
+.btn-arrow.comm {
+	}
+	.btn.comm A,
+	.btn.comm INPUT,
+	.btn-arrow.comm A,
+	.btn-arrow.comm INPUT {
+		color:#666 !important;
+		text-decoration:none
+		}
+	.btn.comm.dis A,
+	.btn.comm.dis INPUT,
+	.btn-arrow.comm.dis A,
+	.btn-arrow.comm.dis INPUT {
+		color:#BBB !important;
+		text-decoration:none
+		}
+/* --------------| Shop color & bg |-------------- */
+.btn-arrow.btnshop {
+	background-image:url(../img/btns/btn-shop.gif)
+	}
+
+	.btn.btnshop A,
+	.btn-arrow.btnshop A,
+	.btn-cart INPUT,
+	.btn.btnshop INPUT,
+	.btn-arrow.btnshop INPUT {
+		color:#5CA5DC !important;
+		text-decoration:none
+		}
+
+	.btn.btnshop.dis A,
+	.btn-arrow.btnshop.dis A,
+	.btn.btnshop.dis INPUT,
+	.btn-arrow.btnshop.dis INPUT {
+		color:#BBB !important;
+		text-decoration:none
+		}
+/* --------------| btnservice color & bg |-------------- */
+.btn-arrow.btnservice {
+	background-image:url(../img/btns/btn-service.gif)
+	}
+	.btn.btnservice A,
+	.btn-arrow.btnservice A,
+	.btn.btnservice INPUT,
+	.btn-arrow.btnservice INPUT {
+		color:#78AA51 !important;
+		text-decoration:none
+		}
+	.btn.btnservice.dis A,
+	.btn-arrow.btnservice.dis A,
+	.btn.btnservice.dis INPUT,
+	.btn-arrow.btnservice.dis INPUT {
+		color:#BBB !important;
+		text-decoration:none
+		}

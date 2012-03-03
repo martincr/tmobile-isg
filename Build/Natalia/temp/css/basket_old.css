@@ -1,0 +1,120 @@
+/* Basket
+----------------------------------------------- */
+#basket {
+	min-width: 144px;
+}
+
+#basket h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.8em;
+	border: solid #b8b8b8;
+	border-width: 1px 1px 0;
+	padding: 2px 9px 3px 32px;
+	background: #5ba4db url("../img/i_basket_white.gif") no-repeat 9px 6px;
+}
+
+#basket .content {
+	padding: 0px 9px;
+	border: 1px solid #dcdcdc;
+	border-top: 0;
+	background-color: #fff;
+}
+
+#basket .block {
+	position: relative;
+	clear: both;
+	padding: 10px 0px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#basket .block.last {
+	border: 0;
+	margin: 10px 0;
+}
+
+#basket .block h3 {
+	width: 124px;
+	font-weight: bold;
+	font-size: 0.7em;
+	color: #666;
+}
+
+#basket .block.current h3 {
+	font-weight: bold;
+	font-size: 0.7em;
+	color: #5ba4db;
+}
+
+#basket .block h4 {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #333;
+}
+
+#basket .buttons {
+	background-color: #fff;
+	border: 0;
+	padding: 0 0 4px 0;
+}
+
+#basket div.buttons .clear {
+	height: 4px;
+}
+
+#basket p {
+	display: inline;
+	font-size: 0.7em;
+}
+
+#basket p.phone {
+	color: #333;
+	float: left;
+	width: 75px;
+}
+
+#basket p.costplan {
+	color: #333;
+	float: left;
+	width: 100px;
+}
+
+
+#basket p.costright {
+	font-weight: bold;
+	color: #333;
+	float: right;
+}
+
+#basket p.cost {
+	font-weight: bold;
+	color: #333;
+	float: left;
+	width: 85px;
+}
+
+#basket p.costmonth {
+	font-weight: bold;
+	color: #999;
+	float: left;
+}
+
+#basket p.costmonthright {
+	font-weight: bold;
+	color: #999;
+	float: right;
+}
+
+#basket td span.image {
+	float: left;
+	padding: 0 5px 0 0;
+}
+
+#basket span.image {
+	float: left;
+	padding: 0 5px 0 0;
+}
+
+#basket .yourphone {
+	float: left;
+}

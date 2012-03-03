@@ -1,0 +1,495 @@
+/* Generic styles */
+
+/* Just list without bullets
+!!! need other name !!! */
+#content .action-links li {
+	padding-left: 0 !important;
+	background-image: none;
+	list-style: none;
+}
+
+/* Left Action link */
+a.action-link.l span {
+	padding-right: .7em;
+	background: url(../img/arrow-l.gif) 0 .35em no-repeat;
+}
+a.action-link.l:hover span {
+	background-position: -33px .35em;
+}
+
+/* Account info
+---------------------------------------------- */
+.account-info {
+	margin-bottom: 9px;
+}
+.account-info.border-bottom {
+	border-bottom: 1px solid #b8b8b8;
+}
+.account-info .info-left,
+.account-info .info-left li {
+	float: left;
+	width: 284px;
+}
+.account-info .info-right,
+.account-info .info-right li {
+	float: right;
+	width: 148px;
+	text-align: right;
+}
+.account-info .info-right.text-left li {
+	text-align: left;
+}
+.account-info.select-right .info-left,
+.account-info.select-right .info-left li {
+	width: 148px;
+}
+.account-info.select-right .info-right,
+.account-info.select-right .info-right li {
+	width: 284px;
+}
+#content .account-info ul li {
+	float: left;
+	padding: 0 0 4px 0;
+	background-image: none;
+	list-style: none;
+}
+.account-info br {
+	clear: both;
+}
+.account-info label,
+.account-info select,
+.account-info .btn {
+	float: left;
+	font-size: 1em;
+}
+.account-info .info-left strong {
+	float: left;
+	width: 100px;
+}
+.account-info label {
+	margin: 3px 4px 0 0;
+	width: 96px;
+	font-weight: bold;
+}
+* HTML .account-info label {
+	width: 100px;
+	w\idth: 96px;
+}
+.account-info select {
+	margin-right: 4px;
+	width: 110px;
+}
+.account-info .btn {
+	margin-bottom: 0;
+}
+#content .account-info a.action-link {
+	color: #666;
+}
+#content .account-info a.action-link:hover {
+	color: #e20074;
+}
+
+/* Panels
+--------------------------------- */
+/* Panels: Phone list
+--------------------------------- */
+.panel .content .phone-list p {
+	float: left;
+	width: 96px;
+	margin: 0 9px 0 0;
+	text-align: center;
+}
+
+/* Panels: Horizontal list of links
+--------------------------------- */
+#content .panel .panel-actions li {
+	float: left;
+	margin-bottom: 9px;
+	width: 195px;
+}
+* HTML #content .panel .panel-actions li {
+	width: 205px;
+	w\idth: 195px;
+}
+#content .panel ul.panel-actions {	/*Something strange in IE with bottom gap - this strange rule remove it */
+	border: 1px solid white;
+}
+
+/* Panels: Special width
+!!! must be move into panels.css after css split !!!
+--------------------------------- */
+.panel.specific-width126px {
+	width: 124px;
+}
+* HTML .panel.specific-width126px {
+	width: 126px;
+	w\idth: 124px;
+}
+/* Table width correction */
+.panel.specific-width432px table {width:412px;}
+
+/* Service: contact block
+--------------------------------- */
+.service .block.contact {
+	padding-right: 52px;
+	background: url(../../enhanced_service2/img/email.gif) no-repeat 96% 60%;
+}
+.service .block.contact h3 {
+	margin-bottom: 4px;
+}
+.service .simple-block {
+	position: relative;
+	clear: both;
+	padding: 0;
+}
+
+/* Tables
+--------------------------------- */
+.no-padding td,
+.no-padding th,
+td.no-padding,
+th.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.table-main.border-bottom {
+	border-bottom: 1px solid #BDBDBD;
+}
+
+/* Correction of expand-list font sizes for tables */
+#content table .expand-list {
+	font-size: 1em;
+}
+/* Missed rule in common style.css 
+!!! must be moved into tables.css after CSS split !!! */
+.table-cross-border th.text-left {
+	text-align: left;
+}
+
+/* Font-size correction for different elements in tables
+!!! must be moved to tables.css after CSS split !!! */
+#content table td p,
+#content table td h2,
+#content table td ul,
+#content table td li,
+#content table td label,
+#content table td select,
+#content table td .changelink-l,
+#content table td .changelink-r,
+#content table td .deletelink-l,
+#content table td .deletelink-r {
+	font-size: 1em;
+}
+
+/* Paging
+--------------------------------- */
+.paging.no-background {
+	background: none;
+	border: none;
+	margin: 0;
+}
+
+/* Process bar
+!!! possibly will be replaced by eShop process bar !!!
+--------------------------------- */
+#process-bar {
+	float: right;
+}
+#content #process-bar li {
+	margin: 0 9px 0 0;
+	padding: 0;
+	background: none;
+	font-size: 1em;
+}
+#process-bar li,
+#process-bar li strong,
+#process-bar li span {
+	display: block;
+	float: left;
+}
+#content #process-bar li.label,
+#content #process-bar li span {
+	padding-top: .4em;
+}
+#process-bar li.label {
+	font-weight: bold;
+	color: #b8b8b8;
+}
+#process-bar li.last {
+	margin-right: 0;
+}
+#process-bar li strong {
+	padding: .2em .4em .1em;
+	background: #e4e4e4;
+	color: #fff;
+}
+#process-bar li.current strong {
+	background: #e20074;
+}
+#process-bar li span {
+	margin-left: 9px;
+	width: 18px;
+	background: url(../../enhanced_service2/img/process-arrow.gif) no-repeat right center;
+}
+
+/* Forms
+--------------------------------- */
+.form textarea {height: 10em;}
+.form .row.one-column textarea {width: 180px;}
+#content .form .row p {position:relative; top:3px;padding-bottom: 0;}
+/* .row one-column - top
+----------------------------------------------- */
+.form .row.one-column div.top label {
+	width: 280px;
+	padding-bottom: 3px;
+	}
+.form .row.one-column div.top input {
+	width: 280px;
+	}
+.form .row.one-column div.top input.wide {
+	width: 432px;
+	}
+.form .row.one-column div.top textarea {
+	width: 280px;
+	}
+.form .row.one-column div.top textarea.wide {
+	width: 432px;
+	}
+.form .row.one-column div.top select.wide {
+	width: 284px;
+	}
+.form .row.one-column div.top select.x-wide {
+	margin-right: 0;
+	width: 432px;
+	height: 100px;
+	}
+/* .row one-column
+----------------------------------------------- */
+#two-columns .form .row.one-column label {
+	width: 160px;
+	}
+/* .row one-column - top
+----------------------------------------------- */
+#two-columns .form .row.one-column div.top select.x-wide {
+	margin-right: 0;
+	width: 576px;
+	height: 100px;
+	}
+/* .row one-column
+----------------------------------------------- */
+#one-column .form .row.one-column label {
+	width: 160px;
+	}
+/* .row one-column - top
+----------------------------------------------- */
+#one-column .form .row.one-column div.top select.x-wide {
+	margin-right: 0;
+	width: 701px;
+	height: 100px;
+	}
+/* Form on the front of card
+---------------------------------------------- */
+.form .card-front div {
+	width:365px;
+}
+.card-front {
+	width:364px;
+	height:216px;
+	padding: 0 15px;
+	background: url(../img/card_front.gif) no-repeat;
+	}
+* HTML .card-front {
+	width:394px;
+	w\idth:364px;
+	}
+.card-logo {
+	border-bottom: 1px solid #ccc;
+	margin:9px 0 12px;
+	}
+.card-logo IMG {
+	width:188px;
+	height:25px;
+	margin-bottom:4px;	/* wrong decision - need to be fixed in future */
+	}
+
+/* Form on the back of card (security code)
+---------------------------------------------- */
+.card-back-amex {
+	padding: 40px 15px 0 15px;
+	width:271px;
+	height:111px;
+	background: url(../img/card_back_amex.gif) no-repeat;
+	}
+	* HTML .card-back-amex {
+		height: 151px;
+		he\ight: 111px;
+	}
+.card-code label {
+	text-align: center;
+}
+.card-back-amex .note {
+	margin: 18px 0 0 -7px;
+	font-size:0.8em;
+	color:#999;
+	width:254px;
+	}
+
+/* Another kind of card/security numbers of the card */
+#content .form .card-front .number,
+.form .card-back-amex .number {
+	float: left;
+	margin-right: .5em;
+	padding: 0;
+	font-size: .8em;
+	font-weight: bold;
+	color: #999;
+}
+#content .form .card-front .subnote,
+.form .card-back-amex .subnote {
+	clear:left;
+	padding-bottom: 0;
+	color: #999;
+}
+
+
+/* Special case for Edit Group
+---------------------------------------------- */
+.form .row.group-edit div {
+	width: 120px;
+}
+
+.form .row.group-edit div.middle {
+	padding-top: 60px;
+}
+
+.form .row.group-edit div select{
+	width: 130px;
+	height: 120px;
+}
+
+/* Content navigation for 2-column layout */
+#two-columns .content-nav {
+	width: 594px;
+}
+
+/* Confirmation
+----------------------------------------------- */
+div.confirm {
+	background:url(../../common/img/confirm.gif) no-repeat 12px 50%;
+	border:1px solid #78aa51;
+	padding:8px 12px 10px 50px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color:#78aa51;
+	margin-bottom:24px;
+}
+
+/* Expand list
+----------------------------------------------- */
+.expand-list {
+	font-size: .7em;
+}
+#content .expand-list li, .expand-list label {
+	font-size: 1em;
+}
+.show {
+	display: block;
+}
+.hide, .off {
+	display: none;
+}
+.show, .level {
+	margin-top: 9px;
+}
+
+/* Checks list
+----------------------------------------------- */
+/* universal part */
+.check-list li {
+	position: relative;
+	list-style: none;
+}
+.check-list li input {
+	position: absolute;
+}
+/*.check-list br {
+	clear: both;
+}*/
+/* sidebar */
+#sidebar ul.check-list {
+	margin: 0;
+	padding: 0;
+}
+#sidebar .check-list li {
+	padding: 6px 9px 0 31px;
+	width:102px;
+	background-image: none;
+}
+* HTML #sidebar .check-list li {
+	width:142px;
+	w\idth:102px;
+}
+#sidebar .check-list.borders li {
+	padding-bottom: 6px;
+	border-bottom: 1px solid #e7e7e7;
+}
+#sidebar .check-list li input {
+	top: 9px;
+	left: 9px;
+}
+* HTML #sidebar .check-list li input {
+	top: 5px;
+	left: 5px;
+}
+#sidebar .check-list label {
+	font-size: 1em;
+	color: #666;
+}
+/* content */
+#content ul.check-list {
+	margin: 0;
+	padding: 0 9px 0 31px;
+}
+#content .check-list li {
+	padding: 6px 0 0 0;
+	width:100%;
+	background-image: none;
+}
+#content .check-list li input {
+	top: 5px;
+	left: -23px;
+}
+:root #content .check-list li input {
+	top: 7px;
+	left: -20px;
+}
+#content .check-list label {
+	float: left;
+	font-weight: normal;
+}
+#content .check-list li div {
+	float: right;
+	width: 5em;
+}
+
+.csa-login {
+	width: auto;
+	height: 230px;
+	border: 1px solid #b8b8b8;
+	background-color: #eee !important;
+}
+
+.csa-login .csa-login-digit-holder {
+	float: left;
+	margin-right: 8px;
+	width: 260px;
+	height: 230px;
+	border-right: 1px solid #b8b8b8;
+}
+
+.csa-login .csa-login-digit-holder img {
+	position: relative;
+	left: 152px;
+	top: 60px;
+}

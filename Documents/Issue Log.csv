@@ -1,0 +1,103 @@
+Issue Log,,,,,,,,
+,ID,Date,Raised By,Severity,Area,Summary,Notes,Active
+
+,1,05/09/2005,ST,Trivial,,Naming convention – needs to be discussed with UK Content team ,,Inactive
+,2,05/09/2005,ST,Minor,,Main template – ,,Inactive
+,3,05/09/2005,ST,Minor,,Enlarging font causes some gaps appeared in the absolutely positioned header. ,,Inactive
+,4,05/09/2005,ST,Minor,,"Meta navigation (IE, Mozilla, Opera)",,Inactive
+,5,05/09/2005,ST,Minor,,"Dynamic pop up menus (Mozilla, Opera)",,Inactive
+,6,05/09/2005,ST,Minor,,Incorporating content blocks into the templates ,,Inactive
+,7,05/09/2005,ST,Minor,,Liquid central column with left and right columns width fixed ,,Inactive
+,8,05/09/2005,ST,Minor,Navigation,Left navigation issue – its needed to be discussed and agreed which way should be used in cases when left menu item word is too long and enlarge the left navigation width ,,Active
+,9,05/09/2005,ST,Minor,,Titles by backgrounds issue – if the user has the images turn off in the browser – there will not be any information shown if the titles are represented by backgrounds and text (display:none) ,,Inactive
+,10,05/09/2005,ST,Minor,,Buttons by text ,,Inactive
+,11,05/09/2005,ST,Minor,,Different background and border on “active” (onpress) ,,Inactive
+,12,05/09/2005,ST,Minor,,Buttons have fixed size – therefore there is an issue with enlarging font size – button caption can be larger than button shape ,,Inactive
+,13,05/09/2005,ST,Minor,,To make width of a button flexible – none fixed. If possible. ,,Inactive
+,14,05/09/2005,ST,Minor,,Multilined buttons? ,,Inactive
+,15,05/09/2005,ST,Minor,,Footer – center alignment of icon captions ,,Inactive
+,16,05/09/2005,ST,Trivial,,Tele-Antiqua texts by Flash/CSS (Arseny) ,,Inactive
+,17,08/09/2005,MC,Minor,,Tabs set to 8 characters in Gleb's example,,Inactive
+,18,08/09/2005,MC,Trivial,,"Should use <a href=""javascript:;""> instead of <a href=""#"">",Check across all code,Active
+,19,08/09/2005,MC,Enhancement,,4 DIVs used to perform shadow/bracket,"Looked into, no prefered solution found",Inactive
+,20,08/09/2005,MC,Major,,774px DIVs?,Some widths corrected,Inactive
+,21,08/09/2005,MC,Minor,,EM and PX mixed in same declaration,Hopefully all eliminated,Inactive
+,22,08/09/2005,MC,Minor,,Suprious characters,Hopefully all eliminated,Inactive
+,23,08/09/2005,MC,Minor,,Use @import,,Inactive
+,24,08/09/2005,MC,Major,,Decide on DOCTYPE,,Inactive
+,25,09/09/2005,MC,Minor,,Inline styles,Used in certain areas only,Inactive
+,26,09/09/2005,MC,Trivial,,"Inconsistent text: ""T-mobile""",None found in workshop files,Inactive
+,27,13/09/2005,MC,Minor,,"<td style=""{width:50%}"">",,Inactive
+,28,13/09/2005,MC,Minor,,Links to domain names should end in a trailing slash when a file name is not specified,Check across all code,Active
+,29,13/09/2005,MC,Minor,,"Close singular XHTML tags with "" />",Run validator,Inactive
+,30,14/09/2005,MC,Trivial,,"Use CSS shorthand, e.g. #999 not #999999",,Inactive
+,31,14/09/2005,MC,Minor,,MTM Magenta bullet point required,Geraint to check,Inactive
+,32,14/09/2005,MC,Minor,,MTM buttons (account) MTM box,,Inactive
+,33,14/09/2005,MC,Minor,,Banners. Use of numbers and letters,,Inactive
+,34,14/09/2005,MC,Minor,,Banners. Positioning out of sync,,Inactive
+,35,14/09/2005,MC,Minor,,Banners. GIF/JPEG - image more useful in some cases,,Inactive
+,36,14/09/2005,MC,Minor,,Banners - check code for positioning,,Inactive
+,37,14/09/2005,MC,Minor,,Basket - text too dark,,Inactive
+,38,14/09/2005,MC,Minor,,Basket - check International Style Guide for button action,,Inactive
+,39,14/09/2005,MC,Minor,,Basket - Button spacing,,Inactive
+,40,14/09/2005,MC,Minor,,Blocks - naming convention,,Inactive
+,41,14/09/2005,MC,Minor,,Blocks uses mixture of px and % values,,Inactive
+,42,14/09/2005,MC,Minor,,Blocks - container.css - div.name syntx used. ID or class?,,Inactive
+,43,14/09/2005,MC,Minor,,Blocks - format of style declarations. Use ': ' and/or multi-line layout,,Inactive
+,44,14/09/2005,MC,Minor,,"Content panel - ""last few days"" example - usd wrongly",,Inactive
+,45,14/09/2005,MC,Minor,,Buttons - odd sizings,,Inactive
+,46,14/09/2005,MC,Major,Forms,Buttons - error on Mac. Background image renders behind actual button,Need to check,Active
+,47,14/09/2005,MC,Minor,,Buttons - 1px GIF used in CSS,Removed,Inactive
+,48,14/09/2005,MC,Minor,,Buttons - inconsistent positioning. Center right instead of %,,Inactive
+,49,14/09/2005,MC,Minor,,General - missing semicolon (;) and end of lines in CSS,,Inactive
+,50,14/09/2005,MC,Minor,,Buttons - CSS overkill?,,Inactive
+,51,14/09/2005,MC,Minor,,Footer - icons need updating,,Inactive
+,52,14/09/2005,MC,Minor,,Tabs - unsure of documentation,,Inactive
+,53,14/09/2005,MC,Minor,,Tabs - called .t-zoneNav. Change?,,Inactive
+,54,14/09/2005,MC,Minor,,Left-hand navigation - Colours wrong (Vish). Should be white,,Inactive
+,55,14/09/2005,MC,Minor,,Two-column layout. Minimum space under left-hand navigation when copy is too short,,Inactive
+,56,14/09/2005,MC,Minor,,Three-column layout. Gutter is non-existent,,Inactive
+,57,14/09/2005,MC,Minor,,Tables - inconsistent headers. Some aligned left or centre,,Inactive
+,58,14/09/2005,MC,Minor,,General - hacks/kludges not documented,,Inactive
+,59,14/09/2005,MC,Trivial,,General - multiple style sheets,,Inactive
+,60,14/09/2005,MC,Minor,,"Digits - 4 bottom (A, B, C, D), 2 top (A, B)",,Inactive
+,61,14/09/2005,MC,Major,,Panels - naming convention,,Inactive
+,62,19/09/2005,MC,Trivial,,"Remove container main-box-a3, use only container with offset",,Inactive
+,63,19/09/2005,MC,Trivial,,"Remove media=""screen""",,Inactive
+,64,19/09/2005,MC,Trivial,,Use @import,,Inactive
+,65,19/09/2005,MC,Minor,,"Remove language=""JavaScript"" attribute, deprecated",,Inactive
+,66,19/09/2005,MC,Trivial,,Use browser filters,,Inactive
+,67,19/09/2005,MC,Minor,,Double-quote css filename in the @import declaration,,Inactive
+,68,19/09/2005,MC,Minor,Templates,"Use only one H1 on a page, number of subsequent H2s doesn't matter",Need to check,Active
+,69,19/09/2005,MC/AV,Trivial,,"Accessibility: Creating headers hidden for screenreaders, describing what each layout section means (we can use H2 for this)",,Inactive
+,70,19/09/2005,MC,Trivial,,"Use an image for skip navigation, position off screen and use a text link at the bottom of the page (tab index=1)",See macwarehouse.co.uk website for sample,Inactive
+,71,19/09/2005,MC,Trivial,,Excess title attributes on LI (in left-hand navigation),,Inactive
+,72,19/09/2005,MC,Trivial,,Review navigation - compare with Vish's working version,,Inactive
+,73,19/09/2005,MC,Trivial,,Reference Body ID to highlight current section in left-hand navigation,,Inactive
+,74,19/09/2005,MC,Trivial,,"<br class=""clear"" /> could be used instead of <div class=""clear"">&nbsp;</div>",,Inactive
+,75,19/09/2005,MC,Trivial,,Header tags must be nested correctly,,Inactive
+,76,19/09/2005,MC,Minor,,Use H3 instead of H4 in My T-Mobile,,Inactive
+,77,19/09/2005,MC,Trivial,,Overuse of DIVs - use Ps instead,,Inactive
+,78,19/09/2005,MC,Trivial,,Reset block-level styles across site,,Inactive
+,79,19/09/2005,MC,Trivial,,Margin-bottom on buttons (for spacing),,Inactive
+,80,19/09/2005,MC,Trivial,,Use fixed-width buttons or text resizing will break layout on right-hand navigation.,Can be resizeable in the main content area. Use one fixed background image,Inactive
+,81,19/09/2005,MC,Trivial,,Use UL/LI for buttons in MTM (right-hand navigation),,Inactive
+,82,19/09/2005,MC,Trivial,,Use title attribute on an A HREF tag only to expand text,,Inactive
+,83,19/09/2005,MC/AV,Trivial,,Accessibility: Skip to navigation (navigation by Tab key),,Inactive
+,84,19/09/2005,MC,Trivial,,Place site navigation before in-page tabbed navigation,,Inactive
+,85,20/09/2005,AV,Trivial,,Tables - using TH in a case of row subheader ,,Inactive
+,86,30/09/2005,MC,Minor,Templates,Layout seems to scroll horizontally at 800x600 screen resolution,,Active
+,87,19/10/2005,MC,Minor,Templates,IE5 hack for top of MTM,Miles,Active
+,88,19/10/2005,MC,Trivial,Templates,Class naming for service/ MTM,Miles,Active
+,89,19/10/2005,MC,Minor,Templates,"Meta navigation (IE, Mozilla, Opera)",MC - ?,Active
+,90,19/10/2005,MC,Minor,Tables,Left border for table cells,Satyan,Active
+,91,19/10/2005,MC,Minor,Tables,Test button in table cells,Satyan,Active
+,92,19/10/2005,MC,Trivial,Templates,"First, Last, Current naming convention",MC,Active
+,93,02/11/2005,MC,Major,Templates,Page templates break with certain panel combinations,Sidebar is moved out of position,Inactive
+,94,02/11/2005,MC,Major,Templates,IE5 Mac,Navigation does not render,Active
+,95,02/11/2005,MC,Major,Panels,Panels - issues with layout,Slight height differences due to spacing,Active
+,96,02/11/2005,MC,Major,Text,Page text formatting needs close checking with design,Font sizes and spacing,Active
+,97,02/11/2005,MC,Major,Navigation,Main navigation is incorrectly positioned,IE5 PC,Active
+,98,02/11/2005,MC,Major,Templates,This page template needs to be built,Includes a lot of unique content,Active
+,99,02/11/2005,MC,Minor,sIFR,sIFR quirks,Reported by Vish. Need specific details,Active
+,100,02/11/2005,MC,Minor,Templates,"""Hidden"" H2 tags",There's a possibility this is slightly underhand behaviour - needs investigation,Active

@@ -1,0 +1,96 @@
+/*NEW STYLE FOR TAB_MENU*/
+
+.content-nav,
+.t-zoneNav{
+	float:left;
+	width:432px;
+	background: url("../img/mainNav_bg.gif") repeat-x bottom;
+	line-height:normal;
+	
+}
+
+.t-zoneNav {
+	/*border-color: #bebebe;
+	border-style: none solid none solid;
+	border-width: 0 1px 0 1px;
+	*/
+	margin: 0 -10px 8px -5px;
+}
+
+.content-nav ul,
+.t-zoneNav ul {
+	margin:0;
+	padding:10px 0 0 0;
+	list-style:none;
+}
+
+.content-nav li,
+.t-zoneNav li{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+.content-nav a,
+.t-zoneNav a{
+	float:left;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.content-nav a:link,
+.t-zoneNav a:link,
+.content-nav a:visited,
+.t-zoneNav a:visited {
+	color: #999;
+}
+
+.content-nav a:hover,
+.t-zoneNav a:hover,	
+.content-nav a:active,
+.t-zoneNav a:active{
+	color:#333;
+}
+
+.content-nav a span,
+.t-zoneNav a span{
+	border-color: #bebebe;
+	border-style: none solid none none;
+	border-width: 0 1px 0 0;
+	float:left;
+	display:block;
+	padding:3px 8px 3px 8px;
+	font-size:0.7em;
+}
+
+.content-nav > ul a,
+.t-zoneNav > ul a{width:auto;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+
+.content-nav a span,
+.t-zoneNav a span{float:none;}
+/* End IE5-Mac hack */
+
+.content-nav #first a span{
+	border-left:1px #bebebe solid;
+}
+/*If smbd leave in T-zone Container ID=First for first li-tab - making it invisible*/
+.t-zonesNav #first a span{
+	border-left:1px #bebebe solid;
+}
+
+.content-nav .active a,
+.t-zoneNav .active a{
+	background:url("../img/mainNav_left_both.gif") no-repeat right top;
+}
+
+.content-nav .active a span,
+.t-zoneNav .active a span{
+	background:url("../img/mainNav_right_both.gif") no-repeat right bottom;
+	border-width:0;
+	color:#333;
+	font-weight:bold;
+	padding-right:14px
+}

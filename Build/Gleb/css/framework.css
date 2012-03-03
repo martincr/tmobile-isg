@@ -1,0 +1,554 @@
+body {
+	background-color: #eee;
+	color: #666;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+
+a:link, a:visited {
+	color: #666;
+}
+
+a:active, a:hover {
+	color: #e20074;
+}
+
+/***** BASIC LAYOUT GRID *****/
+/* decorative layers */
+.shadow0 {
+	background: #fff url(../imgs/meta_shadow_bgr_btm.gif) right top no-repeat;
+	clear: both;
+	margin-top: 1.7em;
+	padding: 2px 0 0 0;
+	width: 778px;
+}
+
+.shadow1 {
+	background: url(../imgs/shadow-right.gif) right top repeat-y;
+	clear: both;
+}
+
+.shadow2 {
+	background: url(../imgs/shadow-bottom.gif) left bottom repeat-x;
+}
+
+.shadow3 {
+	background: url(../imgs/shadow-corner-btm.gif) right bottom no-repeat;
+	padding: 0 5px 14px 0;
+}
+
+/* wrapper div */
+.boxwrap {
+	width: 757px; /* control width */
+}
+
+.boxbody {
+	clear: both;
+	float: left;
+	width: 612px;
+}
+
+.boxbody, #column-right {
+	margin-top: 6em;
+}
+
+#column-middle {
+	float: right;
+	width: 450px;
+}
+
+#column-left {
+	float: left;
+	width: 162px;
+}
+
+#column-right {
+	float: right;
+	width: 145px;
+}
+
+#two-columns #column-middle {
+	width: 610px;
+}
+
+#two-columns .boxwrap {
+	width: 774px;
+}
+
+#two-columns .boxbody {
+	width: 774px;
+}
+
+#one-column #column-middle {
+	width: 774px;
+}
+
+/***********START LEFT NAV***********/
+/* left Navigation */
+#leftNav{
+	width:145px;
+	font-size:0.7em;
+	padding: 8px 0 0 0;
+	border-bottom: 1px solid #999999;
+}
+
+#leftNav ul {
+	padding: 0;
+	margin: 0;
+}
+
+#leftNav ul ul {
+	border: none;
+}
+
+#leftNav ul li {
+	list-style-type: none; 
+	list-style-image: none;	
+	border-top: 1px solid #999999; 
+	margin: 0;
+	padding: 0;
+}
+
+#leftNav ul li a, #leftNav ul li a:visited {
+	text-decoration: none;
+	display: block;
+	padding: 3px 5px 3px 10px; 
+	color:#666;
+}
+/* \*/
+/* Fix IE. Hide from IE Mac \*/
+* html #leftNav ul li {
+	float: left; 
+	height: 1em;
+}
+ 
+* html #leftNav ul li a {
+	height: 1em;
+} 
+/* End */ 
+/* */
+#leftNav ul li.current a, 
+#leftNav ul li.current a:hover, 
+#leftNav ul li#open a, 
+#leftNav ul li#open a:hover, 
+#leftNav ul li a:hover, 
+#leftNav ul li#open li.current li a:hover {
+	color: #fff; 
+	background-color: #999;
+}
+
+#leftNav ul li#open li a, 
+#leftNav ul li#open li.current a:hover 
+{
+	color: #666; 
+	background-color: #eee;
+	padding: 3px 5px 3px 18px;	
+}
+
+#leftNav ul li#open li.current a {
+	background: #eee url(../imgs/4pxmagenta.gif) no-repeat 9px 8px; 
+}
+
+#leftNav ul li#open li.current a:hover 
+{
+	background: #999 url(../imgs/4pxmagenta.gif) no-repeat 9px 8px; 
+	color:#fff;
+}
+/***********END LEFT NAV***********/
+
+
+/* Logo navigation */
+#logoNavigation {
+	left: 0;
+	position: absolute;
+	top: 2em;
+	width: 778px;
+}
+
+#logos {
+	float: left;
+	margin: 22px 0 18px;
+}
+
+#logos img {
+	display: block;
+}
+
+/* Top Extra Links */
+#topExtraLinks {
+	float: right;
+	font-size: 0.7em;
+	padding: 15px 20px 0 0;
+	width: 300px;
+}
+
+#topExtraLinks ul {
+	list-style-type: none;
+	margin: 0 0 0 auto;
+	padding: 0;
+}
+
+#topExtraLinks ul li {
+	background: url(../imgs/topExtraLine.gif) left center no-repeat;
+	float: right;
+	padding: 0 6px;
+}
+
+#topExtraLinks ul li#top-basket {
+	background-image: none;
+}
+
+#topExtraLinks a {
+	text-decoration: none;
+}
+
+#topExtraLinks ul li#top-basket a {
+	background: url(../imgs/basket.gif) left center no-repeat;
+	display: block;
+	padding-left: 24px;
+	position: relative;
+}
+
+
+/* Main Navigation*/
+
+#mainNav {
+	background: url(../imgs/mainNav_bg.gif) repeat-x bottom;
+	font-size: 70%;
+	left: 0;
+	position: absolute;
+	top: 7em;
+	width: 755px;
+}
+
+#mainNav a{
+	text-decoration: none;
+}
+
+#mainNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0; /* all lists */
+	padding: 10px 0 10px 162px;
+}
+
+#mainNav li {
+	float: left;
+	position: relative;
+}
+
+#mainNav span {
+	border-color: #bebebe;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	display: block;
+	padding: 0.2em 0 0 8px;
+	position: relative;
+}
+
+#mainNav #first span {
+	border-left-width: 1px;
+}
+
+#mainNav a {
+	color: #666;
+	display: block;
+	padding: 0 8px 0.2em 0;
+}
+
+#mainNav .active a {
+	display: block;
+	padding-right: 14px;
+	color: #666;
+}
+
+#mainNav .active span{
+	background: url(../imgs/mainNav_left_both.gif) no-repeat right top;
+	border-right: none;
+}
+
+#mainNav a:link {
+	color: #999;
+}
+
+#mainNav a:hover,
+#mainNav a:active {
+	color: #333;
+}
+
+#mainNav .active a{
+	background-image: url(../imgs/mainNav_right_both.gif);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+#mainNav .active li a{
+	font-weight: normal;
+}
+
+#mainNav .active ul a{
+	background-image: none;
+}
+
+#mainNav li:hover ul, #mainNav li.over ul {
+	display: block; /* lists nested under hovered list items */
+}
+
+/* level 2 */
+
+#mainNav li ul {
+	display: none; /* second-level lists */
+	left: 0;
+	position: absolute;
+	padding: 0;margin: 0;
+	width:160px;
+	z-index: 100;
+}
+
+#mainNav li li {
+	list-style: none; 
+	border-bottom: 1px solid #999999; 
+	padding: 0;margin: 0;
+	background-color:#eee;
+	float: none;
+}
+
+#mainNav li li a {
+	text-decoration: none;
+	display: block;
+	padding: 3px 5px 3px 10px; 
+	color:#666;
+
+}
+
+/* \*/
+/* Fix IE. Hide from IE Mac \*/
+* html #mainNav li li { float: left; height: 1em; } 
+* html #mainNav li li a { height: 1em; } 
+/* End */ 
+/* */
+
+#mainNav li li a:hover {
+	background: #999;
+	color: #fff;
+}
+/* level 2 */
+
+
+/* Copyright */
+#copyright {
+	clear: both;
+	padding: 7px 0 0 0;
+}
+
+#copyright ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+#copyright li {
+	border-right: #ccc solid 1px;
+	display: block;
+	float: left;
+	font-size: 0.7em;
+	list-style: none;
+	margin: 0;
+	padding: 0px 10px 1px 10px;
+}
+
+#copyright li.noBorder {
+	border: none;
+}
+
+#copyright li a {
+	color: #666;
+	text-decoration: none;
+}
+
+#copyright li a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+/* Meta navigation */
+#metaNavs {
+	display: block;
+    float: left;
+	width: 779px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+#fontSize {
+	float: right;
+	width:30%;
+}
+
+#fontSize ul {
+  margin:0px;
+  padding: 0px;
+ }
+ 
+#fontSize li {
+  display: block;
+  float:right;
+  margin:3px;
+  padding:0px;  
+  font-size: 0.7em;  
+  list-style:none;
+}
+  
+#fontSize .font {
+  padding-top: 0.25em;
+}
+
+#metaNav{
+	float:left;
+	width:70%;
+}
+	
+#metaNav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	  
+#metaNav li{
+	float:left;
+	background: url(../imgs/meta_link_bgr.gif) no-repeat 100% 50%;
+}
+
+#metaNav li.noborder{
+	background: none;
+}
+	  
+#metaNav a{
+	display:block;
+	text-decoration:none;
+	font-size:0.7em;
+	padding:0.8em 2em;
+}
+	  
+#metaNav a:link,
+#metaNav a:visited {
+	color: #999;
+}
+	
+#metaNav a:hover,
+#metaNav a:active{
+	color:#333;
+}
+  
+#metaNav li#current {
+	background: #fff url(../imgs/meta_ai_left.gif) no-repeat 0 100%;
+}
+
+#metaNav #current a{
+	background:url(../imgs/meta_ai_right.gif) no-repeat 100% 100%;
+	color:#333;
+}
+
+#metaNav #current-first {
+	background: #fff url(../imgs/meta_ai_right.gif) no-repeat 100% 100%;
+	border-width:0;
+	color:#333;
+}
+
+
+/* Content Footer */
+
+#contentFooter {
+	clear: both;
+	padding: 20px 0 0 0;
+	margin: 0 140px 0 140px;
+}
+
+#contentFooter li {
+	width: auto 
+
+}
+
+
+#footerIcons {
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 0.55em;
+}
+
+#footerIcons li {
+	float: left;
+	margin: 0 0 0 10px;
+	background: greenû;
+	list-style: none;
+}
+
+#footerIcons  a {
+	display: block;
+	position: relative;
+	color: #999;
+	text-decoration: none;
+	padding-top: 18px;
+	text-align: center
+}
+
+#printIcon {
+	background: url(../imgs/i_print.gif) center top no-repeat;
+}
+
+#emailIcon {
+	background: url(../imgs/i_email.gif) center top no-repeat;
+}
+
+
+#footerNav {
+	float: right;
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+#footerNav li {
+	display: block;
+	float: left;
+	padding: 0 5px 4px 8px;
+	background: url(../imgs/topExtraLine.gif) left center no-repeat;
+	color: #999999;
+	line-height: 1em;
+}
+
+#footerNav li a {
+	display: inline
+}
+
+
+#contentFooter #footerNav a {
+	font-size: 0.65em;
+	text-decoration: none;
+}
+
+#footerNav #firstItem {
+	border: 0; padding-left: 0; background-image: none
+}
+
+#footerNav a {
+	text-decoration: none;
+}

@@ -1,0 +1,79 @@
+Template Definitions,,v10   27 June 05,,,,,,,,
+ID,Template ID,Template Description,Template Type,Comments,Filename,PSD,HTML,CSS,Stylesheet,Owner
+1,A1,Simple document,,"Title only, no banner. Predominantly text, but includes images and/or tables within content",?,,a1.htm,,,Martin Crockett
+2,A3 ,Simple document w/ banner,Full page,"Banner w/o digit. Predominantly text, but includes images and/or tables within content",2_7_upgrades_renewals.gif,,a3.htm,,,Martin Crockett
+3,A4,Tabbed content,Full page,"Tabbed menu w/ banner. Predominantly text, but includes images and/or tables within content",3_3_1_1_Pic_Messaging.gif,,a4.htm,,,Martin Crockett
+4,A5,Confirmation,Full page,Title and large image. Simple statement copy,?,,a5.htm,,,Martin Crockett
+5,A6,Bill view,Full page,,?,,a6.htm,,,Martin Crockett
+6,A7,Multi-column format,Full page,A single and 2 column mixed format used in New to My T-Mobile,5_1_2_new_to_tmobile.gif,,a7.htm,,,Martin Crockett
+7,F1,Tabbed function,Full page,"Tabbed function box, either text or form elements in box. By itself or with 1 or 2 column module",3_3_Messaging.gif,,f1.htm,,,Martin Crockett
+8,F3,Simple form,Full page,"Title only, no banner. Form function box",?,,f3.htm,,,Martin Crockett
+9,P1,Special Offer listing,Full page,,,,p1.htm,,,Martin Crockett
+10,P2,Phone listing,Full page,,,,p2.htm,,,Martin Crockett
+11,P3,Phone listing alternate,Full page,,?,,"p3,htm",,,Martin Crockett
+12,P4,Plan listing,Full page,,,,p4.htm,,,Martin Crockett
+13,P5,Phone detail page,Full page,,,,p5.htm,,,Martin Crockett
+14,L1,"Primary landing, Banner and digit banner, 2 column modules",Full page,,,,l1.htm,,,Martin Crockett
+15,L2,"Secondary landing, Banner w/o digit, 2 column modules",Full page,,,,l2.htm,,,Martin Crockett
+16,L3,"Tertiary landing, No banner, 2 column modules",Full page,,?,,l3.htm,,,Martin Crockett
+17,a,Single column,Full page,,,,a.htm,,,Martin Crockett
+18,b,2 column content,Full page,,,,b.htm,,,Martin Crockett
+19,,Full image,Small panel,Panel,,s_full.psd,s_full.htm,,,Martin Crockett
+20,,Overlap,Small panel,Panel,,s_overlap.psd,s_overlap.htm,,,Martin Crockett
+21,,Half image,Small panel,Panel,,s_half.psd,s_half.htm,,,Martin Crockett
+22,,Header image,Medium panel,Panel,,m_header.psd,m_header.htm,,,Martin Crockett
+23,,Full image,Medium panel,Panel,,m_full.psd,m_full.htm,,,Martin Crockett
+24,,Half image,Medium panel,Panel,,m_half.psd,m_half.htm,,,Martin Crockett
+25,,Mag digit top,Medium panel,Panel,,m_digit.psd,m_digit.htm,,,Martin Crockett
+26,,Header image,Large panel,Panel,,l_header.psd,l_header.htm,,,Martin Crockett
+27,,Overlap,Large panel,Panel,,l_overlap.psd,l_overlap.htm,,,Martin Crockett
+28,,Full image,Large panel,Panel,,l_full.psd,l_full.htm,,,Martin Crockett
+29,,Half image,Large panel,Panel,,l_half.psd,l_half.htm,,,Martin Crockett
+30,,Tri section with overlap,X Large panel,Panel,,x_tri.psd,x_tri.htm,,,Martin Crockett
+31,,Header image,X Large panel,Panel,,x_header.psd,x_header.htm,,,Martin Crockett
+32,,Large header image,X Large panel,Panel,,x_large_header.psd,x_large_header.htm,,,Martin Crockett
+33,,Special offer,Double horizontal panel,Panel,,d_offer.psd,d_offer.htm,,,Martin Crockett
+34,,Service,Double horizontal panel,Panel,,d_service.psd,d_service.htm,,,Martin Crockett
+35,,Magenta digit bottom,Banner,Banner,,b_digit_btm.psd,b_digit_btm.htm,,,Martin Crockett
+36,,Magenta digit top,Banner,Banner,,b_digit_top.psd,b_digit_top.htm,,,Martin Crockett
+37,,Focus digit,Banner,Banner,,b_digit_focus.psd,b_digit_focus.htm,,,Martin Crockett
+38,,One-off graphics,Banner,Banner,,b_xx.psd,b_xx.htm,,,Martin Crockett
+39,,Slot 1 promo,Home,Homepage,,h_slot1.psd,h_slot1.htm,,,Martin Crockett
+40,,Slot 2 promo,Home,Homepage,,h_slot2.psd,h_slot2.htm,,,Martin Crockett
+41,,Slot 3,Home,Homepage,,h_slot3_4.psd,h_slot3_4.htm,,,Martin Crockett
+42,,Slot 4/5,Home,Homepage,,h_slot5_6.psd,h_slot5_6.htm,,,Martin Crockett
+43,,Slot 7 double vert,Home,Homepage,,h_slot7.psd ,h_slot7.htm,,,Martin Crockett
+44,,Hidden banners,Home,Homepage,,h_hidden_banner.psd,h_hidden_banner.htm,,,Martin Crockett
+45,,Phone slot,MTM,My T-Mobile,,mtm_phone.psd,mtm_phone.htm,,,Martin Crockett
+46,,Small promo x 2,MTM,My T-Mobile,,mtm_small_promo.psd,mtm_small_promo.htm,,,Martin Crockett
+47,,Large promo,MTM,My T-Mobile,,mtm_large_promo.psd,mtm_large_promo.htm,,,Martin Crockett
+48,,Text promo image,MTM,My T-Mobile,,mtm_text_promo.psd,mtm_text_promo.htm,,,Martin Crockett
+49,,Large horizontal promo,MTM,My T-Mobile,,mtm_large_horiz_promo.psd,mtm_large_horiz.htm,,,Martin Crockett
+50,,Medium promo,MTM,My T-Mobile,,mtm_medium_promo.psd,mtm_medium_promo.htm,,,Martin Crockett
+51,,Single page,Wireframe,Layout outer shell,0_Home123.gif,,MainTemplateTableless/mainTemplateA.html,,"framework.css, headers.css, print.css",Martin Crockett
+52,,1-column left,Wireframe,Layout outer shell,,,MainTemplateTableless/mainTemplateB.html,,,Martin Crockett
+53,,3-columns,Wireframe,Layout outer shell,1_0_mytmobile_home.gif,,MainTemplateTableless/mainTemplateC.html,,,Martin Crockett
+54,,Basic accessible table,Snippet,Generic starter code,,,accessible_table.htm,,,Martin Crockett
+55,,JavaScript XXXXXXXXXX,Snippet,Generic starter code,,,,,,Martin Crockett
+56,,Confirm Order/Payment & Details,Snippet,Form,1_7_1_2_1_1_1_Confirmorder.gif,,,,,Martin Crockett
+57,,Sitemap,Snippet,Sitemap,6_1_site_map_c.gif,,,,,Martin Crockett
+58,,Our Services,Snippet,A-Z of subjects,5_5_our_services.gif,,,,,Martin Crockett
+59,,Phone manuals,Snippet,3 column grid layout,5_4_phone_manuals.gif,,,,,Martin Crockett
+60,,Introduction to your bill,Snippet,Pagination,5_3_1_introduction_bill.gif,,,,,Martin Crockett
+61,,Common questions,Snippet,FAQ form,5_2_common_questions.gif,,,,,Martin Crockett
+62,,New to T-Mobile,Snippet,In-page tab navigation,5_1_2_new_to_tmobile.gif,,contentNav/index.html,,menuTab.css,Martin Crockett
+63,,Help & Advice,Snippet,Dual drop-down form: manufacturer/model,5_0_helpadvice_home.gif,,,,,Martin Crockett
+64,,Web 'n' Walk,Snippet,Unordered list,3_3_1_1_web_n_walk_what_is_it.gif,,,,,Martin Crockett
+65,,Customer Services Password,Snippet,Form,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+66,,Send Text,Snippet,Form,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+67,,Sent Messages,Snippet,Form,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+68,,Manage Contacts,Snippet,Form,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+69,,Future Phones,Snippet,Form,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+70,,Allowances & Extras,Snippet,Data table,Redesign Wireframes 2.pdf,?,mainTbl/index.html,,"common.css, mainTbl.css, to_framework.css",Martin Crockett
+71,,Phone Feature Selector,Snippet,Form,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+72,,Non My T-Mobile,Snippet,Form/Account,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+73,,My T-Mobile,Snippet,Form/Account,Redesign Wireframes 2.pdf,?,account.html,,"account.css, buttons.css, framework.css, headers.css, print.css",Martin Crockett
+74,,Not logged-in,Snippet,Form/Account,Redesign Wireframes 2.pdf,?,,,,Martin Crockett
+75,,Basket,Snippet,Shopping basket,Files not found - to be requested from Complete,,basket.html,,,Martin Crockett
+76,,Visited link,Snippet,From International style guide - new colour?,,,,,,Martin Crockett
+77,,Example data table,Snippet,See end of style guide?,,,,,,

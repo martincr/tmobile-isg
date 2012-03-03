@@ -1,0 +1,342 @@
+/* -----------------| Panels |----------------- */
+* {
+	margin:0;
+	padding:0;
+}
+
+.panel {
+	float:left;
+	margin: 0px 12px 18px 0px;
+	border:1px solid #BEBEBE;
+	width:208px;
+	display:inline;
+	position:relative;
+}
+
+/* -----------------| Links > action-link, action-text |----------------- */
+
+.panel .action-link {
+	background-color: #F2F2F2; 
+	padding: 5px 9px; 
+	border-top:1px solid #B6B6B6;
+	margin:0;
+}
+
+.panel .action-text {
+	background-color: #F2F2F2; 
+	border-top:1px solid #B6B6B6;
+	font-size:.7em;
+	padding: 4px 9px 3px 9px; 
+	height:39px;
+}
+
+	* HTML .panel .action-text {height:49px; he\ight:39px;}
+	
+	/* Hack Mac IE \*/
+	html>body .panel .action-text {height:auto; min-height:39px;}
+	/* End of hack Mac IE */
+
+.panel .action-text a{
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/* -----------------| Content |----------------- */
+
+.panel .content{
+	padding:9px 9px 0 9px;
+}
+
+.panel .content p {
+	font-size:.7em;
+}
+
+.panel .content ul {
+	margin: 0px 0 6px 17px;
+	padding: 0;
+	font-size:0.7em;
+}
+
+.panel .content ul li {
+	list-style: square url("../imgs/generic/4pxmagenta.gif");
+}
+
+.panel .content a:link, 
+.panel .content a:visited{
+	color: #333;
+}
+
+.panel .content a:active, 
+.panel .content a:hover {
+	color: #e20074;
+}
+
+
+
+/* -----------------| Content > Width |----------------- */
+
+.width-20percent {width:20%;}
+.width-25percent {width:24%;}
+.width-30percent {width:30%;}
+.width-40percent {width:40%;}
+.width-45percent {width:45%;}
+.width-50percent {width:50%;}
+.width-60percent {width:60%;}
+.width-70percent {width:70%;}
+.width-80percent {width:80%;}
+.width-100percent {	width:100%;}
+
+
+
+/* -----------------| Offset |----------------- */
+
+.offset, 
+.offsetSmall {
+	position:relative;
+	top:-10px;
+	margin-bottom:0px;
+}
+
+/* Hack Mac IE \*/
+.offset, .offsetSmall {margin-bottom:-10px;}
+/* End of hack Mac IE */
+
+
+.panel-double .offset{
+	position:relative;
+	top:-18px;
+	margin-bottom:-18px;
+}
+
+	
+/* -----------------| Digits > Right |----------------- */
+
+.panel-small .digits-right,
+.panel-medium .digits-right,
+.panel-large .digits-right,
+.panel-double .digits-right {
+	position:absolute;
+	top:-9px;
+	right:9px;
+	width:72px;
+	height:72px;
+	background-color:#e20074;
+}
+
+.panel-double .digits-right {
+	right:18px;
+	width:108px;
+	height:108px;
+}
+
+.panel-double .offset .digits-right{
+	top:0;
+}
+
+.panel-double .digits-right{
+	top:-18px;
+}
+
+/* -----------------| Digits > Left |----------------- */
+
+.panel-small .digits-left,
+.panel-medium .digits-left,
+.panel-large .digits-left {
+	position:absolute;
+	top:-9px;
+	left:9px;
+	width:72px;
+	height:72px;
+	background-color:#e20074;
+}	
+	
+/* -----------------| Overlap |----------------- */
+
+.overlap{
+	position:relative;
+	bottom:-9px;
+	padding-bottom:0px;
+}
+
+
+/* -----------------| Panels > Common |----------------- */
+
+.panel-small,
+.panel-medium, 
+.panel-large,
+.panel-double {position:relative;}
+
+.panel .line {
+	margin: 0 9px;
+	border-top:1px solid #b6b6b6;
+}
+
+/* -----------------| SMALL Panels |----------------- */
+
+* HTML .panel-small-link{height:75px;}
+* HTML .panel-small{height:100px;}
+
+
+/* Hack Mac IE \*/
+.panel-small-link {height: auto;min-height: 75px;}
+.panel-small {height: auto;min-height: 100px;}
+/* End of hack Mac IE */
+
+	/* -----------------| SMALL panels > Additional styles |----------------- */
+	
+	* HTML .panel-small-link .content.offset {height:85px; he\ight:76px;}
+	* HTML .panel-small .content.offset {height:110px; he\ight:101px;}
+	* HTML .panel-small-link .content.overlap {height:75px; he\ight:66px;}
+	
+	/* Hack Mac IE \*/
+	.panel-small-link .content.offset {height:auto; min-height:76px;}
+	.panel-small .content.offset {height:auto; min-height:101px;}
+	.panel-small-link .content.overlap {height:auto; min-height:66px;}
+	/* End of hack Mac IE */
+
+	
+/* -----------------| MEDIUM Panels |----------------- */
+	
+* HTML .panel-medium {height:142px;}
+* HTML .panel-medium-link {height:117px;}
+
+	/* Hack Mac IE \*/
+	.panel-medium {height:auto; min-height:142px;}
+	.panel-medium-link {height:auto; min-height:117px;}
+	/* End of hack Mac IE */
+
+	
+/* -----------------| LARGE Panels |----------------- */
+
+* HTML .panel-large {height:216px;}
+* HTML .panel-large-link {height:191px;}
+* HTML .panel-large-text {height:166px;}
+
+/* Hack Mac IE \*/
+.panel-large {height:auto; min-height:216px;}
+.panel-large-link {height:auto; min-height:191px;}
+.panel-large-text {height:auto; min-height:166px;}
+/* End of hack Mac IE */
+
+	/* -----------------| LARGE panels > Additional styles |----------------- */	
+	
+	* HTML .panel-large .content.bgr,
+	* HTML .panel-large-link .content.bgr,
+	* HTML .panel-large-text .content.bgr {height:107px; he\ight:98px;}
+		
+		
+	/* Hack Mac IE \*/
+	.panel-large .content.bgr,
+	.panel-large-link .content.bgr,
+	.panel-large-text .content.bgr {height:auto; min-height:98px;}
+	/* End of hack Mac IE */
+		
+		
+	* HTML .panel-large .content.offset,
+	* HTML .panel-large-link .content.offset,
+	* HTML .panel-large-text .content.offset {height:117px; he\ight:108px;}
+		
+	/* Hack Mac IE \*/
+	.panel-large .content.offset,
+	.panel-large-link .content.offset,
+	.panel-large-text .content.offset {height:auto; min-height:108px;}
+	/* End of hack Mac IE */
+	
+
+/* -----------------| xLARGE Panels |----------------- */
+
+* HTML .panel-xlarge {height:286px;}
+* HTML .panel-xlarge-link {height:236px;}
+
+	/* Hack Mac IE \*/
+	.panel-xlarge {height:auto; min-height:286px;}
+	.panel-xlarge-link {height:auto; min-height:236px;}
+	/* End of hack Mac IE */
+	
+	/* -----------------| xLARGE panels > Additional styles |----------------- */
+	
+	* HTML .panel-xlarge .content.bgr, 
+	* HTML .panel-xlarge-link .content.bgr {height:107px; he\ight:98px;}
+		
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.bgr,
+	.panel-xlarge-link .content.bgr {height:auto; min-height:98px;}
+	/* End of hack Mac IE */
+		
+		
+	* HTML .panel-xlarge .content.offset,
+	* HTML .panel-xlarge-link .content.offset {height:117px; he\ight:108px;}
+	
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.offset,
+	.panel-xlarge-link .content.offset {height:auto; min-height:108px;}
+	/* End of hack Mac IE */
+	
+	
+	* HTML .panel-xlarge .content.bgrSmall {height:95px; he\ight:86px;}
+		
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.bgrSmall {height:auto; min-height:86px;}
+	/* End of hack Mac IE */	
+		
+		
+	* HTML .panel-xlarge .content.offsetSmall {height:104px;he\ight:95px;}	
+		
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.offsetSmall {height: auto;min-height: 95px;}
+	/* End of hack Mac IE */
+
+
+/* -----------------| DOUBLE Panels |----------------- */	
+
+* HTML .panel-double {height:106px;}
+* HTML .panel-double-link {height:79px;}
+
+/* Hack Mac IE \*/
+.panel-double {height:auto; min-height:106px;}
+.panel-double-link {height:auto; min-height:79px;}
+/* End of hack Mac IE */
+	
+/* -----------------| DOUBLE Panels > Additional styles |----------------- */
+	
+	* HTML .panel-double .content.offset {height:113px;}
+	
+	/* Hack Mac IE \*/	
+	.panel-double .content.offset {height: auto;min-height: 113px;}
+	/* End of hack Mac IE */	
+	
+	
+/* -----------------|  Headers for panels (H3) |----------------- */
+
+.content h3, 
+.content.offset h3, 
+.content.offsetSmall h3,
+.content.overlap h3,
+.panel-double .content.offset h3  {
+	font-family: "Times New Roman", Times, serif;
+	color:#e20074;
+	font-size:1em;
+}
+
+.content.offset h3, .content.offsetSmall h3 {
+	margin-top:9px;
+}
+
+.content.overlap h3 {
+	margin-top:-9px;
+}
+
+.panel-double .content.offset h3 {
+	margin-top:27px;
+}
+
+
+/* Hack Mac IE \*/
+.content.offset h3, .content.offsetSmall h3 {
+	margin-top:9px;
+}
+
+* HTML .content.offset h3, * HTML .content.offsetSmall h3 {
+	margin-top:18px;
+}
+/* End of hack Mac IE */

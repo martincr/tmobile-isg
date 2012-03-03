@@ -1,0 +1,528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Main Template</title>
+	<style type="text/css" media="all">@import "stylesheets/menuTab.css";</style>
+	<style>
+	/*JUST COMMON STYLES*/
+	body {
+    background:#fff;
+    margin:10px;
+    padding:0px;
+	font-family: Arial, Verdana, sans-serif;
+    color: #666;
+	}
+	a:link, a:visited {
+	color: #666;
+	}
+	
+	a:active, a:hover {
+	color: #e20074;
+	}
+	.screenshot img {display: block; border: 2px solid #ff0066}
+
+	code {font-family: 'andale mono', 'lucida console',monospace}
+
+	code.codeblock {white-space: pre; display: block; border-width: 1px 0; border-style: solid; border-color: #555; background: #eee; padding: 0.5em; margin: 0.5em 0 1em; font-size: 75%}
+	code.codeblock.css {background-color: #fef; padding: 0.5em}
+	td {vertical-align: top}
+
+
+	</style>
+</head>
+
+<body>
+
+
+<h1>Main Template</h1>
+
+
+<h2>Basic layout concepts</h2>
+
+<p>Tabless layout with content almost completely separated from presentation. Content column goes before left one in the code so it is more clear for search engines and more accessible for aural devices (navigation is not read out on each page).</p>
+
+<h3>Basic code explanation</h3>
+
+<p><code>shadow0</code>, <code>shadow1</code>, <code>shadow2</code>, <code>shadow3</code> divs are used for decorative purposes — they add shadows to the main box.</p>
+<code class="codeblock css">
+/* decorative layers */
+.shadow0 {
+	background: #fff url(common/images/generic/meta_shadow_bgr_btm.gif) right top no-repeat;
+	clear: both;
+	margin-top: 1.7em;
+	padding-top: 2px;
+	width: 778px;
+}
+
+.shadow1 {
+	background: url(common/images/generic/shadow-right.gif) right top repeat-y;
+	clear: both;
+}
+
+.shadow2 {
+	background: url(common/images/generic/shadow-bottom.gif) left bottom repeat-x;
+}
+
+.shadow3 {
+	background: url(common/images/generic/shadow-corner-btm.gif) right bottom no-repeat;
+	padding: 0 5px 14px 0;
+}
+</code>
+
+<p><code>boxwrap</code> fixes the with of the main container (minus shadow width).</p>
+<p><code>boxbody</code>'s width equals width of left column + width of middle column.</p>
+<p><code>column-middle</code> is a middle column container. It goes before the left column. Both of them are floated to the right and have a fixed width.</p>
+<code class="codeblock css">#column-middle {
+	float: right;
+	width: 430px;
+}
+
+#column-left {
+	float: left;
+	width: 160px;
+}</code>
+
+<p>Right column doesn't use any float and is automaticly padded to it's place by the first two columns so we just define the upper margin in relative units (<strong>em</strong>) to give the respective space for absolutely positioned top navigation blocks and logo.</p>
+
+<code class="codeblock css">.boxbody, #column-right {
+	margin-top: 6em;
+}</code>
+
+<p>There are two divs, clearing the floats: one inside the <code>boxwrap</code> layer and one inside the <code>boxbody</code>.</p>
+
+<code class="codeblock">&lt;div class="clear"&gt;&amp;nbsp;&lt;/div&gt;</code>
+
+<h3>CSS</h3>
+
+<code class="codeblock css">.clear {
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}</code>
+
+
+<h2>Personal/Business Tabs</h2>
+
+<p class="screenshot"><img src="img/personal-business.png" alt="" title="" width="162" height="30" /></p>
+
+<p>Personal/Business Tabs are located at the end of the code, <strong>after</strong> the main content in the <code>metaNav</code> div and are absolutely positioned with CSS. </p>
+
+<p>There are currently 3 classes for the tabs: personal, business and other.</p>
+
+<p>When you need to make one tab active, you add <code>id="active-topnav"</code> to the &lt;li&gt; tag.</p>
+
+
+
+
+<h3>Code</h3>
+<code class="codeblock">&lt;ul id="personal-business"&gt;
+	&lt;li class="personal" id="active-topnav"&gt;
+		&lt;a href="#"&gt;Personal&lt;/a&gt;
+	&lt;/li&gt;
+
+	&lt;li class="business"&gt;
+		&lt;a href="#"&gt;Business&lt;/a&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;</code>
+<h3>CSS</h3>
+<code class="codeblock css">#metaNav ul#personal-business li {
+	background: url(common/images/generic/meta_shadow_bgr.gif) no-repeat;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+html>body #metaNav ul#personal-business li {
+	height: auto;
+}
+
+#metaNav ul#personal-business li a {
+	background: url(common/images/generic/meta_link_bgr.gif) right center no-repeat;
+	display: block;
+	padding: 0.6em 18px 0.7em;
+	position: relative;
+	text-decoration: none;
+}
+
+#metaNav ul#personal-business li.personal {
+	background-image: none;
+}
+
+#metaNav ul#personal-business li.other {
+	background-image: none;
+}
+
+#metaNav ul#personal-business li.personal a {
+	background-image: none;
+}
+
+#metaNav ul#personal-business li.business#active-topnav {
+	background: #fff url(common/images/generic/meta_shadow_bgr.gif) right top no-repeat;
+}
+
+#metaNav ul#personal-business li#active-topnav {
+	background: #fff;
+}
+
+#metaNav ul#personal-business li#active-topnav a {
+	background-image: none;
+}
+
+#metaNav ul#personal-business {
+	float: left;
+	padding: 0;
+	width: 400px;
+}</code>
+
+
+<p>When you need to add another tab, use <code>class="other"</code></p>
+
+<p class="screenshot"><img src="img/personal-business-other.png" alt="" title="" width="236" height="33" /></p>
+
+<h3>Code</h3>
+
+<code class="codeblock">&lt;li class="other"&gt;&lt;a href="#"&gt;Elsewhere&lt;/a&gt;&lt;/li&gt;</code>
+
+<h2>Font-switcher</h2>
+
+<p class="screenshot"><img src="img/font-switcher.png" alt="" title="" width="133" height="26" /></p>
+
+<p>Font switcher is also located near the end of the page body, <strong>after</strong> the main content in the <code>metaNav</code> div. It is hidden by default and is shown by the script. This is done because the buttons has no functionality when Javascript is disabled so they just don't appear for users without JS but with CSS enabled.</p>
+
+<p><strong>Note</strong>: as the buttons are floated to right, the code is given in reversed order.</p>
+
+<h3>Code</h3>
+
+<code class="codeblock">
+&lt;!-- Font-size switcher --&gt;
+&lt;ul id="font-selector"&gt;
+	&lt;li&gt;
+		&lt;a href="#" onclick="changeFontSize('150')"&gt;
+			&lt;img src="common/images/generic/meta_f1.gif" alt="A1" title="Largest font size" /&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="#" onclick="changeFontSize('130')"&gt;
+			&lt;img src="common/images/generic/meta_f2.gif" alt="A2" title="Larger font size" /&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="#" onclick="changeFontSize('100')"&gt;
+			&lt;img src="common/images/generic/meta_f3.gif" alt="A3" title="Normal font size" /&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;						
+	&lt;li id="font-size"&gt;Font size:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- End of Font-size switcher --&gt;
+</code>
+
+<h2>Logo</h2>
+
+<p>Logo is located inside <code>logoNavigation</code> which is also positioned absolutely with CSS.</p>
+
+<p><strong>Note</strong>: <code>display: block</code> is applied to the logo image to avoid unwanted space in IE.</p>
+
+
+<h3>Code</h3>
+<code class="codeblock">
+&lt;div id="logos"&gt;
+	&lt;a href="#"&gt;&lt;img src="common/images/topnav/logos/logo_tmobile.gif" width="162" height="23" border="0" alt="T-Mobile (UK)"&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code>
+<h3>CSS</h3>
+<code class="codeblock css">
+/* Logo navigation */
+#logoNavigation {
+	left: 0;
+	position: absolute;
+	top: 2em;
+	width: 778px;
+}
+
+#logos {
+	float: left;
+	margin: 22px 0 18px;
+}
+
+#logos img {
+	display: block;
+}
+</code>
+
+<h2>Top extra links</h2>
+
+<p class="screenshot"><img src="img/topExtraLinks.png" alt="" title="" width="175" height="25" /></p>
+
+<p>Top extra links are floated to right inside <code>logoNavigation</code> block.</p>
+
+<p>The basket icon is implemented as a background for appropriate <code>&lt;a&gt;</code> tag. Other icons can be also implemented by adding <code>id</code> or <code>class</code> in code for corresponding <code>&lt;a&gt;</code> and by adjusting paddings and assigning background in CSS.</p>
+
+<p><strong>Note</strong>: the &lt;li&gt; elements are floated to right, the code is given in reversed order.</p>
+
+
+<h3>Code</h3>
+<code class="codeblock">
+&lt;div id="topExtraLinks"&gt;
+	&lt;ul&gt;
+			
+		&lt;li&gt;&lt;a href="#"&gt;Log out&lt;/a&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a href="#"&gt;Site map&lt;/a&gt;&lt;/li&gt;
+		&lt;li id="top-basket"&gt;&lt;a href="#"&gt;Basket&lt;/a&gt;&lt;/li&gt; 
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code>
+
+<h3>CSS</h3>
+<code class="codeblock css">
+/* Top Extra Links */
+#topExtraLinks {
+	float: right;
+	font-size: 0.7em;
+	padding: 15px 17px 0 0;
+	width: 300px;
+}
+
+#topExtraLinks ul {
+	list-style-type: none;
+	margin: 0 0 0 auto;
+	padding: 0;
+}
+
+#topExtraLinks ul li {
+	background: url(common/images/generic/topExtraLine.gif) left center no-repeat;
+	float: right;
+	padding: 0 6px;
+}
+
+#topExtraLinks ul li#top-basket {
+	background-image: none;
+}
+
+#topExtraLinks a {
+	color: #606060;
+	text-decoration: none;
+}
+
+#topExtraLinks ul li#top-basket a {
+	background: url(common/images/generic/basket.gif) left center no-repeat;
+	display: block;
+	padding-left: 24px;
+	position: relative;
+}
+</code>
+
+<h2>Main menu with dropdowns</h2>
+
+<p class="screenshot"><img src="img/mainMenu.png" alt="" title="" width="465" height="29" /></p>
+
+<p>Main menu is also positioned absolutely. It consists of &lt;ul&gt; elements, the dropdowns are also &lt;ul&gt;s that are located inside the first-level &lt;li&gt;s and shown up by the <code>:hover</code> rule in browsers supporting CSS Level 2 (Netscape7+,Mozilla,Firefox,Opera) and by Javascript that automaticly parses menu structure and adds <code>onMouseOver</code> events for IE. In order the menu to work correctly, it's <code>id</code> always should be the same (<code><strong>top</strong></code>).</p>
+
+<p>Don't forget to close first-level &lt;li&gt; elements, keep in mind that the second level lists are inside the firs-level &lt;li&gt;s so they should be closed after it.</p>
+
+<p><code>Span</code>s inside the first-level &lt;li&gt; are required for the tabs to work correctly. </p>
+
+<p>To make a tab active, add <code>class="active"</code> to the &lt;li&gt;.</p>
+
+<p>Fist tab element should always have <code>id="first"</code>.</p>
+
+<h3>Code</h3>
+
+<code class="codeblock">
+&lt;!-- Drop-down navigation --&gt;
+&lt;div class="mainNav"&gt;
+	  &lt;ul id="top"&gt;
+	    &lt;li id="first"&gt;&lt;span&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/span&gt;
+
+		&lt;/li&gt;
+		&lt;li class="active"&gt;&lt;span&gt;&lt;a href="#"&gt;Phones &amp; Plans&lt;/a&gt;&lt;/span&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Buy online!&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Special Offers&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Find a store&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;TeleSales&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li&gt;&lt;span&gt;&lt;a href="#"&gt;Our Services&lt;/a&gt;&lt;/span&gt;
+		
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Buy online!&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Special Offers&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Switching to T-mobile&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Upgrade!&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Find a store&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;TeleSales&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;	
+		
+		&lt;/li&gt;
+		&lt;li&gt;&lt;span&gt;&lt;a href="#"&gt;t-zones&lt;/a&gt;&lt;/span&gt;
+
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Buy online!&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;TeleSales&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;		
+		
+		&lt;/li&gt;
+		&lt;li&gt;&lt;span&gt;&lt;a href="#"&gt;Help &amp; Advice&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span&gt;&lt;a href="#"&gt;My T-Mobile&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+	  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- End of Drop-down navigation --&gt;
+</code>
+
+
+<h3>CSS</h3>
+<code class="codeblock">
+.mainNav {
+	background: url(imgs/mainNav_bg.gif) repeat-x bottom;
+	font-size: 70%;
+	left: 0;
+	position: absolute;
+	top: 7em;
+	width: 770px;
+}
+
+.mainNav a
+	{
+	text-decoration: none;
+}
+
+#top, #top ul {
+	list-style: none;
+	margin: 0;
+	padding: 0; /* all lists */
+}
+
+#top {
+	padding: 10px 0 10px 162px;
+}
+
+.mainNav li {
+	float: left;
+	position: relative;
+}
+
+}
+
+.mainNav li li {
+	float: none;
+	
+}
+
+.mainNav span {
+	border-color: #bebebe;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	display: block;
+	padding: 0.2em 0 0 8px;
+	position: relative;
+}
+
+.mainNav #first span {
+	border-left-width: 1px;
+}
+
+.mainNav a {
+	color: #666;
+	display: block;
+	padding: 0 8px 0.2em 0;
+}
+
+.mainNav .active a {
+	display: block;
+	padding-right: 14px;
+}
+
+.mainNav .active span
+	{
+	background: url(imgs/mainNav_left_both.gif) no-repeat right top;
+	border-right: none;
+}
+
+.mainNav a:hover,
+.mainNav a:active {
+	color: #333;
+}
+
+.mainNav .active a
+	{
+	background-image: url(imgs/mainNav_right_both.gif);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+.mainNav .active li a
+	{
+	font-weight: normal;
+}
+
+.mainNav .active ul a
+	{
+	background-image: none;
+}
+
+.mainNav li ul {
+	display: none; /* second-level lists */
+	left: 0;
+	position: absolute;
+	
+}
+
+.mainNav li ul, .mainNav li li {
+
+	margin-bottom: 0
+}
+
+.mainNav li li {
+	display: inline; 
+}
+
+.mainNav li li a {
+	background: #eee;
+	background: #eee;
+	border-bottom: 1px solid #b8b8b8;
+	display: block;
+	padding: 0.2em 0.3em;
+	position: relative;
+	width: 160px
+}
+
+html>body .mainNav li li {
+	display: block; 
+	float: none;
+	height: 1.7em;
+	padding: 0;
+	z-index: 300;
+}
+
+
+.mainNav li li a:hover {
+	background: #999;
+	color: #fff;
+}
+
+html>body .mainNav li li a {
+	background: #eee;
+	display: block;
+	width: 160px;
+	margin: 0
+}
+
+.mainNav li>ul {
+	left: auto;
+	top: auto; 
+	/* to override top and left in browsers other than IE, 
+	which will position to the top right of the containing li, 
+	rather than bottom left */
+}
+
+.mainNav li:hover ul, .mainNav li.over ul {
+	display: block; /* lists nested under hovered list items */
+}
+</code>
+
+
+</body>
+</html>

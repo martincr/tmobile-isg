@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body { font: Arial, Verdana, sans-serif 100% #000; background-color: #fff; }
+a, img { border: 0; }
+li {
+	display: inline;
+}
+#shadow-meta, #shadow-right, #shadow-bottom, #shadow-corner { background: #fff; }
+#logo { position: absolute; top: 0; left: 0; }
+#content-action, #sub-nav-container, #utility-links, #main-nav, #meta, .skip-link offscreen { display: none; }
+#content-sidebar-container {
+	width: 100%;
+}
+#content {
+	width: 66%;
+	float: left;
+}
+#sidebar {
+	width: 33%;
+	float: left;
+}
+#footer {
+	width: 100%;
+}
+.clear {
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}

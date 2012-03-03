@@ -1,0 +1,108 @@
+.service {
+	min-width: 145px;
+}
+
+.service h2,
+.service .headerBg {	
+	margin: 0;
+	padding: 2px 9px;
+	background-color: #78aa51;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.8em;
+	position: relative;
+}
+
+.service .headerBg {
+	background: #78aa51 url(../img/account.gif) no-repeat 100% 0;
+}
+
+.service .content {
+	padding: 0;
+	margin: 0;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	background: #f2f2f2 url(../img/main.gif) no-repeat 100% 100%;
+}
+
+.service div.block {
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 6px 9px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.service p.hello {
+	margin: 0;
+	padding: 5px 0;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.service .block .content {
+	font-size: 0.7em;
+	border: none;
+	position: relative;
+}
+
+.service h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;    
+	font-size: 0.7em;
+	color: #333;
+}
+
+.service .detail p {
+	margin: 0; 
+	padding: 0;
+}
+
+.service .block .detail h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;    
+	font-size: 1.2em;
+	color: #333;
+}
+
+.service .buttons {
+	background-color: #fff;
+	border: none;
+	padding: 8px;
+	margin: 0;
+}
+
+.service .buttons .clear {
+	height: 4px;
+}
+
+.service .image {
+	float:left;
+	padding: 0 5px 0 0;
+}
+
+.service .detail {
+	font-size: 0.7em;
+}
+
+.service ul {
+	margin: 3px 0 6px 17px;
+	padding: 0px;
+}
+
+.service ul li {
+	font-size: 0.7em;
+	margin: 0;
+	border: none;
+	padding: 0;
+	list-style: square url(../img/left_nav_current.gif);
+}
+
+label {
+	font-size: 0.7em; 
+	font-weight: bold;
+	cursor: pointer;
+}
+

@@ -1,0 +1,237 @@
+/* $Id: sifr.css,v 1.4 2006/06/02 12:34:09 nlastukh Exp $ */
+h1.title {
+	font: 1.55em/1.2em "Times New Roman", Times, serif;
+	letter-spacing: -.005em;
+	margin: -5px 0 5px 0;
+	padding: 0;
+	color: #e20074;
+}
+
+h1.title em {
+	font: normal 1em/1.2em "Times New Roman", Times, serif;
+	color: #333;
+}
+
+h2.sub-title {
+	font: normal 1.4em/1.2em "Times New Roman", Times, serif !important;/* important: we already have defined h2 in main styles :( */
+	letter-spacing: -.005em;
+	margin:-5px 0 5px 0;
+	padding: 0;
+	color: #e20074;
+}
+
+h2.sub-title em {
+	font: normal 1em/1.2em "Times New Roman", Times, serif;
+	padding: 0;
+	color: #333;
+}
+
+h2.sub-title-msg {
+	font: normal 1.2em/1.2em "Times New Roman", Times, serif !important;
+	letter-spacing: -.005em;
+	margin:-5px 0 5px 0;
+	padding: 0;
+	color: #666;
+}
+
+h2.sub-title-msg em {
+	font: normal 1em/1.2em "Times New Roman", Times, serif;
+	padding: 0;
+	color: #333;
+}
+
+
+/*Double Panel*/
+.panel .panel-special .content h3.title,
+.panel .panel-special-link .content h3.title,
+.panel .panel-special .content-offset h3.title,
+.panel .panel-special-link .content-offset h3.title {
+	font: 1.3em/1.2em "Times New Roman", Times, serif !important;/* important: we already have defined h3 in main styles :( */
+	letter-spacing: -.01em;
+	color: #e20074;
+	padding: 0;
+}
+
+.panel .panel-special .content h3.title em,
+.panel .panel-special-link .content h3.title em,
+.panel .panel-special .content-offset h3.title em,
+.panel .panel-special-link .content-offset h3.title em {
+	font: normal 1em/1.2em "Times New Roman", Times, serif;
+	color: #333;
+	padding: 0;
+}
+
+.panel .panel-special .content-offset h3.title {
+	margin-top: 16px;
+}
+html>body .panel .panel-special .content-offset h3.title {
+	margin-top: 0px;
+}
+/*End of Double panels*/
+
+
+/* Hack Mac IE \*/
+.panel .panel-special .content-offset h3.title {
+	margin-top: 16px;
+}
+
+* HTML .panel .panel-special .content-offset h3.title {
+	margin-top: 27px;
+}
+/* End of hack Mac IE */
+
+/*All panels*/
+.panel .content  h3.title, 
+.panel .content-bgr  h3.title, 
+.panel .content-offset  h3.title, 
+.panel .content-overlap  h3.title,
+.panel .content-offsetSmall  h3.title,
+.panel .content-bgrSmall  h3.title {
+	font: normal 1.15em/1.1	em "Times New Roman", Times, serif !important;/* important: we already have defined h3 in main styles :( */
+	letter-spacing: -.05em;
+	color: #e20074;
+}
+
+.panel .content  h3.title em, 
+.panel .content-bgr  h3.title em, 
+.panel .content-offset  h3.title em, 
+.panel .content-overlap  h3.title em,
+.panel .content-offsetSmall  h3.title em,
+.panel .content-bgrSmall  h3.title em {
+	font: normal 1em/1em "Times New Roman", Times, serif;
+	color: #333;
+	padding: 0;
+}
+
+/*For commented title 666666 color*/
+.panel .content h3.title-comment{
+	color: #666;
+}
+.panel .content h3.title-comment em {
+	font-style: normal;
+	color: #333;	
+}
+
+.panel .content-offset h3.title,
+.panel .content-offsetSmall h3.title {
+	margin-top: 9px;
+}
+
+.panel .content-overlap h3.title {
+	margin-top: -9px;
+}
+
+/* Hack Mac IE \*/
+.panel .content-offset h3.title, .panel .content-offsetSmall h3.title {
+	margin-top: 9px;
+}
+
+* HTML .panel .content-offset h3.title, * HTML .panel .content-offsetSmall h3.title {
+	margin-top: 18px;
+}
+/* End of hack Mac IE */
+
+/* These are standard sIFR styles... do not modify. Never! */
+
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+
+.sIFR-hasFlash h1.title {
+	visibility:hidden;
+/*	letter-spacing: -.055em;
+	font-size: 1.55em;
+	line-height:1.2em;
+*/}
+
+.sIFR-hasFlash h1.title em {
+	visibility:hidden;
+/*	font-size: 1em;
+	letter-spacing: normal;
+	line-height:1em;
+*/}
+
+.sIFR-hasFlash h2.sub-title {
+	visibility:hidden;
+/*	line-height:1.2em;
+	letter-spacing: -.005em;
+	font-size: 1.4em;
+*/}
+
+.sIFR-hasFlash h2.sub-title em {
+	visibility:hidden;
+/*	line-height:1.2em;
+	letter-spacing: -.005em;
+	font-size: 1em;
+*/}
+
+.sIFR-hasFlash h2.sub-title-msg,
+.sIFR-hasFlash h2.sub-title-msg em  {
+	visibility:hidden;
+}
+
+
+/*Double Panels*/
+
+.sIFR-hasFlash .panel .panel-special .content h3.title,
+.sIFR-hasFlash .panel .panel-special-link .content h3.title, 
+.sIFR-hasFlash .panel .panel-special .content-offset h3.title,
+.sIFR-hasFlash .panel .panel-special-link .content-offset h3.title {	
+	visibility:hidden;
+/*	line-height:1.2em;
+	letter-spacing: -.005em;
+	font-size: 1.3em;
+*/}
+
+.sIFR-hasFlash .panel .panel-special .content h3.title em,
+.sIFR-hasFlash .panel .panel-special-link .content h3.title em,
+.sIFR-hasFlash .panel .panel-special .content-offset h3.title em,
+.sIFR-hasFlash .panel .panel-special-link .content-offset h3.title em{
+	visibility:hidden;
+/*	letter-spacing: -.005em;
+	font-size: 1em;
+	line-height:1.2em;
+*/}
+
+/*Other Panels*/
+
+.sIFR-hasFlash .panel .content  h3.title, 
+.sIFR-hasFlash .panel .content-bgr  h3.title, 
+.sIFR-hasFlash .panel .content-offset  h3.title, 
+.sIFR-hasFlash .panel .content-overlap  h3.title,
+.sIFR-hasFlash .panel .content-offsetSmall  h3.title,
+.sIFR-hasFlash .panel .content-bgrSmall  h3.title {
+	visibility:hidden;
+/*	line-height: 1.1em;
+	letter-spacing: -.005em;
+	font-size: 1.15em;
+*/}
+
+.sIFR-hasFlash .panel .content  h3.title em, 
+.sIFR-hasFlash .panel .content-bgr  h3.title em, 
+.sIFR-hasFlash .panel .content-offset  h3.title em, 
+.sIFR-hasFlash .panel .content-overlap  h3.title em,
+.sIFR-hasFlash .panel .content-offsetSmall  h3.title em,
+.sIFR-hasFlash .panel .content-bgrSmall  h3.title em {
+	visibility:hidden;
+/*	letter-spacing: -.005em;
+	font-size: 1em;
+	line-height: 1.1em;
+*/}

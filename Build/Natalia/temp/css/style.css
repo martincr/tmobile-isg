@@ -1,0 +1,1852 @@
+@import "buttons.css";
+@import "sifr.css";
+@import "specialoffers.css";
+/*\*//*/
+@import "ie5mac.css";
+/**/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #eee;
+	color: #666;
+	font-family: Arial, Verdana, sans-serif;
+	font-size:100%;
+}
+
+img {
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+a:link, a:visited {
+	color: #666;
+}
+
+a:active, a:hover {
+	color: #e20074;
+}
+
+.offscreen {
+	z-index: 99;
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+}
+
+/* Text Decoration
+----------------------------------------------- */
+.highlight {
+	color: #e20074;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.nobr { white-space: nowrap; }
+
+.line-text {
+	width:100%;
+	margin: 0;
+	border-top:1px solid #b6b6b6;
+}
+
+/* Decorative Layers
+----------------------------------------------- */
+#shadow-meta {
+	background: #fff url("../img/meta_shadow_bg_btm.gif") right top no-repeat;
+	margin-top: 26px;
+	padding: 2px 0 0 0;
+	width: 778px;
+}
+
+html>body #shadow-meta {
+	margin-top: 25px;
+}
+
+#shadow-right {
+	background: url("../img/shadow_right.gif") 100% 0 repeat-y;
+}
+
+#shadow-bottom {
+	background: url("../img/shadow_bottom.gif") 0 100% repeat-x;
+}
+
+#shadow-corner {
+	background: url("../img/shadow_corner.gif") 100% 100% no-repeat;
+	padding: 0 4px 14px 0;
+}
+
+
+/* Generic Floats
+----------------------------------------------- */
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+/* Content
+----------------------------------------------- */
+.left-content, .right-content {
+	float: left;
+	width: 210px;
+	margin-bottom: 12px;
+}
+
+.right-content {
+	float: right;
+}
+
+ul.step li, ul.step li.last {
+	list-style: none;
+	float:left;
+	margin:0 24px 20px 0;
+}
+
+ul.step li.last {
+	margin:0 0 20px 0;
+}
+
+	ul.step li img {
+		width:90px;
+		height:90px;
+	}
+
+ul.test li, ul.special li {
+	font-size: 0.7em;
+	margin: 0;
+	padding: 0 10px 0 10px;;
+	border: 0;
+	line-height: 1.3em;
+	list-style: none;
+	background: #fff url("../img/left_nav_current.gif") no-repeat 0 0.3em;
+}
+
+ul.test li a {
+	text-decoration: none;
+}
+
+ul.special li {
+	padding: 0 10px 10px 10px;;
+}
+
+ul.special li a, ul.special li a:visited {
+	color: #333;
+	text-decoration: underline;
+}
+
+ul.special li a:hover {
+	color: #e20074;
+}
+
+.left-content h4, .right-content h4 {
+	font-size: 0.7em;
+	font-weight: bold;
+	padding: 0 0 2px 0;
+	color: #333;
+}
+
+dl {
+	font-size: 0.7em;
+	line-height: 1.2em;
+	padding: 0 0 10px 0;
+}
+
+dt {
+	color: #333;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 10px 0;
+}
+
+/* Container DIVs
+----------------------------------------------- */
+#content-sidebar-container {
+	float: right;
+	width: 612px;
+}
+
+#content-sidebar-container, #sub-nav-container {
+	margin-top: 6em;
+}
+
+#sub-nav-container {
+	float: left;
+	width: 144px;
+}
+
+#content {
+	float: left;
+	width: 432px;
+	min-height: 170px;
+	height: 170px;
+}
+
+#content h2 {
+	font-size: 0.9em;
+}
+
+#content h3 {
+	/*font-size: 1em;*/
+	margin-bottom:9px;
+	font-weight:normal;
+	color:#333;
+}
+
+#content p {
+	font-size: 0.7em;
+	line-height: 1.2em;
+	padding: 0 0 10px 0;
+}
+
+html>body #content {
+	height: auto;
+}
+
+
+#sidebar {
+	float: left;
+	width: 144px;
+	margin-left: 18px;
+}
+
+
+/* One-column specific styles
+----------------------------------------------- */
+#one-column #content-sidebar-container {
+	margin-left: 0;
+	float: left;
+	width: auto;
+}
+
+#one-column #content {
+	width: auto;
+	width: 724px;
+	padding: 0 18px 18px 18px;
+	min-height: 10px;
+	height: 10px;
+	height: auto;
+}
+
+#orphan #content {
+	width: 684px;
+	padding: 0 0 18px 36px;
+	min-height: 10px;
+	height: 10px;
+	height: auto;
+}
+
+/* Two-column specific styles
+----------------------------------------------- */
+#two-columns #content {
+	width: 594px;
+}
+
+/* Homepage specific styles
+----------------------------------------------- */
+#homepage #content-sidebar-container {
+	margin-left: 0;
+	float: left;
+	width: auto;
+}
+
+#homepage #content {
+	width: auto;
+	width: 558px;
+	padding: 0 18px 18px 18px;
+	min-height: 10px;
+	height: 10px;
+	height: auto;
+}
+
+.content-homepage-left {
+	height: 144px;
+	width: 252px;
+	position: relative;
+	margin: 18px 0;
+	background-repeat: no-repeat;
+}
+
+.content-banner-btm {
+	margin: 18px 0 36px 0;
+}
+
+.digit-homepage {
+	position: absolute;
+	background-color: #e20074;
+	height: 108px;
+	width: 108px;
+	top: 18px;
+	left: 126px;
+}
+
+.digit-homepage img {
+	height: 108px;
+	width: 108px;
+}
+
+/* Left Navigation
+----------------------------------------------- */
+#sub-nav {
+	width: 144px;
+	font-size: 0.7em;
+	border-bottom: 1px solid #999;
+}
+
+.skip-link a:focus {
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+	background-color: #e20074;
+	color: #fff;
+	width: 142px;
+	padding: 10px;
+	display: block;
+	white-space: nowrap;
+}
+
+#sub-nav ul ul {
+	border: 0;
+}
+
+/* Hide from IE-Mac \*/
+* html #sub-nav ul li {
+	float: left;
+	height: 1em;
+}
+/* End hide */
+
+/* Hide from IE-Mac \*/
+* html #sub-nav ul li a {
+	height: 1em;
+}
+/* End hide */
+
+#sub-nav ul li {
+	list-style-type: none;
+	list-style-image: none;
+	border-top: 1px solid #999;
+}
+
+#sub-nav ul li a, #sub-nav ul li a:visited {
+	text-decoration: none;
+	display: block;
+	padding: 3px 5px 3px 10px;
+	color: #666;
+}
+
+#sub-nav ul li.current a,
+#sub-nav ul li.current a:hover,
+#sub-nav ul li#open a,
+#sub-nav ul li#open a:hover,
+#sub-nav ul li a:hover,
+#sub-nav ul li#open li.current li a:hover {
+	color: #fff;
+	background-color: #999;
+}
+
+#sub-nav ul li#open li a,
+#sub-nav ul li#open li.current a:hover {
+	color: #666;
+	background-color: #eee;
+	padding: 3px 5px 3px 18px;
+}
+
+#sub-nav ul li#open li.current a {
+	background: #eee url("../img/left_nav_current.gif") no-repeat 9px 40%;
+}
+
+#sub-nav ul li#open li.current a:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+
+/* Logo
+----------------------------------------------- */
+#logo {
+	position: absolute;
+	top: 2em;
+	left: 0;
+	padding-top: 22px;
+}
+
+#logo img {
+	width: 162px;
+	height: 23px;
+}
+
+
+/* Top Links
+----------------------------------------------- */
+#utility-links {
+	position: absolute;
+	top: 2em;
+	left: 0;
+	float: right;
+	padding-top: 15px;
+	width: 758px;
+}
+
+#utility-links ul {
+	list-style: none;
+}
+
+#utility-links li, #utility-links p {
+	font-size: 0.7em;
+	border-left: 1px solid;
+	line-height: 100%;
+	height: 11px;
+	float: right;
+	padding: 0 6px;
+}
+
+html>body #utility-links li {
+	height: auto;
+	min-height: 9px;
+}
+
+#utility-links li.basket {
+	border: 0;
+	width: 60px;
+}
+
+#utility-links a {
+	text-decoration: none;
+}
+
+#utility-links li.basket a {
+	background: url("../img/i_basket.gif") 0 0 no-repeat;
+	display: block;
+	padding-left: 24px;
+}
+
+html>body #utility-links li.basket a {
+	background-position: 0 0.1em;
+}
+
+/* Main Navigation
+----------------------------------------------- */
+#main-nav {
+	background: url("../img/main_av_bg.gif") repeat-x bottom;
+	font-size: 70%;
+	left: 0;
+	position: absolute;
+	top: 7em;
+	width: 755px;
+}
+
+#main-nav ul {
+	list-style: none;
+	padding: 10px 0 10px 162px;
+}
+
+#main-nav li {
+	float: left;
+	position: relative;
+}
+
+#main-nav span {
+	border-color: #bebebe;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	display: block;
+	padding: 0.2em 0 0 8px;
+	position: relative;
+}
+
+#main-nav #first span {
+	border-left-width: 1px;
+}
+
+#main-nav a {
+	color: #999;
+	display: block;
+	padding: 0 8px 0.2em 0;
+	text-decoration: none;
+}
+
+#main-nav .current span {
+	background: url("../img/main_nav_left.gif") no-repeat right top;
+	border-right: none;
+}
+
+#main-nav a:hover, #main-nav a:active {
+	color: #333;
+}
+
+#main-nav .current a {
+	display: block;
+	padding-right: 14px;
+	background-image: url("../img/main_nav_right.gif");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #666;
+}
+
+#main-nav .current li a {
+	font-weight: normal;
+}
+
+#main-nav .current ul a {
+	background-image: none;
+}
+
+#main-nav li:hover ul, #main-nav li.over ul {
+	/* lists nested under hovered list items */
+	/*top: auto;*/
+	top: 8px;
+}
+
+.none {
+	/* Null helper style for Mac IE5. Prevents error. Kludge. */
+}
+
+/* Main Navigation, 2nd Level
+----------------------------------------------- */
+#main-nav li ul {
+	top: -1000px;
+	left: -160px;
+	position: absolute;
+	z-index: 100;
+	/* Box model hack to fix width issue in IE5 and IE5.5 PC */
+	width: 320px; 
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 160px;
+}
+
+#main-nav li li {
+    list-style: none;
+    background-color: #eee;
+    float: none;
+}
+
+/* Hide from IE-Mac \*/
+* html #main-nav li li { float: left; height: 1em; }
+* html #main-nav li li a { height: 1em; }
+/* End hide */
+
+#main-nav li li a {
+    text-decoration: none;
+    display: block;
+    padding: 3px 5px 3px 10px;
+    background-color: #eee;
+    color: #666;
+    border-bottom: 1px solid #999;
+}
+
+#main-nav li li a:hover {
+	background: #999;
+	color: #fff;
+}
+
+/* Footer
+----------------------------------------------- */
+#footer {
+	clear: both;
+	padding: 7px 0 7px 0;
+	width: 778px;
+}
+
+#footer ul {
+	display: block;
+}
+
+#footer li {
+	border-right: #ccc solid 1px;
+	display: block;
+	float: left;
+	font-size: 0.7em;
+	list-style: none;
+	padding: 0 10px 1px 10px;
+}
+
+#footer li.noborder {
+	border: 0;
+}
+
+#footer li a {
+	color: #666;
+	text-decoration: none;
+}
+
+#footer li a:hover {
+	text-decoration: underline;
+}
+
+#footer li.end {
+	border: 0;
+}
+
+
+/* Meta Navigation
+----------------------------------------------- */
+#meta {
+	display: block;
+	float: left;
+	width: 774px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 27px;
+	/*border: 1px solid #f00;*/
+}
+
+#meta-nav {
+	float: left;
+	width: 612px;
+	height: 27px;
+	/*border: 1px solid #f00;*/
+}
+
+#meta-nav ul {
+	list-style: none;
+}
+
+#meta-nav li {
+	float: left;
+	width: 81px;
+	height: 27px;
+	background: url("../img/meta_li.gif") repeat-y 100% 0%;
+}
+
+#meta-nav a {
+	display: block;
+	text-decoration: none;
+	font-size: 0.7em;
+	padding: 0.6em 1.5em;
+}
+
+#meta-nav a:link, #meta-nav a:visited {
+	color: #999;
+}
+
+#meta-nav a:hover, #meta-nav a:active {
+	color: #333;
+}
+
+#meta-nav li.inactive {
+	background: 0;
+}
+
+#meta-nav #active {
+	background: #fff url("../img/meta_ai_right.gif") no-repeat 100% 0;
+	color: #333;
+}
+
+/* Hide from IE-Mac \*/
+#font-size-controls {
+	float: right;
+	display: inline;
+	padding: 0 18px 0 0;
+	height: 27px;
+	/*width: 144px;*/
+}
+/* End hide */
+
+#font-size-controls {
+	float: right;
+	display: inline;
+	padding: 0 18px 0 0;
+	height: 27px;
+	/*width: 126px;*/
+}
+
+#font-size-controls h2 {
+	font-weight: normal;
+	font-size: 0.7em; /* Was 70% for some reason */
+	padding: 0.5em 0 0 0;
+	float: left;
+}
+
+/* Safari hack */
+#font-size-controls>ul {
+	width: 120px;
+}
+
+#font-size-controls ul {
+	display: block;
+	height: 27px;
+	/*width: 126px;*/
+	/*border: 1px solid #0f0;*/
+}
+
+#font-size-controls li {
+	display: block;
+	float: left;
+	width: 18px;
+	margin: 3px;
+	list-style-type: none;
+}
+
+#font-size-controls li img {
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+}
+
+/* Content Action
+----------------------------------------------- */
+#content-action {
+	clear: both;
+	padding: 20px 0;
+}
+
+#two-columns #content-action, #one-column #content-action { margin-right: 20px; }
+
+#content-action-icons {
+	float: left;
+	font-size: 0.62em;
+}
+
+/* Hide from IE-Mac \*/
+#content-action-icons {
+	font-size: 0.55em;
+}
+/* End hide */
+
+*>html #content-action-icons {
+	font-s\ize: 0.67em;
+}
+
+#content-action-icons li {
+	float: left;
+	margin: 0 10px 0 0;
+	list-style: none;
+	display: block;
+	line-height: 1em;
+}
+
+* html #content-action-icons a {
+	display: block;
+	color: #999;
+	text-decoration: none;
+	padding-top: 18px;
+	text-align: center;
+}
+
+/* Hide from IE-Mac \*/
+#content-action-icons a {
+	position: relative;
+	display: block;
+	color: #999;
+	text-decoration: none;
+	padding-top: 18px;
+	text-align: center;
+}
+/* End hide */
+
+#content-action-print {
+	width: 8em;
+	background: url("../img/i_footer_print.gif") 50% 0 no-repeat;
+}
+
+#content-action-email {
+	width: 8em;
+	background: url("../img/i_footer_email.gif") 50% 0 no-repeat;
+}
+
+#content-action-links {
+	float: right;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+#content-action-links li {
+	display: block;
+	float: left;
+	padding: 0 5px 4px 8px;
+	background: url("../img/pipe_line.gif") left center no-repeat;
+	color: #999;
+	line-height: 1em;
+}
+
+#content-action-links li a {
+	display: inline;
+}
+
+#content-action-links a {
+	font-size: 0.65em;
+	text-decoration: none;
+}
+
+#content-action-links .first {
+	border: 0;
+	padding-left: 0;
+	background-image: none;
+}
+
+
+/* Action Links
+----------------------------------------------- */
+.action-link {
+	clear: both;
+	margin: 0.2em 0;
+}
+
+.action-link a {
+	font-size: 0.7em;
+	position: relative;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.action-link a span {
+	padding-right: 10px;
+	width: 10px;
+	background: url("../img/link_arrow.gif") no-repeat 100% 50%;
+}
+
+.action-link a:hover span {
+	background: url("../img/link_arrow_mg.gif") no-repeat 100% 50%;
+}
+
+
+/* Panels
+----------------------------------------------- */
+.single-col-width {
+	width: 208px;
+}
+
+.double-col-width {
+	width: 430px;
+}
+
+
+/* -----------------| Panels |----------------- */
+.panel {
+	float:left;
+	margin: 0px 12px 18px 0px;
+	border:1px solid #BEBEBE;
+	width:208px;
+	display:inline;
+	position:relative;
+}
+
+.panel.no-right-margin {
+	margin-right: 0;
+}
+/* -----------------| Links > action-link, action-text |----------------- */
+
+.panel .action-link {
+	background-color: #F2F2F2; 
+	padding: 5px 9px; 
+	border-top:1px solid #B6B6B6;
+	margin:0;
+}
+
+.panel .content .action-link {
+	background: none; 
+	border-top:none;
+	padding: 0;
+	margin: 0 0 0.2em 0;
+}
+
+.panel .content .action-link a:link,
+.panel .content .action-link a:visited{
+	color: #666;
+}
+
+.panel .content .action-link a:active, 
+.panel .content .action-link a:hover {
+	color: #e20074;
+}
+
+
+
+.panel .action-text {
+	background-color: #F2F2F2; 
+	border-top:1px solid #B6B6B6;
+	font-size:.7em;
+	padding: 4px 9px 3px 9px; 
+	height:39px;
+}
+
+	* HTML .panel .action-text {height:49px; he\ight:39px;}
+	
+	/* Hack Mac IE \*/
+	html>body .panel .action-text {height:auto; min-height:39px;}
+	/* End of hack Mac IE */
+
+.panel .action-text a{
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/* -----------------| Content |----------------- */
+
+.panel .content{
+	padding:9px 9px 0 9px;
+}
+
+#content .panel h3 {
+	/*font-size: 1em;*/
+	margin-bottom:0;
+	font-weight:normal;
+	color:#333;
+}
+
+.panel h4 {
+	color:#333;
+	font-size:.8em;
+	padding-bottom:9px;
+} 
+
+#content .panel .content p {
+	font-size:.7em;
+	padding:0;
+}
+
+.panel .phone {
+	float:right;
+	margin: 9px 9px 0 0;
+	text-align:right;
+}
+
+.panel .cost {
+	font-size:1em;
+	color:#333;
+	font-weight:bold;
+}
+
+
+.panel .content ul {
+	margin: 0 0 6px 17px;
+	padding: 0;
+	font-size:0.7em;
+}
+
+.panel .content ul li {
+	list-style: square url("../img/left_nav_current.gif");
+}
+
+.panel .content a:link, 
+.panel .content a:visited{
+	color: #333;
+}
+
+.panel .content a:active, 
+.panel .content a:hover {
+	color: #e20074;
+}
+
+
+
+/* -----------------| Content > Width |----------------- */
+
+.width-20percent {width:20%;}
+.width-25percent {width:24%;}
+.width-30percent {width:30%;}
+.width-40percent {width:40%;}
+.width-45percent {width:45%;}
+.width-50percent {width:50%;}
+.width-60percent {width:60%;}
+.width-70percent {width:70%;}
+.width-80percent {width:80%;}
+.width-100percent {	width:100%;}
+
+
+
+/* -----------------| Offset |----------------- */
+
+.offset, 
+.offsetSmall {
+	position:relative;
+	top:-10px;
+	margin-bottom:0px;
+}
+
+/* Hack Mac IE \*/
+.offset, .offsetSmall {margin-bottom:-10px;}
+/* End of hack Mac IE */
+
+
+.panel-double .offset{
+	position:relative;
+	top:-18px;
+	margin-bottom:-18px;
+}
+
+	
+/* -----------------| Digits > Right |----------------- */
+
+.panel-small .digits-right,
+.panel-medium .digits-right,
+.panel-large .digits-right,
+.panel-double .digits-right {
+	position:absolute;
+	top:-9px;
+	right:9px;
+	width:72px;
+	height:72px;
+	background-color:#e20074;
+}
+
+.panel-double .digits-right {
+	right:18px;
+	width:108px;
+	height:108px;
+}
+
+.panel-double .offset .digits-right{
+	top:0;
+}
+
+.panel-double .digits-right{
+	top:-18px;
+}
+
+/* -----------------| Digits > Left |----------------- */
+
+.panel-small .digits-left,
+.panel-medium .digits-left,
+.panel-large .digits-left {
+	position:absolute;
+	top:-9px;
+	left:9px;
+	width:72px;
+	height:72px;
+	background-color:#e20074;
+}	
+	
+/* -----------------| Overlap |----------------- */
+
+.overlap{
+	position:relative;
+	bottom:-9px;
+	padding-bottom:0px;
+}
+
+
+/* -----------------| Panels > Common |----------------- */
+
+.panel-small,
+.panel-medium, 
+.panel-large,
+.panel-double {position:relative;}
+
+.panel .line {
+	margin: 0 9px;
+	border-top:1px solid #b6b6b6;
+}
+
+/* -----------------| SMALL Panels |----------------- */
+
+* HTML .panel-small-link{height:75px;}
+* HTML .panel-small{height:100px;}
+
+
+/* Hack Mac IE \*/
+.panel-small-link {height: auto;min-height: 75px;}
+.panel-small {height: auto;min-height: 100px;}
+/* End of hack Mac IE */
+
+	/* -----------------| SMALL panels > Additional styles |----------------- */
+	
+	* HTML .panel-small-link .content.offset {height:85px; he\ight:76px;}
+	* HTML .panel-small .content.offset {height:110px; he\ight:101px;}
+	* HTML .panel-small-link .content.overlap {height:75px; he\ight:66px;}
+	
+	/* Hack Mac IE \*/
+	.panel-small-link .content.offset {height:auto; min-height:76px;}
+	.panel-small .content.offset {height:auto; min-height:101px;}
+	.panel-small-link .content.overlap {height:auto; min-height:66px;}
+	/* End of hack Mac IE */
+
+	
+/* -----------------| MEDIUM Panels |----------------- */
+	
+* HTML .panel-medium {height:142px;}
+* HTML .panel-medium-link {height:117px;}
+
+	/* Hack Mac IE \*/
+	.panel-medium {height:auto; min-height:142px;}
+	.panel-medium-link {height:auto; min-height:117px;}
+	/* End of hack Mac IE */
+
+	
+/* -----------------| LARGE Panels |----------------- */
+
+* HTML .panel-large {height:216px;}
+* HTML .panel-large-link {height:191px;}
+* HTML .panel-large-text {height:166px;}
+
+/* Hack Mac IE \*/
+.panel-large {height:auto; min-height:216px;}
+.panel-large-link {height:auto; min-height:191px;}
+.panel-large-text {height:auto; min-height:166px;}
+/* End of hack Mac IE */
+
+	/* -----------------| LARGE panels > Additional styles |----------------- */	
+	
+	* HTML .panel-large .content.bgr,
+	* HTML .panel-large-link .content.bgr,
+	* HTML .panel-large-text .content.bgr {height:107px; he\ight:98px;}
+		
+		
+	/* Hack Mac IE \*/
+	.panel-large .content.bgr,
+	.panel-large-link .content.bgr,
+	.panel-large-text .content.bgr {height:auto; min-height:98px;}
+	/* End of hack Mac IE */
+		
+		
+	* HTML .panel-large .content.offset,
+	* HTML .panel-large-link .content.offset,
+	* HTML .panel-large-text .content.offset {height:117px; he\ight:108px;}
+		
+	/* Hack Mac IE \*/
+	.panel-large .content.offset,
+	.panel-large-link .content.offset,
+	.panel-large-text .content.offset {height:auto; min-height:108px;}
+	/* End of hack Mac IE */
+	
+
+/* -----------------| xLARGE Panels |----------------- */
+
+* HTML .panel-xlarge {height:286px;}
+* HTML .panel-xlarge-link {height:238px;}
+
+	/* Hack Mac IE \*/
+	.panel-xlarge {height:auto; min-height:286px;}
+	.panel-xlarge-link {height:auto; min-height:238px;}
+	/* End of hack Mac IE */
+	
+	/* -----------------| xLARGE panels > Additional styles |----------------- */
+	
+	* HTML .panel-xlarge .content.bgr, 
+	* HTML .panel-xlarge-link .content.bgr {height:107px; he\ight:98px;}
+		
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.bgr,
+	.panel-xlarge-link .content.bgr {height:auto; min-height:98px;}
+	/* End of hack Mac IE */
+		
+		
+	* HTML .panel-xlarge .content.offset,
+	* HTML .panel-xlarge-link .content.offset {height:117px; he\ight:108px;}
+	
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.offset,
+	.panel-xlarge-link .content.offset {height:auto; min-height:108px;}
+	/* End of hack Mac IE */
+	
+	
+	* HTML .panel-xlarge .content.bgrSmall {height:95px; he\ight:86px;}
+		
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.bgrSmall {height:auto; min-height:86px;}
+	/* End of hack Mac IE */	
+		
+		
+	* HTML .panel-xlarge .content.offsetSmall {height:104px;he\ight:95px;}	
+		
+	/* Hack Mac IE \*/
+	.panel-xlarge .content.offsetSmall {height: auto;min-height: 95px;}
+	/* End of hack Mac IE */
+
+
+/* -----------------| DOUBLE Panels |----------------- */	
+
+* HTML .panel-double {height:106px;}
+* HTML .panel-double-link {height:79px;}
+
+/* Hack Mac IE \*/
+.panel-double {height:auto; min-height:106px;}
+.panel-double-link {height:auto; min-height:79px;}
+/* End of hack Mac IE */
+	
+/* -----------------| DOUBLE Panels > Additional styles |----------------- */
+	
+	* HTML .panel-double .content.offset {height:113px;}
+	
+	/* Hack Mac IE \*/	
+	.panel-double .content.offset {height: auto;min-height: 113px;}
+	/* End of hack Mac IE */	
+	
+
+
+.panel form {
+	margin: 2px 0;
+}
+
+.panel input {
+	font-size: 0.7em;
+	color: #666;
+	margin: 3px 0;
+}
+
+/* Panel build extras - for testing
+----------------------------------------------- */
+.panel .panel-small-footprint {
+	width: 206px;
+	height: 98px;
+	position: absolute;
+	border: dotted 1px #000;
+	z-index: 3;
+}
+
+.panel .panel-medium-footprint {
+	width: 206px;
+	height: 140px;
+	position: absolute;
+	border: dotted 1px #000;
+	z-index: 3;
+}
+
+.panel .panel-large-footprint {
+	width: 206px;
+	height: 212px;
+	position: absolute;
+	border: dotted 1px #000;
+	z-index: 3;
+}
+
+.panel .panel-xlarge-footprint {
+	width: 206px;
+	height: 284px;
+	position: absolute;
+	border: dotted 1px #000;
+	z-index: 3;
+}
+
+.panel .panel-double-footprint {
+	width:428px;
+	height: 104px;
+	position: absolute;
+	border: dotted 1px #000;
+	z-index: 3;
+}
+
+
+/* Generic
+----------------------------------------------- */
+
+/* Blocks */
+.panel-tabs-top .content, .panel-tabs-middle .content {
+	padding: 9px;
+	font-size: 0.7em;
+}
+
+
+/* Tab Menu Navigation
+----------------------------------------------- */
+.tab-menu-nav {
+	float: left;
+	width: 432px;
+	background: url(../img/tab_menu_bg.gif) 0 100% repeat-x;
+	line-height: normal;
+	margin-bottom: 18px;
+}
+
+.tab-menu-nav ul {
+	padding: 10px 0 0 0;
+	list-style: none;
+}
+
+.tab-menu-nav li {
+	float: left;
+}
+
+.tab-menu-nav span {
+	float: left;
+	display: block;
+	padding: 3px 8px 3px 8px;
+	border-right: solid 1px #bebebe;
+}
+
+/* Hide from IE-Mac \*/
+.tab-menu-nav a { float: none; }
+/* End hide */
+
+.tab-menu-nav a {
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+.tab-menu-nav a:link, .tab-menu-nav a:visited {
+	color: #999;
+}
+
+.tab-menu-nav a:hover, .tab-menu-nav a:active {
+	color: #333;
+}
+
+.tab-menu-nav .current {
+	background: url(../img/tab_menu_left.gif) no-repeat right top;
+}
+
+.tab-menu-nav .current span {
+	display: block;
+	padding-right: 14px;
+	background: url(../img/tab_menu_right.gif) no-repeat right bottom;
+	border-right: 0;
+}
+
+.tab-menu-nav .current a:link,
+.tab-menu-nav .current a:visited,
+.tab-menu-nav .current a:hover,
+.tab-menu-nav .current a:active {
+	color: #333;
+}
+
+.tab-menu-nav .first span {
+	border-left: solid 1px #bebebe;
+}
+
+
+.tab-menu-nav-middle, .tab-menu-nav-top {
+	float: left;
+	margin: 0 12px 18px 0;
+	border: 1px solid #bebebe;
+	width: 412px;
+	padding: 9px;
+}
+
+.tab-menu-nav-top {
+	border-top: none;
+}
+
+.middle {
+	width: 431px;
+	margin: 0 -10px 8px -5px;
+}
+
+html>body .middle {
+	width: 430px;
+	margin: 0 -9px 8px -9px;
+}
+
+
+/* Banners
+----------------------------------------------- */
+.content-banner-top, .content-banner-btm, .content-banner-focus {
+	height: 108px;
+	width: 432px;
+	position: relative;
+	margin: 18px 0;
+	background-repeat: no-repeat;
+}
+
+.content-banner-btm {
+	margin: 18px 0 36px 0;
+}
+
+.content-banner-focus {
+	height: 126px;
+	margin: 0 0 18px 0;
+}
+
+.content-banner-focus a {
+	display: block;
+	width: 432px;
+	height: 126px;
+}
+
+.content-banner-focus a span {
+	display: none;
+}
+
+/* Hide from IE-Mac \*/
+.content-banner-focus a span {
+	position: absolute;
+	left: -5000px;
+}
+/* End hide */
+
+
+div.content-banner-top .digit-right-middle, 
+div.content-banner-top .digit-right, 
+div.content-banner-btm .digit-left,
+div.content-banner-btm .digit-left-middle, 
+div.content-banner-btm .digit-right-middle, 
+div.content-banner-btm .digit-right {
+	position: absolute;
+	background-color: #e20074;
+	height: 108px;
+	width: 108px;
+	top: 18px;
+}
+
+div.content-banner-top .digit-right-middle {
+	left: 232px;
+	top: -18px;
+}
+
+div.content-banner-top .digit-right {
+	left: 306px;
+	top: -18px;
+}
+
+div.content-banner-btm .digit-left {
+	left: 18px;
+}
+
+div.content-banner-btm .digit-left-middle {
+	left: 100px;
+}
+
+div.content-banner-btm .digit-right-middle {
+	left: 232px;
+}
+
+div.content-banner-btm .digit-right {
+	left: 306px;
+}
+
+div.content-banner-top .digit-right-middle img, 
+div.content-banner-top .digit-right img, 
+div.content-banner-btm .digit-left img,
+div.content-banner-btm .digit-left-middle img, 
+div.content-banner-btm .digit-right-middle img,
+div.content-banner-btm .digit-right img {
+	height: 108px;
+	width: 108px;
+}
+
+
+/* Account
+----------------------------------------------- */
+.service {
+	min-width: 144px;
+}
+
+.service h2,
+.service .headerBg {
+	margin: 0;
+	padding: 2px 9px 3px 9px;
+	background-color: #78aa51;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.8em;
+	border: solid #b8b8b8;
+	border-width: 1px 1px 0;
+}
+
+input.usernamefield, input.passwordfield {
+	width: 8.8em;
+}
+
+.service .content {
+	border: 1px solid #bebebe;
+	border-top: none;
+	background: #f2f2f2 url("../img/main.gif") no-repeat 100% 100%;
+}
+
+.service div.block {
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 6px 9px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.service div.block.last {
+	border: 0;
+}
+
+.service p.hello {
+	width: 124px;
+	margin: 0;
+	padding: 5px 0;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.service .block .content {
+	font-size: 0.7em;
+	border: 0;
+	position: relative;
+}
+
+.service h3 {
+	font-weight: bold;
+	font-size: 0.7em;
+	color: #333;
+}
+
+.service .block .detail p {
+	font-size: 0.7em;
+}
+
+.service .detail h3 {
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #333;
+}
+
+.service .buttons-foot {
+	background-color: #fff;
+	border: 0;
+	padding: 5px 0 0 10px;
+	margin: 0;
+	text-align: center;
+}
+
+* html .service .buttons-foot  {
+	padding: 5px 0 0 5px;
+}
+
+.detail img {
+	float: left;
+	padding: 0 5px 0 0;
+	width: 42px;
+	height: 74px;
+}
+
+.service ul {
+	margin: 4px 0;
+}
+
+.service li {
+	font-size: 0.7em;
+	margin: 0;
+	padding: 0 10px;
+	border: 0;
+	line-height: 1.3em;
+	list-style: none;
+	background: #f2f2f2 url("../img/left_nav_current.gif") no-repeat 0 40%;
+}
+
+.service li a {
+	text-decoration: none;
+}
+
+.service label {
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #333;
+	cursor: pointer;
+}
+
+
+/* Account --- Additional Tools */
+.additional-tools {
+	margin: 9px 0 0 0; 
+	min-width: 144px;
+}
+ 
+.additional-tools h2, 
+.additional-tools .headerBg {	
+	margin: 0;
+	padding: 2px 9px 3px 9px;
+	background-color: #f2f2f2;
+	color: #333;
+	font-weight: bold;
+	font-size: 0.8em;
+	border: solid #b8b8b8;
+	border-width: 1px 1px 0;
+}
+
+.additional-tools .content {
+	border: 1px solid #bebebe;
+	background: #fff url("../img/main.gif") no-repeat 100% 100%;
+}
+
+.additional-tools div.block {
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 6px 9px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.additional-tools div.block.last {
+	border: 0;
+}
+
+.additional-tools .block .content {
+	font-size: 0.7em;
+	border: 0;
+	position: relative;
+}
+
+.additional-tools p {
+	font-size: 0.7em;
+}
+
+.additional-tools a {
+	font-size: 0.7em;
+	position: relative;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.additional-tools a span {
+	padding-right: 10px;
+	width: 10px;
+	background: url("../img/link_arrow.gif") no-repeat 100% 50%;
+}
+
+.additional-tools a:hover span {
+	background: url("../img/link_arrow_mg.gif") no-repeat 100% 50%;
+}
+
+
+/* Basket + table data
+----------------------------------------------- */
+#basket {
+	min-width: 145px;
+}
+
+#basket h2 {	
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 2px 9px 2px 32px;
+	background: #5ba4db url(../img/icon_basket.gif) no-repeat 9px 6px;
+}
+
+#basket .content {
+	padding: 0 9px;
+	margin: 0;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	background-color: #fff;
+}
+
+#basket .block {
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 10px 0;
+	border-bottom: 1px solid #e7e7e7;
+
+}
+
+#basket .block.last {
+	border-bottom: none;
+}
+
+#basket .block h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;    
+	font-size: 0.7em;
+	color: #666;
+}
+
+#basket .block.current h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;    
+	font-size: 0.7em;
+	color: #5ba4db;
+}
+
+#basket .block h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;    
+	font-size: 1.2em;
+	color: #333;
+}
+
+#basket .buttons {
+	background-color: #fff;
+	border: 0;
+	padding: 0 0 8px 0;
+	margin: 0;
+}
+
+#basket div.buttons .clear {
+	height: 4px
+}
+
+#basket table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+#basket td {
+	font-size: 0.7em;
+}
+
+#basket td span.image {
+	float: left;
+	padding: 0 5px 0 0;
+}
+
+#basket td.cost,
+#basket .total td.cost {
+	text-align: right;
+	font-weight: bold;
+	vertical-align: bottom; 
+	color: #333;
+	width: 20%;
+}
+
+#basket td.caption,
+#basket .total td.caption,
+#basket td.description {
+	font-weight: bold; 
+	vertical-align: bottom;
+	color: #333;
+}
+
+#basket .total td.cost,
+#basket .total td.caption {
+	color: #999;
+}
+
+#basket td.description {
+	color: #666;
+}
+
+
+/* Tables
+----------------------------------------------- */
+.table-main,
+.table-vert-border,
+.table-horiz-border {
+	width: 100%;
+	margin: 18px 0;
+	border-collapse: collapse;	
+}
+
+/* Outside Tables borders */
+.table-vert-border {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+/* Inside Tables borders */
+.table-vert-border td{
+	border-right: 1px solid #e7e7e7;
+}
+
+.table-horiz-border td{
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.table-main td,
+.table-vert-border td,
+.table-horiz-border td	{
+	padding: 5px 7px;
+	font-size: 0.7em;
+}
+
+.table-vert-border th.noborder,
+.table-vert-border td.noborder,
+.table-horiz-border th.noborder,
+.table-horiz-border td.noborder {
+	border: 0;
+}
+
+.table-main th,
+.table-vert-border th,
+.table-horiz-border th {
+	background-color: #e4e4e4;
+	color: #333;
+	font-size: 0.7em;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 7px;
+	border-bottom: 1px solid #b6b6b6;
+	border-right: 1px solid #b6b6b6;
+}
+
+.table-main tr.basket th,
+.table-vert-border tr.basket th,
+.table-horiz-border tr.basket th {
+	background-color: #5ca5dc;
+	color: #fff;
+	padding: 5px 7px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.table-main tr.bgr td,
+.table-vert-border tr.bgr td,
+.table-horiz-border tr.bgr td,
+.table-main td.bgr,
+.table-vert-border td.bgr,
+.table-horiz-border td.bgr{
+	background-color: #f2f2f2;
+}
+
+.table-main tr.divider td,
+.table-vert-border tr.divider td,
+.table-horiz-border tr.divider td{
+	border-top: 1px solid #e7e7e7;
+}
+
+.table-main tr.subheader td,
+.table-vert-border tr.subheader td,
+.table-horiz-border tr.subheader td{
+	border: 0;
+	padding: 10px 7px;
+	font-weight: bold;
+	text-align: left;
+	background:#fff;
+
+}
+
+caption  {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #333;
+	text-align: left;
+	padding: 10px 7px;
+	margin:0;
+
+}
+
+/*small hack for Gecko - remove caption margin*/
+:root caption {
+	margin-bottom:-18px;
+}
+
+/*Highlighted caption*/
+.table-main caption.bgr,
+.table-vert-border caption.bgr,
+.table-horiz-border caption.bgr {
+	background-color: #e4e4e4;
+	border-top: 1px solid #b6b6b6;
+}
+
+
+.table-main td.tdstrong,
+.table-vert-border td.tdstrong,
+.table-horiz-border td.tdstrong {
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #333;
+}
+
+.table-main td .btn,
+.table-vert-border td .btn,
+.table-horiz-border td .btn {
+	font-size: 1.0em;
+	margin: 0;
+	float: right;
+}

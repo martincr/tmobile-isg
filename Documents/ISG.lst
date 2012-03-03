@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<csebatchwizardtargetlist version="8">
+ <options />
+ <target flags="1069547530" target="C:\Documents and Settings\Mcrocket\My Documents\Projects\ISG\Build" />
+ <target flags="1069547530" target="C:\Documents and Settings\Mcrocket\My Documents\Projects\ISG\Snippets" />
+ <target flags="1069547530" target="C:\Documents and Settings\Mcrocket\My Documents\Projects\ISG\UILibrary" />
+ <target flags="1069547674" target="C:\Documents and Settings\Mcrocket\My Documents\Projects\ISG\Build\Workshop" fllimitto="C:\Documents and Settings\Mcrocket\My Documents\Projects\ISG\Build\Workshop\" />
+</csebatchwizardtargetlist>

@@ -1,0 +1,285 @@
+h1 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: normal !important;
+	letter-spacing: -.05em !important;
+	margin:-5px 0 5px 0 !important;
+	padding: 0 !important;
+	color: #e20074 !important;
+	font-size: 1.55em !important;
+	line-height:1.2em !important;
+	
+}
+
+h1 em {
+	font-size: 1em !important;
+	line-height:1.2em !important;
+	font-style: normal !important;
+	color: #333 !important;
+}
+
+h2.sub-title {
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: normal !important;
+	line-height:1.2em !important;
+	letter-spacing: -.05em !important;
+	margin:-5px 0 5px 0 !important;
+	padding: 0 !important;
+	color: #e20074 !important;
+	font-size: 1.4em !important;
+}
+
+h2.sub-title em {
+	line-height:1.2em !important;
+	font-style: normal !important;
+	color: #333 !important;
+	padding:0 !important;
+	
+}
+
+/*h3.comment {
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: normal !important;
+	letter-spacing: -.05em !important;
+	margin:-5px 0 5px 0 !important;
+	padding: 0 !important;
+	color: #666 !important;
+	font-size: 1.15em !important;
+}
+
+h3.comment em {
+
+	font-style: normal !important;
+	color: #333 !important;
+	padding:0 !important;
+	
+}
+*/
+
+/*Double Panel*/
+.panel .panel-double .content h3.title,
+.panel .panel-double-link .content h3.title{
+	font-family: "Times New Roman", Times, serif;
+	font-size:1.3em;
+	font-weight: normal;
+	letter-spacing: -.05em;
+	line-height:1.2em;
+	color: #e20074;
+
+}
+
+
+.panel .panel-double .content h3.title em,
+.panel .panel-double-link .content h3.title em{
+	line-height:1.2em;
+	font-style: normal;
+	color: #333;
+	padding:0;
+
+}
+
+.panel .panel-double .content.offset h3.title {
+	margin-top:16px;
+}
+
+/*For commented double panel title*/
+.panel .panel-double .content h3.title-comment,
+.panel .panel-double-link .content h3.title-comment{
+	color:#666666;
+}
+
+.panel .panel-double .content h3.title-comment em,
+.panel .panel-double-link .content h3.title-comment em{
+	color:#333;
+	font-style: normal;
+}
+/*End of Double panels*/
+
+/* Hack Mac IE \*/
+.panel .panel-double .content.offset h3.title {
+	margin-top:16px;
+}
+
+* HTML .panel .panel-double .content.offset h3.title{
+	margin-top:27px;
+}
+/* End of hack Mac IE */
+
+/*All panels*/
+.panel .content h3.title {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size:1.15em;
+	letter-spacing: -.05em;
+	line-height:1.2em;
+	color: #e20074;
+
+}
+
+.panel .content h3.title em{
+	line-height:1.2em;
+	font-style: normal;
+	color: #333;
+	padding:0;
+
+}
+
+/*For commented title 666666 color*/
+
+.panel .content h3.title-comment{
+	color: #666666;
+
+}
+.panel .content h3.title-comment em{
+	font-style: normal;
+	color: #333;	
+}
+/**/
+
+.panel .content.offset h3.title,
+.panel .content.offsetSmall h3.title {
+	margin-top:9px;
+}
+
+.panel .content.overlap h3.title {
+	margin-top:-9px;
+}
+
+
+
+/* Hack Mac IE \*/
+.panel .content.offset h3.title, .panel .content.offsetSmall h3.title {
+	margin-top:9px;
+}
+
+* HTML .panel .content.offset h3.title, * HTML .panel .content.offsetSmall h3.title {
+	margin-top:18px;
+}
+/* End of hack Mac IE */
+
+
+/* These are standard sIFR styles... do not modify */
+
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+
+.sIFR-hasFlash h1{
+
+	letter-spacing: -.05em;
+	font-size: 1.55em;
+	line-height:1.2em;
+
+}
+.sIFR-hasFlash h1 em {
+	line-height:1.2em;
+	letter-spacing: -.05em;
+	font-size: 1em;
+
+}
+.sIFR-hasFlash h2.sub-title{
+	line-height:1.2em;
+	letter-spacing: -.05em;
+	font-size: 1.4em;
+
+}
+.sIFR-hasFlash h2.sub-title em {
+	line-height:1.2em;
+	letter-spacing: -.05em;
+	font-size: 1em;
+
+}
+
+.sIFR-hasFlash h3.comment{
+	letter-spacing: -.05em;
+	font-size: 1.15em;
+	line-height:1.2em;
+
+}
+
+.sIFR-hasFlash h3.comment em{
+	letter-spacing: -.05em;
+	font-size: 1em;
+	line-height:1.2em;
+
+}
+
+.sIFR-hasFlash .panel .panel-double .content h3.title,
+.sIFR-hasFlash .panel .panel-double-link .content h3.title{	
+	line-height:1.2em;
+	letter-spacing: -.05em;
+	font-size: 1.3em;
+	
+}
+
+.sIFR-hasFlash .panel .panel-double .content h3.title em,
+.sIFR-hasFlash .panel .panel-double-link .content h3.title em{
+	letter-spacing: -.05em;
+	font-size: 1em;
+	line-height:1.2em;
+
+}
+/*666666*/
+.sIFR-hasFlash .panel .panel-double .content h3.title-comment,
+.sIFR-hasFlash .panel .panel-double-link .content h3.title-comment{	
+	line-height:1.2em;
+	letter-spacing: -.05em;
+	font-size: 1.3em;
+	
+}
+
+.sIFR-hasFlash .panel .panel-double .content h3.title-comment em,
+.sIFR-hasFlash .panel .panel-double-link .content h3.title-comment em{
+	letter-spacing: -.05em;
+	font-size: 1em;
+	line-height:1.2em;
+
+}
+/**/
+
+.sIFR-hasFlash .panel .content h3.title {
+	line-height:1.2em;
+	letter-spacing: -.05em;
+	font-size: 1.15em;
+}
+
+.sIFR-hasFlash .panel .content h3.title em {
+	letter-spacing: -.05em;
+	font-size: 1em;
+	line-height:1.2em;
+
+}
+/*666666*/
+.sIFR-hasFlash .panel .content h3.title-comment {
+	line-height:1.2em;
+	letter-spacing: -.05em;
+	font-size: 1.15em;
+}
+
+.sIFR-hasFlash .panel .content h3.title-comment em {
+	letter-spacing: -.05em;
+	font-size: 1em;
+	line-height:1.2em;
+
+}
+
+
+
+
+

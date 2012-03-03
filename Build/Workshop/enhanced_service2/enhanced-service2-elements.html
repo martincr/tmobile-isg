@@ -1,0 +1,483 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Enhanced Service 2 elements</title>
+	<meta name="description" content=" " />
+	<meta name="keywords" content=" " />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<style type="text/css">@import url("css/style.css");</style>
+	<link rel="stylesheet" href="../common/css/presentation.css" type="text/css" />
+	<script src="../common/js/sifr.js" type="text/javascript"></script>
+	<script src="../common/js/sifr-addons.js" type="text/javascript"></script>
+	<script src="../common/js/top-nav.js" type="text/javascript"></script>
+	<script src="../common/js/general.js" type="text/javascript"></script>
+</head>
+<body style="margin:20px;">
+
+<div id="content">
+
+	<h4 class="title">Enhanced Service 2 elements</h4>
+
+	<div class="box-small">
+		<div class="warning">Error message</div>
+		<div class="confirm">Confirm message</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="box" style="width:432px">
+
+		<h4 class="title">Account info block <span class="highlight">info &amp; select &amp; action</span></h4>
+
+		<!-- START Account info block -->
+		<form action="#">
+		<div class="account-info">
+
+			<ul class="info-left">
+				<li>
+					<strong>Account number</strong>
+					&lt; account_number &gt;
+				</li>
+				<li>
+					<strong>Account name</strong>
+					&lt; account_name &gt;
+				</li>
+				<li>
+					<label for="mobile-number">Mobile number</label>
+					<select id="mobile-number"><option>07123 456 789</option></select>
+					<div class="btn comm"><input type="submit" value="Select" class="small" /></div><br />
+				</li>
+				<li>
+					<label for="billing-date">Billing date</label>
+					<select id="billing-date"><option>01/02/0003</option></select>
+					<div class="btn comm"><input type="submit" value="View" class="small" /></div><br />
+				</li>
+			</ul>
+
+			<ul class="info-right">
+				<li><a href="javascript:;" class="action-link">Make a payment<span>&nbsp;</span></a></li>
+				<li><a href="javascript:;" class="action-link">Make Top Up payment<span>&nbsp;</span></a></li>
+				<li><a href="javascript:;" class="action-link">Order paper bill<span>&nbsp;</span></a></li>
+			</ul>
+
+			<div class="clear"></div>
+		</div>
+		</form>
+		<!-- END Account info block -->
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box" style="width:432px">
+
+		<h4 class="title">Account info block <span class="highlight">info &amp; select</span></h4>
+
+		<!-- START Account info block -->
+		<form action="#">
+		<div class="account-info select-right">
+			<ul class="info-left">
+				<li><strong>Account number</strong><br />&lt; account_number &gt;</li>
+			</ul>
+			<ul class="info-right">
+				<li>
+					<label for="mobile-number">Mobile number</label>
+					<select id="mobile-number"><option>07123 456 789</option></select>
+					<div class="btn comm"><input type="submit" class="small" value="Select" /></div><br />
+				</li>
+				<li>
+					<label for="billing-date">Billing date</label>
+					<select id="billing-date"><option>01/02/0003</option></select>
+					<div class="btn comm"><a href="javascript:;" class="small">View</a></div><br />
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		</form>
+		<!-- END Account info block -->
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box" style="width:432px">
+
+		<h4 class="title">Account info block <span class="highlight">select</span></h4>
+
+		<!-- START Account info block -->
+		<form action="#">
+		<div class="account-info">
+			<ul class="info-left">
+				<li>
+					<label for="mobile-number">Mobile number</label>
+					<select id="mobile-number"><option>07123 456 789</option></select>
+					<div class="btn comm"><input type="submit" value="Select" class="small" /></div><br />
+				</li>
+				<li>
+					<label for="billing-date">Billing date</label>
+					<select id="billing-date"><option>01/02/0003</option></select>
+					<div class="btn comm"><input type="submit" value="View" class="small" /></div><br />
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		</form>
+		<!-- END Account info block -->
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box" style="width:432px">
+
+		<h4 class="title">Account info block <span class="highlight">info</span> with bottom border</h4>
+
+		<!-- START Account info block -->
+		<div class="account-info border-bottom">
+			<ul class="info-left">
+				<li>
+					<strong>Account number</strong><br />
+					&lt; account_number &gt;
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<!-- END Account info block -->
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box" style="width:432px">
+
+		<h4 class="title">Top Up block</h4>
+
+		<!-- START Top up panel -->
+		<h2 class="sub-title">Top Up</h2>
+		<form action="#" class="form">
+			<fieldset class="label-bold">
+				<div class="row">
+					<div style="width:181px"><p>You have a card registered</p></div>
+					<div><label class="text-right" style="width:117px">Balance remaining</label><p>&pound;7.89</p></div><br />
+				</div>
+				<div class="row">
+					<div style="margin-left:181px">
+						<label for="amount" class="text-right" style="width:117px">Amount &pound;</label>
+						<input type="text" id="amount" style="width:50px" />
+						<div class="btn comm float-left"><a href="javascript:;" class="small">Top Up</a></div>
+					</div><br />
+				</div>
+				<div class="row">
+					<div style="width:181px">
+						<ul class="action-links">
+							<li><a href="javascript:;" class="action-link">Register a new card<span>&nbsp;</span></a></li>
+							<li><a href="javascript:;" class="action-link">Top up history<span>&nbsp;</span></a></li>
+						</ul>
+					</div>
+					<div><p>(Minimum &pound;5 &ndash; maximum &pound;200)</p></div><br />
+				</div>
+			</fieldset>
+		</form>
+		<!-- END Top up panel -->
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box">
+
+		<h4 class="title">Process bar</h4>
+
+		<h1 class="title float-left">Page title</h1>
+		<!-- START Process bar -->
+		<ul id="process-bar">
+			<li class="label">Steps:</li>
+			<li class="current"><strong>1</strong><span>&nbsp;</span></li>
+			<li><strong>2</strong><span>&nbsp;</span></li>
+			<li class="last"><strong>3</strong></li>
+		</ul>
+		<div class="clear"></div>
+		<!-- END Process bar -->
+		
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box">
+		
+		<h4 class="title">Expand list</h4>
+
+		<!-- START Expand list -->
+		<form action="#">
+		<div class="expand-list">
+			<div class="show" id="mms-allowances-level"><a href="#" onclick="return switcher('mms-allowances','mms-allowances-level')" class="plus-l"><span>&nbsp;</span>Picture message allowances</a></div>
+			<div id="mms-allowances" class="level off">	
+			
+				<div><a href="#"  onclick="return switcher('mms-allowances','mms-allowances-level')" class="minus-l"><span>&nbsp;</span>Picture message allowances</a></div>
+	
+				<ul class="check-list">
+					<li><input type="checkbox" id="mms-50" /><label for="mms-50">50 picture messages</label><div>&pound;3.50</div><br /></li>
+					<li><input type="checkbox" id="mms-500" /><label for="mms-500">500 picture messages</label><div>&pound;17.00</div><br /></li>
+					<li><input type="checkbox" id="mms-1000" /><label for="mms-1000">1000 picture messages</label><div>&pound;30.00</div><br /></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			
+			<div class="hide" id="text-allowances-level"><a href="#" onclick="return switcher('text-allowances','text-allowances-level')" class="plus-l"><span>&nbsp;</span>Text message allowances</a></div>
+			<div id="text-allowances" class="level">	
+			
+				<div><a href="#"  onclick="return switcher('text-allowances','text-allowances-level')" class="minus-l"><span>&nbsp;</span>Text message allowances</a></div>
+	
+				<ul class="check-list">
+					<li><input type="checkbox" id="text-50" /><label for="text-50">50 text messages</label><div>&pound;3.50</div><br /></li>
+					<li><input type="checkbox" id="text-500" /><label for="text-500">500 text messages</label><div>&pound;17.00</div><br /></li>
+					<li><input type="checkbox" id="text-1000" /><label for="text-1000">1000 text messages</label><div>&pound;30.00</div><br /></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			
+			<div class="show" id="data-allowances-level"><a href="#" onclick="return switcher('data-allowances','data-allowances-level')" class="plus-l"><span>&nbsp;</span>Data allowances</a></div>
+			<div id="data-allowances" class="level off">	
+			
+				<div><a href="#"  onclick="return switcher('data-allowances','data-allowances-level')" class="minus-l"><span>&nbsp;</span>Data allowances</a></div>
+	
+				<ul class="check-list">
+					<li><input type="checkbox" id="data-1" /><label for="data-1">Data allowance</label><div>&pound;3.50</div><br /></li>
+					<li><input type="checkbox" id="data-2" /><label for="data-2">Data allowance</label><div>&pound;17.00</div><br /></li>
+					<li><input type="checkbox" id="data-3" /><label for="data-3">Data allowance</label><div>&pound;30.00</div><br /></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+		</form>
+		<!-- END Expand list -->
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box">
+
+		<h4 class="title">Phones list</h4>
+
+		<!-- START Phone list -->
+		<div class="panel specific-width432px">
+			<div class="content">
+				<div class="phone-list">
+					<p>
+						<a href="javascript:;"><img src="../common/img/phones/nokia_6210.gif" alt="&lt; Phone name &gt;" /></a><br />
+						<a href="javascript:;">&lt; Phone name &gt;</a>
+					</p>
+					<p>
+						<a href="javascript:;"><img src="../common/img/phones/nokia_6210.gif" alt="&lt; Phone name &gt;" /></a><br />
+						<a href="javascript:;">&lt; Phone name &gt;</a>
+					</p>
+					<p>
+						<a href="javascript:;"><img src="../common/img/phones/nokia_6210.gif" alt="&lt; Phone name &gt;" /></a><br />
+						<a href="javascript:;">&lt; Phone name &gt;</a>
+					</p>
+					<p class="no-right-margin">
+						<a href="javascript:;"><img src="../common/img/phones/nokia_6210.gif" alt="&lt; Phone name &gt;" /></a><br />
+						<a href="javascript:;">&lt; Phone name &gt;</a>
+					</p>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- END Phone list -->
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box">
+
+		<h4 class="title">Horizontal list for wide panels</h4>
+
+		<div class="panel specific-width432px">
+			<div class="panel-small">
+				<div class="content">
+
+					<!-- START Horizontal list -->
+					<ul class="panel-actions">
+						<li><a href="javascript:;">See unbilled use</a></li>
+						<li><a href="javascript:;">See prepaid use</a></li>
+						<li><a href="javascript:;">Payment history</a></li>
+						<li><a href="javascript:;" class="action-link">Make a payment<span>&nbsp;</span></a></li>
+					</ul>
+					<div class="clear"></div>
+					<!-- END Horizontal list -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box-small">
+
+		<h4 class="title">Action links list</h4>
+
+		<!-- START Action links list -->
+		<ul class="action-links">
+			<li><a href="javascript:;" class="action-link">Action link<span>&nbsp;</span></a></li>
+			<li><a href="javascript:;" class="action-link">Action link<span>&nbsp;</span></a></li>
+			<li><a href="javascript:;" class="action-link">Action link<span>&nbsp;</span></a></li>
+		</ul>
+		<!-- END Action links list -->
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box-small">
+
+		<h4 class="title">Phone details</h4>
+
+		<!-- START Phone details -->
+		<div class="panel no-right-margin">
+			<div class="panel-large">		
+				<div class="content">
+					<h3 class="title">Phone Details</h3>
+					<p>Manage your phone and settings</p>
+
+					<div class="width-100percent" style="margin-bottom: 9px">
+						<img src="../common/img/phones/nokia_6210.gif" alt="Nokia 6210i" class="float-left" />
+						<div class="float-right width-70percent">
+							<p><strong>Your<br/>Nokia 6210i</strong></p>
+							<p><a href="javascript:;">Not your phone?</a></p>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+					<ul>
+						<li><a href="javascript:;">Can I upgrade?</a></li>
+						<li><a href="javascript:;">Phone manual</a></li>
+						<li><a href="javascript:;">Phone settings</a></li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<!-- END Phone details -->
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box" style="width:432px">
+
+		<h4 class="title">Edit group form</h4>
+
+		<!-- START Group edit form -->
+		<form action="#" class="form">
+			<fieldset class="label-bold">
+				<div class="row group-edit">
+					<div>
+						<label for="source">Contacts:</label><br/>
+						<select id="source" multiple="multiple">
+							<option>veni</option>
+							<option>vidi</option>
+							<option>vici</option>
+						</select>
+					</div>
+					<div class="middle">
+						<p class="text-center"><a href="javascript:;" class="action-link r">Add<span>&nbsp;</span><span>&nbsp;</span></a></p>
+						<p class="text-center"><a href="javascript:;" class="action-link l"><span>&nbsp;</span><span>&nbsp;</span>Remove</a></p>
+					</div>
+					<!--<div class="btns">
+						<div class="btn-arrow comm"><input type="submit" value="Add" class="medium" /></div><br/>
+						<div class="btn-arrow comm left"><input type="submit" value="Remove" class="medium" /></div>
+					</div>-->
+					<div>
+						<label for="finish">To:</label><br/>
+						<select id="finish" multiple="multiple">
+							<option>veni</option>
+							<option>vidi</option>
+							<option>vici</option>
+						</select>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+		<!-- END Group edit form -->
+
+	</div>
+
+	<div class="clear"></div>
+</div>
+
+<div id="sidebar">
+
+	<div class="box" style="width:142px;">
+
+		<h4 class="title">Service block <span class="highlight">contact</span></h4>
+
+		<!-- START Service tools - Contact -->
+		<form action="#" class="form">
+		<div class="service">
+		<h2>My T-Mobile Help</h2>
+			<div class="content">
+				<div class="block">
+					<h3>Quick links</h3>
+					<div class="row float-left">
+						<select id="question" style="width:96px">
+							<option value="1" selected="selected">Select a topic</option>
+						</select>
+					</div>
+					<div class="btn btnservice"><input type="submit" value="Go" class="flex" /></div>
+					<div class="clear"></div>
+				</div>	
+				<div class="block">
+					<p><a href="javascript:;" class="action-link">Common questions<span>&nbsp;</span></a></p>
+				</div>
+				<div class="block contact">
+					<h3>Contact us</h3>
+					<p><a href="javascript:;">By email</a><br />
+					We'll respond within 24 hours</p>
+				</div>				
+			</div>
+		</div>
+		</form>
+		<!-- END Service tools - Contact -->
+	</div>
+
+	<div class="box" style="width:142px;">
+
+		<h4 class="title">Service block <span class="highlight">alerts &amp; messages</span></h4>
+
+	<!-- START Service tools - Alerts & Messages -->
+	<form action="#" class="form">
+	<div class="service">
+	<h2>Alerts &amp; Messages</h2>
+		<div class="content">
+			<div class="simple-block">
+				<ul class="check-list borders">
+					<li>
+						<input type="checkbox" id="enter-pin" />
+						<label for="enter-pin">Enter PIN to add mobile</label><br />
+					</li>
+					<li>
+						<input type="checkbox" id="mobile-ctn" />
+						<label for="mobile-ctn">Mobile &lt;CTN&gt; has been removed from your profile</label><br />
+					</li>
+					<li>
+						<input type="checkbox" id="removed-billing-account" />
+						<label for="removed-billing-account">You have been removed from the billing account</label><br />
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="block last">
+				<div class="btn comm"><input type="submit" value="Update" class="large" /></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	</form>
+	<!-- START Service tools - Alerts & Messages -->
+	</div>
+</div>
+
+<script src="../common/js/setsifr.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,276 @@
+.cc {
+	clear:both
+	}
+/* ----------------| Buttons Common |---------------- */
+.btn,
+.btn-dis,
+.btn-service,
+.btn-service-dis,
+.btn-shop,
+.btn-shop-dis,
+.btn-arrow,
+.btn-arrow-dis,
+.btn-arrow-service,
+.btn-arrow-service-dis,
+.btn-arrow-shop,
+.btn-arrow-shop-dis {
+	float:left;
+	margin:0 5px 5px 0;
+	background:#E0E4E7 url(../imgs/bg.gif) repeat-x;
+	border:solid 1px #D6D6D6;
+	border-color: #D6D6D6 #8F8F90 #8F8F90 #D6D6D6
+	}
+	.btn INPUT,
+	.btn-dis INPUT,
+	.btn A,
+	.btn-dis A,
+	.btn-service INPUT,
+	.btn-service-dis INPUT,
+	.btn-service A,
+	.btn-service-dis A,
+	.btn-shop INPUT,
+	.btn-shop-dis INPUT,
+	.btn-shop A,
+	.btn-shop-dis A {
+		display:block;
+		background:none;
+		text-align:center;
+		font-weight:bold;
+		font-size:0.7em
+		}
+	.btn-arrow INPUT,
+	.btn-arrow-dis INPUT,
+	.btn-arrow A,
+	.btn-arrow-dis A,
+	.btn-arrow-service INPUT,
+	.btn-arrow-service-dis INPUT,
+	.btn-arrow-service A,
+	.btn-arrow-service-dis A,
+	.btn-arrow-shop INPUT,
+	.btn-arrow-shop-dis INPUT,
+	.btn-arrow-shop A,
+	.btn-arrow-shop-dis A {
+		display:block;
+		background:url(../imgs/arrow.gif) 100% 50% no-repeat;
+		text-align:center;
+		font-weight:bold;
+		font-size:0.7em
+		}
+	* HTML .btn INPUT,
+	* HTML .btn-dis INPUT,
+	* HTML .btn-service INPUT,
+	* HTML .btn-service-dis INPUT,
+	* HTML .btn-shop INPUT,
+	* HTML .btn-shop-dis INPUT,
+	* HTML .btn-arrow-service INPUT,
+	* HTML .btn-arrow-service-dis INPUT,
+	* HTML .btn-arrow-shop INPUT,
+	* HTML .btn-arrow-shop-dis INPUT,
+	* HTML .btn-arrow INPUT,
+	* HTML .btn-arrow-dis INPUT {
+		margin:0 -5px -1px -5px
+		}
+/* ----------------| Button |---------------- */
+	.btn INPUT,
+	.btn-dis INPUT {
+		padding:1px 5px 1px 5px;
+		border:none;
+		cursor:pointer
+		}
+	.btn A,
+	.btn-dis A {
+		padding:1px 9px 1px 9px;
+		text-decoration:none
+		}
+	.btn INPUT,
+	.btn A:link,
+	.btn A:visited,
+	.btn A:hover,
+	.btn A:active {
+		color:#666
+		}
+	* HTML .btn A,
+	* HTML .btn-dis A {
+		padding:2px 13px 2px 13px
+		}
+	/* Disabled */
+	.btn-dis INPUT,
+	.btn-dis A:link,
+	.btn-dis A:visited,
+	.btn-dis A:hover,
+	.btn-dis A:active {
+		color:#BBB;
+		cursor:default
+		}
+/* ----------------| Button Service |---------------- */
+	.btn-service INPUT,
+	.btn-service-dis INPUT {
+		padding:1px 5px 1px 5px;
+		border:none;
+		cursor:pointer
+		}
+	.btn-service A,
+	.btn-service-dis A {
+		padding:1px 9px 1px 9px;
+		text-decoration:none
+		}
+	.btn-service INPUT,
+	.btn-service A:link,
+	.btn-service A:visited,
+	.btn-service A:hover,
+	.btn-service A:active {
+		color:#669A65
+		}
+	* HTML .btn-service A,
+	* HTML .btn-service-dis A {
+		padding:2px 13px 2px 13px
+		}
+	/* Disabled */
+	.btn-service-dis INPUT,
+	.btn-service-dis A:link,
+	.btn-service-dis A:visited,
+	.btn-service-dis A:hover,
+	.btn-service-dis A:active {
+		color:#A9D3A8;
+		cursor:default
+		}
+/* ----------------| Button Shop |---------------- */
+	.btn-shop INPUT,
+	.btn-shop-dis INPUT {
+		padding:1px 5px 1px 5px;
+		border:none;
+		cursor:pointer
+		}
+	.btn-shop A,
+	.btn-shop-dis A {
+		padding:1px 9px 1px 9px;
+		text-decoration:none
+		}
+	.btn-shop INPUT,
+	.btn-shop A:link,
+	.btn-shop A:visited,
+	.btn-shop A:hover,
+	.btn-shop A:active {
+		color:#5CA5DC
+		}
+	* HTML .btn-shop A,
+	* HTML .btn-shop-dis A {
+		padding:2px 13px 2px 13px
+		}
+	/* Disabled */
+	.btn-shop-dis INPUT,
+	.btn-shop-dis A:link,
+	.btn-shop-dis A:visited,
+	.btn-shop-dis A:hover,
+	.btn-shop-dis A:active {
+		color:#A4C2D9;
+		cursor:default
+		}
+/* ----------------| Button Arrow |---------------- */
+.btn-arrow,
+.btn-arrow-dis {
+	background:#E0E4E7 url(../imgs/bg-simple.gif) 100% 0 no-repeat
+	}
+	.btn-arrow INPUT,
+	.btn-arrow-dis INPUT {
+		padding:1px 20px 1px 5px;
+		border:none;
+		cursor:pointer
+		}
+	.btn-arrow A,
+	.btn-arrow-dis A {
+		padding:1px 24px 1px 9px;
+		text-decoration:none
+		}
+	.btn-arrow INPUT,
+	.btn-arrow A:link,
+	.btn-arrow A:visited,
+	.btn-arrow A:hover,
+	.btn-arrow A:active {
+		color:#666
+		}
+	* HTML .btn-arrow A,
+	* HTML .btn-arrow-dis A {
+		padding:2px 33px 2px 13px
+		}
+	/* Disabled */
+	.btn-arrow-dis INPUT,
+	.btn-arrow-dis A:link,
+	.btn-arrow-dis A:visited,
+	.btn-arrow-dis A:hover,
+	.btn-arrow-dis A:active {
+		color:#BBB;
+		cursor:default
+		}
+/* ----------------| Button Arrow Service |---------------- */
+.btn-arrow-service,
+.btn-arrow-service-dis {
+	background:#E0E4E7 url(../imgs/bg-service.gif) 100% 0 no-repeat
+	}
+	.btn-arrow-service INPUT,
+	.btn-arrow-service-dis INPUT {
+		padding:1px 20px 1px 5px;
+		border:none;
+		cursor:pointer
+		}
+	.btn-arrow-service A,
+	.btn-arrow-service-dis A {
+		padding:1px 24px 1px 9px;
+		text-decoration:none
+		}
+	.btn-arrow-service INPUT,
+	.btn-arrow-service A:link,
+	.btn-arrow-service A:visited,
+	.btn-arrow-service A:hover,
+	.btn-arrow-service A:active {
+		color:#669A65
+		}
+	* HTML .btn-arrow-service A,
+	* HTML .btn-arrow-service-dis A {
+		padding:2px 33px 2px 13px
+		}
+	/* Disabled */
+	.btn-arrow-service-dis INPUT,
+	.btn-arrow-service-dis A:link,
+	.btn-arrow-service-dis A:visited,
+	.btn-arrow-service-dis A:hover,
+	.btn-arrow-service-dis A:active {
+		color:#A9D3A8;
+		cursor:default
+		}
+/* ----------------| Button Arrow Shop |---------------- */
+.btn-arrow-shop,
+.btn-arrow-shop-dis {
+	background:#E0E4E7 url(../imgs/bg-shop.gif) 100% 0 no-repeat
+	}
+	.btn-arrow-shop INPUT,
+	.btn-arrow-shop-dis INPUT {
+		padding:1px 20px 1px 5px;
+		border:none;
+		cursor:pointer
+		}
+	.btn-arrow-shop A,
+	.btn-arrow-shop-dis A {
+		padding:1px 24px 1px 9px;
+		text-decoration:none
+		}
+	.btn-arrow-shop INPUT,
+	.btn-arrow-shop A:link,
+	.btn-arrow-shop A:visited,
+	.btn-arrow-shop A:hover,
+	.btn-arrow-shop A:active {
+		color:#5CA5DC
+		}
+	* HTML .btn-arrow-shop A,
+	* HTML .btn-arrow-shop-dis A {
+		padding:2px 33px 2px 13px
+		}
+	/* Disabled */
+	.btn-arrow-shop-dis INPUT,
+	.btn-arrow-shop-dis A:link,
+	.btn-arrow-shop-dis A:visited,
+	.btn-arrow-shop-dis A:hover,
+	.btn-arrow-shop-dis A:active {
+		color:#A4C2D9;
+		cursor:default
+		}

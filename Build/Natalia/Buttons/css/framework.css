@@ -1,0 +1,17 @@
+BODY {
+	background:#FFF;
+	padding:20px;
+	margin:0;
+	font-family:arial,verdana,sans-serif;
+	color:#666
+	}
+
+INPUT,TEXTAREA {
+	font-family:arial,verdana,sans-serif
+	}
+
+A {text-decoration:none}
+
+BR {
+	clear:both
+	}

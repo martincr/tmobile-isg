@@ -1,0 +1,159 @@
+.btn,
+.btn-arrow {
+	float:left;
+	margin:0 0 5px 0;
+	background:#E0E4E7 url(../imgs/generic/btns/btn-comm.png) no-repeat;
+	border:solid 1px #D6D6D6;
+	border-color: #D6D6D6 #8F8F90 #8F8F90 #D6D6D6;
+	font-weight:bold;
+	font-size:.7em;
+	color:#666
+	}
+	
+.btn-arrow {
+	background-position:100% 0
+	}
+	
+/* Paddings & Display */
+.btn A,
+.btn-arrow A,
+.btn INPUT,
+.btn-arrow INPUT {
+	float:left;
+	display:block;
+	text-align:center;
+	white-space:normal;
+	font-weight:bold;
+	font-size:1em
+	}
+.btn INPUT,
+.btn-arrow INPUT {
+	padding:0;
+	margin:0;
+	background:none;
+	border:solid 0 transparent;
+	cursor:pointer
+	}
+.btn A,
+.btn-arrow A {
+	padding:2px 0
+	}
+/* --------------| No Arrow |-------------- */
+.btn .small {
+	width:62px
+	}
+.btn .medium {
+	width:93px
+	}
+.btn .large {
+	width:124px
+	}
+.btn .xlarge {
+	width:186px
+	}	
+	
+/* --------------| Cart & Arrow |-------------- */
+.btn-arrow A,
+.btn-arrow INPUT {
+	padding-right:20px;
+	background:url(../imgs/generic/btns/arrow.gif) 100% 50% no-repeat
+	}
+
+.btn-arrow INPUT.small {
+	width:62px
+	}
+
+.btn-arrow A.small {
+	width:42px
+	}
+* HTML .btn-arrow A.small {
+	width:62px;
+	w\idth:42px
+	}
+	
+.btn-arrow A.medium {
+	width:73px
+	}
+* HTML .btn-arrow A.medium {
+	width:93px;
+	w\idth:73px
+	}
+
+.btn-arrow INPUT.medium {
+	width:93px
+	}
+
+.btn-arrow A.large {
+	width:104px
+	}
+	
+* HTML .btn-arrow A.large {
+	width:124px;
+	w\idth:104px
+	}
+
+.btn-arrow INPUT.large {
+	width:124px
+	}
+	
+.btn-arrow A.xlarge {
+	width:166px
+	}
+	
+* HTML .btn-arrow A.xlarge {
+	width:186px;
+	w\idth:166px
+	}
+
+.btn-arrow INPUT.xlarge {
+	width:186px
+	}
+	
+	
+/* --------------| Common color & bg |-------------- */
+.btn-arrow.comm {
+	}
+	.btn.comm A,
+	.btn.comm INPUT,
+	.btn-arrow.comm A,
+	.btn-arrow.comm INPUT {
+		color:#666
+		}
+	.btn.comm.dis A,
+	.btn.comm.dis INPUT,
+	.btn-arrow.comm.dis A,
+	.btn-arrow.comm.dis INPUT {
+		color:#BBB
+		}
+/* --------------| Shop color & bg |-------------- */
+.btn-arrow.shop {
+	background-image:url(../imgs/generic/btns/btn-shop.png)
+	}
+	.btn.shop A,
+	.btn-arrow.shop A,
+	.btn.shop INPUT,
+	.btn-arrow.shop INPUT {
+		color:#5BA4DB
+		}
+	.btn.shop.dis A,
+	.btn-arrow.shop.dis A,
+	.btn.shop.dis INPUT,
+	.btn-arrow.shop.dis INPUT {
+		color:#BBB
+		}
+/* --------------| Service color & bg |-------------- */
+.btn-arrow.service {
+	background-image:url(../imgs/generic/btns/btn-service.png)
+	}
+	.btn.service A,
+	.btn-arrow.service A,
+	.btn.service INPUT,
+	.btn-arrow.service INPUT {
+		color:#78AA51
+		}
+	.btn.service.dis A,
+	.btn-arrow.service.dis A,
+	.btn.service.dis INPUT,
+	.btn-arrow.service.dis INPUT {
+		color:#BBB
+		}

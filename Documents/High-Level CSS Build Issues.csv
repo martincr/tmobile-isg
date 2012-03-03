@@ -1,0 +1,17 @@
+High-Level CSS Build Issues,,
+
+,ID,Issue
+,1,Define a consistent naming convention – CSS & images 
+,2,White space formatting 
+,3,Property order 
+,4,"Name classes/IDs based on function, not appearance "
+,5,Combine CSS selectors 
+,6,Use CSS shorthand 
+,7,Use background images 
+,8,Do not use inline styles 
+,9,Use accessible tables for data 
+,10,Pinpoint ‘difficult’ design elements & hacks 
+,11,Validate CSS 
+,12,Validate XHTML 
+,13,Initial build and test CSS in the most compliant browser 
+,14,"Work from the outside, in; top, down "

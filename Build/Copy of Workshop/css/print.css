@@ -1,0 +1,35 @@
+body { color: #000; background: #fff; font-size: 120%; }
+#shadow-meta, #shadow-right, #shadow-bottom, #shadow-corner { background: #fff; }
+#content-action, #sub-nav-container, #utility-links, #main-nav, #meta, .skip-link offscreen, #footer { display: none; }
+#content-sidebar-container {
+	width: 100%;
+	float: none;
+}
+#content-sidebar-container, #sub-nav-container {
+	margin-top: 1em;
+}
+#sidebar, #sub-nav-container, #content {
+	width: auto;
+	float: none;
+	margin: 0;
+}
+#logo {
+	position: relative;
+	top: 0;
+}
+
+.sIFR-Flash, .sIFR-Flash object, .sIFR-Flash embed {
+	display: none !important;
+	height: 0;
+	width: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+span.sIFR-alternate {
+	visibility: visible !important;
+	display: block !important;
+	position: static !important;
+	left: auto !important;
+	top: auto !important;
+}

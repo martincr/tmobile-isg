@@ -1,0 +1,680 @@
+/* Special Offers
+----------------------------------------------- */
+
+/* Header page
+----------------------------------------------- */
+.phoneTitle, .phoneImage, .phoneChoose {
+	float: left;
+}
+
+.phoneTitle {
+	width: 167px;
+	padding-right: 15px;
+}
+
+* html .phoneTitle {
+	width: 182px;
+	w\idth: 167px;
+}
+
+.phoneTitle .digit {
+	float: right;
+	width: 79px;
+	height: 79px;
+	background-color: #e20074;
+}
+
+.phoneImage {
+	width: 146px;
+}
+
+.phoneChoose {
+	width: 98px;
+	text-align: right;
+}
+
+.phoneChoose .breadcrumbs, .phoneChoose select {
+	color: #333;
+	font-size: 0.7em;
+	width: 100%;
+}
+
+.phoneChoose .button {
+	padding: 15px 0;
+}
+
+/* Special offer panels
+----------------------------------------------- */
+.panel-offer-left, .panel-offer-right {
+	width: 206px;
+	float: left;
+	margin-bottom: 18px;
+	padding: 0 9px 0 0;
+	border-right: 1px solid #bebebe;
+}
+
+.panel-offer-right {
+	padding: 0 0 0 9px;
+	border: none;
+}
+
+* html .panel-offer-left,
+* html .panel-offer-right {
+	width: 216px;
+	w\idth: 206px;
+}
+
+/* Text formatting for special offers
+----------------------------------------------- */
+#content .panel-offer-left .special ul{
+	background-color: #f2f2f2;
+}
+
+#content .panel-offer-left .special ul li {
+	padding: 5px 0 5px 20px;
+	background:  url(../../common/img/bullet_offers.gif) 5px 12px no-repeat;
+	border-bottom: 8px solid #fff;
+	font-size: .7em;
+}
+
+#content .panel-offer-left .special ul li h3 {
+	font-size: 1.6em;
+	font-weight: normal;
+	color: #333;
+	margin: 0;
+}
+
+/* additional styles for tables
+----------------------------------------------- */
+.panel-offer-right .table-horiz-border caption {
+	padding: 0 0 5px 0;
+	color: #666;
+	font-size: 0.7em;
+}
+
+.panel-offer-right .table-horiz-border td.caption {
+	color: #333;
+}
+
+/* Price Plan Lists
+---------------------------------------------- */
+/* Large */
+#content .large LI {
+	padding-left:14px;
+	margin-bottom:.7em;
+	background:url(../../common/img/bullet_offers.gif) 0 .3em no-repeat;
+	line-height:1em;
+	font-weight:bold;
+	font-size:.9em;
+	}
+	#content .large LI SMALL {
+		font-weight:normal;
+		font-size:.75em;
+		}
+
+/* Info */
+#content UL.info {
+	margin:1.3em 0;
+	}
+	#content .info LI {
+		padding-left:0;
+		background:none;
+		line-height:1.2em;
+		font-weight:bold;
+		font-size:.9em;
+		}
+	#content .info SPAN {
+		float:left;
+		width:10em;
+		}
+		
+/* plan-features
+---------------------------------------------- */
+	.plan-features {
+		float:left;
+		margin-bottom:18px;
+		width:320px; 
+		}
+	#content .plan-features .info {
+		margin-top: 0px;
+		}
+	#content .plan-features .info span{
+		width:190px;
+		}
+	#content .plan-features .info .note{
+		float:left;
+		width:120px;
+		font-size:.75em;
+		font-weight: normal;
+		line-height:1.3em;
+		}		
+
+/* Price Plan Header
+---------------------------------------------- */
+.price-plan-header {
+	padding-bottom:14px;
+	width:100%;
+	overflow:hidden;
+	}
+	.price-plan-header.logo .note,
+	.price-plan-header.digit .note {
+		width:220px;
+		float:left;
+	}
+	.price-plan-header.digit img {
+		float:right;
+		}
+	.price-plan-header.logo img {
+		float:right;
+		margin:7px 40px 0 0;
+		}
+		
+/* Compare form
+----------------------------------------------- */
+
+#compare-form {
+	width:432px;
+	}
+	#compare-form FIELDSET {
+		float:left;
+		margin:0 18px 7px 0;
+		width:132px;
+		}
+	#compare-form SELECT {
+		display:block;
+		margin-top:7px;
+		width:132px;
+		}
+	#compare-form LABEL,
+	#compare-form SELECT {
+		font-size:.7em;
+		}
+	#compare-form .last {
+		margin-right:0;
+		}
+
+/* Panels > compare-phones
+----------------------------------------------- */
+
+.compare-phones {
+	width:100%;
+	overflow:hidden;
+	margin-bottom:9px;
+	}
+	#sidebar .compare-phones LI {
+		float:left;
+		width:33%;
+		text-align:center;
+		list-style:none;
+		background: none;
+		padding:0;
+		}
+	#sidebar .compare-phones LI IMG {
+		width:35px;
+		height: 70px;
+		}
+			
+/* Phone Finder Features
+---------------------------------------------- */
+.features-group {
+	width:200px;
+	margin-bottom:20px;
+}
+
+#content .features-group h2 {
+	font-size:.7em;
+	margin-bottom:7px;
+}
+
+.features-group input {
+	margin:-2px 0 0 0;
+}
+
+.features-group label {
+	float:left;
+	width:137px;
+	margin: 0 7px 0 0;
+}
+
+* HTML .features-group label {
+	margin: 0;
+}
+
+#content .phone-features li,
+#content .panel .phone-features li {
+	margin: 0 -35px 0 0;
+	padding: 5px 0 5px 35px;
+	overflow:hidden;
+}
+
+
+/* Device-detail-header
+---------------------------------------------- */
+.device-detail-header {
+	width:432px;
+}
+
+.device-detail-header .digit img{
+	margin-bottom:35px;
+	width:108px;
+	height:108px;
+}
+
+.device-detail-header .phone-detail {
+	float:left;
+	width: 320px;
+}
+
+.device-detail-header .additional-info {
+	width:108px;
+	float:right;
+	text-align:right;
+}
+
+/* Phone features list
+---------------------------------------------- */
+#content ul.phone-features li {
+	background: none;
+	padding: 4px 0 4px 37px;
+}
+
+#content ul.phone-features li.colour-screen {background: url(../img/icons/i_color_screen.gif) no-repeat;}
+#content ul.phone-features li.digital-camera {background: url(../img/icons/i_digit_camera.gif) no-repeat;}
+#content ul.phone-features li.plugin-camera {background: url(../img/icons/i_plugin_camera.gif) no-repeat;}
+#content ul.phone-features li.corporate-blackberry {background: url(../img/icons/i_corporate_blackberry.gif) no-repeat;}
+#content ul.phone-features li.instant-email {background: url(../img/icons/i_instant_email.gif) no-repeat;}
+#content ul.phone-features li.picture-messaging {background: url(../img/icons/i_picture_messaging.gif) no-repeat;}
+#content ul.phone-features li.bluetooth {background: url(../img/icons/i_bluetooth.gif) no-repeat;}
+#content ul.phone-features li.data-compatible {background: url(../img/icons/i_data_compatible.gif) no-repeat;}
+#content ul.phone-features li.gprs {background: url(../img/icons/i_gprs.gif) no-repeat;}
+#content ul.phone-features li.infra-red {background: url(../img/icons/i_infra_red.gif) no-repeat;}
+#content ul.phone-features li.wap {background: url(../img/icons/i_wap.gif) no-repeat;}
+#content ul.phone-features li.fm-radio {background: url(../img/icons/i_fm_radio.gif) no-repeat;}
+#content ul.phone-features li.games {background: url(../img/icons/i_games.gif) no-repeat;}
+#content ul.phone-features li.polyphonic-ringtones {background: url(../img/icons/i_polyphonic_ringtones.gif) no-repeat;}
+#content ul.phone-features li.video-audio-player {background: url(../img/icons/i_video_audio_player.gif) no-repeat;}
+#content ul.phone-features li.handsfree {background: url(../img/icons/i_handsfree.gif) no-repeat;}
+#content ul.phone-features li.voice-active {background: url(../img/icons/i_voice_active.gif) no-repeat;}
+#content ul.phone-features li.personal-organiser {background: url(../img/icons/i_personal_organiser.gif) no-repeat;}
+#content ul.phone-features li.video-capture {background: url(../img/icons/i_video_capture.gif) no-repeat;}
+
+/* MARKETING Panels
+----------------------------------------------- */
+* HTML .panel-marketing-message { height: 59px; }
+.panel-marketing-message { height:auto; min-height: 59px; }
+
+#content .panel-marketing-message .content {
+	padding:6px 9px 0px 14px;
+	}
+#content .panel-marketing-message .content.icon img {
+	float:left;
+	margin-right:24px;
+	}
+#content .panel-marketing-message .note {
+	float:left;
+	padding:6px 0 0 0;
+	} 
+#content .panel-marketing-message .content.icon .note {
+	width:355px;
+} 
+
+/* Process Bar
+---------------------------------------------- */
+#process-bar {
+	overflow:hidden;
+	margin: 20px 0;
+	padding:.5em 0 .3em 0;
+	width:100%;
+	background:#eee;
+	}
+	#content #process-bar LI {
+		display:inline;
+		float:left;
+		margin:0 0 0 .3em;
+		padding-right:2.5em;
+		height:1.8em;
+		background:url(../img/generic/icons/process_bar_arrow.gif) 100% 50% no-repeat;
+		font-size:.7em;
+		color:#5ba4db;
+		}
+	#content  #process-bar LI.last {
+		margin-right:0;
+		background:none;
+		}
+	#process-bar STRONG {
+		float:left;
+		margin:.1em .5em 0 0;
+		padding:0 .4em;
+		border:solid 1px #5ba4db;
+		color:#5ba4db;
+		}
+	#process-bar .current STRONG {
+		background:#e20074;
+		border-color:#e20074;
+		color:#fff
+		}
+	#process-bar .current SPAN {
+		color:#e20074;
+		}
+	#process-bar SPAN {
+		float:left;
+		margin-top:.2em;
+		line-height:1.2em;
+		}
+	* HTML #process-bar SPAN {
+		margin-top:.3em;
+		}
+
+/* Order reference number
+---------------------------------------------- */	
+.order-number {
+	margin-bottom:18px;
+	width: 7em;
+	background: #eee;
+	font-size:.9em;
+	font-weight: bold;
+	color: #e20074;
+	padding:1em 2em;
+}
+
+/* Print order
+---------------------------------------------- */
+.print-order {
+	font-size:.7em;
+	margin-bottom:20px;
+}
+
+#content .print-order #content-action-print span {
+	float:left;
+	width: 2em;
+	margin-top:-3px;
+	background: url(../../common/img/icons/i_footer_print.gif) 50% 0 no-repeat;
+}
+
+
+#content .print-order a#content-action-print:hover span{
+	background: url(../../common/img/icons/i_footer_print_highlight.gif) 50% 0 no-repeat;
+}
+
+/* Panel > Phones listing page
+---------------------------------------------- */
+.panel .digit {
+	position:absolute;
+	top: -9px;
+	right: 9px;
+	width: 72px;
+	height: 72px;
+	background: #e20074;
+}
+
+.panel .digit img {
+	width: 72px;
+	height: 72px;
+}
+
+.panel .digit a {
+	display:block;
+	width:72px;
+	height:72px;
+}
+
+.panel .snippet {
+	float: right;
+	margin-top:50px;
+}
+
+.panel .phones {
+	position: relative;
+	float: left;
+	} 
+.panel .phones img {
+	display: block;
+	width: 161px;
+	height: 132px;
+} 
+
+.phones .accessory {
+	position: absolute;
+	top: 70px;
+	left: 0;
+}
+.phones .accessory img{
+	width: 55px;
+	height: 62px;
+}
+
+#content .panel p.accessory-title {
+	font-size:.9em;
+	font-weight: bold;
+}
+
+/* header - checkout
+---------------------------------------------- */
+#title {
+	position: absolute;
+	top: 4em;
+	left: 660px;
+	}
+
+/* Form with card
+---------------------------------------------- */
+.card-front {
+	float:left; 
+	width:364px;
+	height:216px;
+	padding: 0 15px;
+	background: url(../img/card_front.gif) repeat-x;
+	}
+.card-front {
+	width:394px;
+	w\idth:364px;
+	}
+.card-logo {
+	width:358px;
+	border-bottom: 1px solid #ccc;
+	margin:9px 0 12px;
+	padding-bottom:4px;
+	}
+.card-logo IMG {
+	display:block;
+	width:188px;
+	height:25px;
+	}	
+.card-back-amex {
+	float:left; 
+	margin-top:18px;
+	width:271px;
+	height:151px;
+	background: url(../img/card_back_amex.gif) repeat-x;
+	}
+.card-code {
+	padding:43px 0 0 45px;
+	}
+.card-back-amex .note {
+	padding: 15px 15px 0 25px;
+	font-size:0.8em;
+	color:#999; 
+	}
+.card-code label {
+	width:165px;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#000; 
+	}
+.card-code span {
+	padding-left: 20px;
+	font-style: italic; 
+	color:#999; 
+	}
+
+/*  SPECIAL MEDIUM Panels
+----------------------------------------------- */
+* HTML .panel-special-medium { height: 150px; }
+.panel-special-medium { height: auto; min-height: 150px; }
+
+.tariff-attribute {
+	height: auto; 
+	min-height: 70px;
+	font-weight:bold; 
+	font-size:1.3em;
+	padding-bottom:10px;
+	}
+* HTML .tariff-attribute {
+	height: 70px;
+	}
+#content .panel .tariff-attribute p {
+	padding-bottom:0px;
+	color: #e20074;
+}
+
+.tariff-cost {
+	font-weight:bold; 
+	font-size:1.3em
+}
+
+#content .panel .tariff-cost p {
+	padding-bottom:0px;
+}
+
+#content .panel .tariff-cost .period {
+	padding-bottom:2px;
+	font-size:.55em; 
+	color:#999; 
+}
+
+.handset-detail {
+	float:right; 
+	width:105px;
+}
+
+.handset-detail .handset-description {
+	float:left; 
+	min-height:113px;
+	height: auto;
+}
+
+* HTML .handset-detail .handset-description {
+	height: 113px;
+}
+
+.handset-detail .handset-description .title {
+	color: #333;
+}
+
+.handset-cost {
+	margin-top:10px;
+	font-size:1.2em;
+}
+
+.table-vert-border td.special-offer,
+.table-vert-border td.special-offer strong {
+	background: #e20074;
+	color: #fff;
+}
+
+.table-vert-border td.special-offer a {
+	color: #fff;
+}
+
+.table-vert-border td.special-offer a:hover {
+	text-decoration: none;
+}
+
+.form fieldset.bgr-grey {
+	margin-bottom: 20px;
+}
+
+/* Table basket
+---------------------------------------------- */
+.table-basket  {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	border-right: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	}
+.table-basket th, 
+.table-basket  td {
+	padding: 5px 7px;
+	font-size: 0.7em;
+	border-top: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+	vertical-align: top;
+	}
+.table-basket  td {
+	padding: 5px 7px;
+	font-size: 0.7em;
+	border-top: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+	vertical-align: top;
+	}
+.table-basket td a.show-link,
+.table-basket td a.hide-link,
+.table-basket td a.deletelink-l {
+	font-size: 1.4em;
+	}
+.table-basket th {
+	background-color: #5ca5dc;
+	color: #FFF;
+	}
+.table-basket td.bgr,
+.table-basket tr.bgr td {
+	background-color: #f2f2f2;
+	}
+.table-basket td.noborder-left {
+	border-left: none;
+	}
+.table-basket tr td.right-border {
+	border-right:1px solid #e7e7e7;
+	}
+.table-basket tr.divider-total td {
+	border-top:3px double #5ca5dc;
+	}
+.table-basket tr.noborder-top td {
+	border-top: none;
+	}
+.table-basket tr td.text-center {
+	vertical-align: middle;
+	}
+
+/* Price-plan table
+---------------------------------------------- */
+.table-main.price-plan th {
+	border:1px solid #bebebe;
+	}
+.table-main.price-plan th.no-border {
+	border-right: none;
+	}
+.table-main.price-plan th.spacer-vert {
+	border:1px solid #fff;
+	border-right: 1px solid #bebebe;
+	background: #fff;
+	}
+.table-main.price-plan td {
+	border-right:1px solid #bebebe;
+	border-bottom:1px solid #bebebe;
+	}
+.table-main.price-plan th.first,
+.table-main.price-plan td.first {
+	border-left:1px solid #bebebe;
+	}
+.table-main.price-plan tr.subheader th {
+	padding-top:1px;
+	padding-bottom:1px;
+	background:none;
+	}
+
+.table-main.price-plan td.bgr-highlight,
+.table-main.price-plan td.bgr-green,
+.table-main.price-plan td.bgr-blue {
+	background:#e20074;
+	color:#fff;
+	}
+.table-main.price-plan td.bgr-green {
+	background:#78AA51;
+	color:#fff;
+	}
+.table-main.price-plan td.bgr-blue {
+	background:#5CA5DC;
+	color:#fff;
+	}

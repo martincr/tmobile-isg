@@ -1,0 +1,88 @@
+h1 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: normal !important;
+	letter-spacing: -.05em !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #e20074 !important;
+	font-size: 1.55em !important;
+}
+
+div.container h2,
+div.container h2.title-overlap,
+div.container h2.title-offset
+{
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: normal !important;
+	letter-spacing: -.05em !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #e20074 !important;
+	font-size: 1.15em !important;
+	padding-top: 0px !important;
+	margin-left: 9px !important;
+}
+
+div.container h2.title-overlap {
+	padding-top: 0 !important;
+	color: #e20074 !important;
+	font-size: 1.15em !important;
+}
+
+div.container h2.title-offset {
+	padding-top: 15px !important;
+	color: #e20074 !important;
+	font-size: 1.15em !important;
+}
+
+/* These are standard sIFR styles...do not modify */
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+
+.sIFR-hasFlash h1.page-title {
+	/*visibility: hidden;*/
+	letter-spacing: -.05em;
+	font-size: 1.55em;
+	padding:0;
+	margin:0;
+}
+
+.sIFR-hasFlash div.container h2 {
+	/*visibility: hidden;*/
+	letter-spacing: -.05em;
+	font-size: 1.15em;
+	
+}
+/*
+.sIFR-hasFlash .pageNameSpecial {
+	
+	letter-spacing: -.03em;
+	font-size: 1.2em;
+
+}
+
+.sIFR-hasFlash .pageNameDyn {
+	
+	letter-spacing: -.04em;
+	font-size: 1.1em;
+	
+}*/
+

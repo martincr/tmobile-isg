@@ -1,0 +1,229 @@
+/****  Blocks ******/
+
+div.panel-container,
+div.panel-double {
+	float:left;
+	margin: 0px 12px 18px 0px;
+	border:1px solid #BEBEBE;
+	width:208px;
+}
+
+.offset{
+	position:relative;
+	top:-9px;
+	margin-bottom:-9px;
+}
+
+.overlap{
+	position:relative;
+	bottom:-9px;
+}
+
+div.panel-container .actionLink{
+	margin:0; 
+	background-color: #F2F2F2; 
+	padding: 4px 9px; 
+	border-top:1px solid #B6B6B6;
+}
+
+div.container{
+	position:relative;
+}
+
+div.container h2{
+	padding:0;	
+	margin:0;
+}
+
+div.container h2.title{
+	background-position:9px 9px;
+	background-repeat:no-repeat;
+}
+
+div.container.offset h2.title{
+	background-position:9px 18px;
+	background-repeat:no-repeat;
+}
+
+div.container.overlap h2.title{
+	background-position:9px 0;
+	background-repeat:no-repeat;
+}
+
+div.container .content,
+div.panel-tabs-top .content,
+div.panel-tabs-middle .content{
+	padding:9px;	
+	font-size:0.7em;
+}
+
+
+div.container .titletxt,
+div.container.overlap .titletxt,
+div.container.offset .titletxt 
+ {
+	padding: 7px 0 0 9px;
+	margin:0px;
+	text-indent:0;
+	font: bold 1em "Times New Roman",serif;
+	color:#e20074;
+}
+
+div.container.overlap .titletxt {
+	padding: 0px 0 0 9px;
+}
+
+div.container.offset .titletxt {
+	padding: 18px 0 0 9px;
+}
+
+div.container .digits {
+	position:absolute;
+	top:-9px;
+	right:9px;
+	width:72px;
+	height:72px;
+	background-color:#e20074;
+}
+
+h2.titletxt {background-image: none}
+
+h2.title span {position:absolute; left:-5000px;}
+h2.titletxt span {position:static; left:0;}
+
+/* smallPanel */
+
+.panel-small-link{
+	height:77px;
+}
+
+html>body .panel-small-link {min-height: 77px; height: auto;}
+
+ .panel-small{
+	height:100px;
+}
+
+html>body .panel-small {min-height: 100px; height: auto;}
+
+
+/* mediumPanelLink */
+
+.panel-med-link{
+	height:144px;
+}
+
+html>body .panel-med-link {min-height: 144px; height: auto;}
+
+.panel-med{
+	height:167px;
+}
+
+html>body .panel-med {min-height: 167px; height: auto;}
+
+
+
+/* largePanel */
+
+.panel-large-link{
+	height:191px;
+}
+
+html>body .panel-large-link {min-height: 191px; height: auto;}
+
+.panel-large{
+	height:216px;
+}
+
+html>body .panel-large {min-height: 216px; height: auto;}
+
+
+/* xLargePanel */
+.panel-xLarge-link{
+	height:241px;
+}
+
+html>body .panel-xLarge-link {min-height: 241px; height: auto;}
+
+.panel-xLarge{
+	height:264px;
+}
+
+html>body .panel-xLarge {min-height: 264px; height: auto;}
+
+
+/* Panels for content Navigation */
+
+
+.panel-tabs-top{
+	float:left;
+	margin: 0px 12px 18px 0px;
+	border:1px solid #BEBEBE;
+	border-top:none;
+	width:412px;
+	padding:9px;
+}
+
+.panel-tabs-middle{
+	float:left;
+	margin: 0px 12px 18px 0px;
+	border:1px solid #BEBEBE;
+	width:412px;
+	padding:9px;
+}
+
+
+
+div.panel-double{
+	width:430px;
+	height:105px;
+}
+
+div.panel-double .offset{
+	position:relative;
+	top:-18px;
+	margin-bottom:-18px;
+}
+
+div.panel-double .offset .digits{
+	top:0;
+	right:18px;
+}
+
+div.panel-double .digits{
+	top:-18px;
+	right:18px;
+}
+
+
+div.panel-double .container.offset h2.title{
+	background-position:9px 27px;
+	background-repeat:no-repeat;
+}
+
+
+
+div.panel-container.width33{
+	width:136px;
+	margin-right:9px;
+	margin-bottom:8px;
+}
+
+div.panel-container.width66{
+	width:142px;
+}
+
+div.panel-container.width75{
+	width:278px;
+	margin-right:8px;
+}
+
+div.panel-container.width100{
+	width:430px;
+}
+
+
+.text{
+	width:432px;
+	margin: 0px 12px 18px 0px;
+	padding:9px;
+}

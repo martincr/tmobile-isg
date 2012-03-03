@@ -1,0 +1,10 @@
+body { font-family: arial,tahoma,sans-serif; background-color: white; color: black; padding: 1em; }
+img { border: none; }
+#copyright ul, #layoutmenubar, #topmenucontainer, #topnav, #level1, #column-left, #topExtraLinks, #mainNav, #metaNavs, #contentFooter  { display: none; }
+#column-middle, #column-left, #column-right { float: none; background: white; }
+#column-middle h1.pagetitle { background-image: none; }
+#column-middle h1 {font: 1.5em 'times new roman', serif; }
+#column-right { border-top: 1px solid black; }
+#logos { position: absolute; top: 0; left: 0; }
+.boxwrap { width: 100%; margin-top: 60px; background: white; }
+.shadow0, .shadow1, .shadow2, .shadow3 { background: white; }

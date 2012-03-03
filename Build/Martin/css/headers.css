@@ -1,0 +1,31 @@
+/* Headings */
+
+#contentHeader {
+	display: block;
+    float: left;
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 15px 0px;
+	clear: both;
+}
+
+#pageName,
+#pageNameData {
+	float: left;
+}
+
+#pageNameData {
+	color: #707070;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.8em;
+	padding: 2px 0px 0px 0px;
+}
+
+#pageNameData .data {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+}
+
+
+

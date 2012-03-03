@@ -1,0 +1,84 @@
+
+Tips courtesy of http://www.mezzoblue.com/css/cribsheet/
+
+***
+
+When in doubt, validate.
+When debugging, you may save yourself a lot of headache by simply validating your code first. Improperly-formed XHTML/CSS will cause many a layout glitch.
+
+Build and test your CSS in the most advanced browser available before testing in others, not after.
+If you build a site testing in a broken browser, your code begins relying on the broken rendering of that browser. When it comes time to test in a more standards-compliant browser, you will be frustrated when that browser renders it improperly. Instead, start from perfection and then hack for the less able browsers. Your code will be more standards-compliant from the start, and you won’t have to hack as much to support other browsers. Today, this means Mozilla, Safari, or Opera.
+
+When relying on floats for layouts, make sure they clear properly.
+Floats are tricky, and don't always do what you expect. If you run into a situation where a float extends past the border of the containing element, or just doesn't behave as you'd expect, make sure what you want is correct. Check Eric Meyer's tutorial on the matter.
+
+Margins collapse; apply padding or a border to avoid.
+You may struggle with extra white space where you don't want any, or no white space where you want some. If you're using margins, collapsing is most likely the culprit. Andy Budd explains what you can expect.
+
+Try to avoid applying padding/borders and a fixed width to an element.
+IE5 gets the box model wrong, which really makes a mess of things. There are ways around this, but it’s best to side-step the issue by applying the padding to the parent element instead of the child that gets a fixed-width.
+
+Avoid the Flash of Unstyled Content in IE.
+If you rely on @import alone for external style, sooner or later you’ll notice IE ‘flashes’ plain, unformatted HTML briefly before applying CSS. This can be avoided.
+
+Don't rely on min-width in IE.
+IE doesn't support it. But it treats width as min-width to a certain degree, so with a bit of IE filtering, you can achieve the same end result.
+
+When in doubt, decrease widths.
+Sometimes rounding errors will cause something like 50% + 50% to add up to 100.1%, which ends up breaking layouts in some browsers. Try bumping down the 50% to 49%, or even 49.9%.
+
+Content not showing up properly in IE?
+You may be suffering the Peekaboo bug, especially if it does show up when a link is moused-over. See Position is Everything for the fix.
+
+Be careful when styling links if you’re using anchors.
+If you use a classic anchor in your code (<a name="anchor">) you’ll notice it picks up :hover and :active pseudo-classes. To avoid this, you’ll need to either use id for anchors instead, or style with a slightly more arcane syntax: :link:hover, :link:active
+
+Make sure your desired effect actually exists.
+There are browser-specific CSS extensions that aren’t in the official spec. If you’re trying to apply filters or scrollbar formatting, you’re working with proprietary code that won’t work in anything but IE. If the validator tells you the code you’re using isn’t defined, chances are it’s proprietary, and won’t work consistently across browsers.
+
+Divide and Conquer: use commenting to turn off large sections of style.
+Especially useful when working on large, unfamiliar CSS files. Comment out roughly half of the CSS. If the problem still occurs, it's in the other half. Comment out what's left and test again. If the problem stops occurring, its in the commented out section. Refine your comment scope and test again. Continue until problem has been diagnosed.
+
+Remember LoVe/HAte linking.
+When specifying link pseudo-classes, always do so in this order: Link, Visited, Hover, Active. Any other order won’t work consistently. Consider using :focus as well, and modify the order to LVHFA (or “Lord Vader's Handle Formerly Anakin”, as suggested by Matt Haughey)
+
+Remember TRouBLEd borders.
+Borders, margins, and padding shorthand assumes a specific order: clockwise from the top, or Top, Right, Bottom, Left. So margin: 0 1px 3px 5px; results in no top margin, 1px right margin, and so on.
+
+Specify units for non-zero values.
+CSS requires you to specify units on all quantities such as fonts, margins and sizes. (The only exception is line-height, oddly enough, which doesn't require a unit.) The behaviour of any particular browser when sizes aren't specified should not be relied upon. Zero is zero, however, be it px, em, or anything else. No units are necessary. Example: padding: 0 2px 0 1em;
+
+Test different font sizes.
+Advanced browsers like Mozilla and Opera allow you to resize text no matter which unit you use. Some users will definitely have a larger or smaller default than you; try to accomodate as large a range as possible.
+
+Match cases between your HTML and CSS.
+Some browsers are case-sensitive. Using a class like 'homePage' is fine, provided you're consistent with your letter case. Applying style to 'homepage' will cause problems in strict user agents (like Mozilla).
+
+Test embedded; launch imported.
+If you work with a stylesheet embedded in your HTML source, you eliminate any potential caching errors while testing. This is very important when working with some Mac browsers. But make sure to move your CSS to an external file, imported with @import or <link> before launching.
+
+Add obvious borders to help debug layouts.
+A universal rule like div {border: solid 1px #f00;} can go a long way toward pinpointing a layout problem. But adding a border to specific elements can help identify overlap and extra white space that might not otherwise be obvious.
+
+Don’t use single quotation marks around paths for images.
+When setting a background image, resist the urge to surround the path with quote marks. They’re not necessary, and IE5/Mac will choke.
+
+Don’t link to empty style sheets as ‘placeholders’ for future style sheets (like handheld or print media style sheets).
+Mac IE5 chokes on the empty style sheet and the page load time increases. Instead, have at least one rule (or perhaps even a comment) in the style sheet so that MacIE doesn’t choke.
+
+As well, here are some notable theory items that don’t particularily apply to the functionality side of things, but should be considered when developing:
+
+Organize your CSS file
+Make sure to comment blocks of CSS appropriately, group like-selectors, and establish a consistent naming convention, white space formatting (recommendation: a single space instead of a tab for cross-platform considerations), and property order.
+
+Name classes/IDs based on function, not appearance.
+If you create a .smallblue class, and later get a request to change the text to large and red, the class stops making any form of sense. Instead use descriptive classes like .copyright and .pullquote.
+
+Rely on CSS filters only as a last resort.
+CSS hacks and filters can help you selectively apply CSS (or not apply as the case may be) to various elements. Instead of using them any time you hit a snag, try finding a more standard cross-browser way to achieve the effect you're after. When in doubt though, these can be a life-saver. Here's a huge list of CSS filters.
+
+Combine selectors.
+Keeping your CSS light is important to minimize download times; as much as possible, group selectors, rely on inheritance, and reduce redundancy by using shorthand.
+
+Consider accessibility when using image replacement
+Classic FIR has known problems in screenreaders, and for those who have turned off images. Alternatives exist; use discriminately. 

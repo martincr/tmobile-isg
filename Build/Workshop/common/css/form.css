@@ -1,0 +1,239 @@
+select, input, textarea {
+	font-size: .7em;
+	}
+	
+.form fieldset {
+	overflow: hidden;
+	margin-bottom: 18px;
+	}
+.form fieldset.solid {
+	padding: 9px;
+	background: #F2F2F2;
+	}
+.form fieldset.border {
+	padding: 9px;
+	border: 1px solid #B8B8B8;
+	}
+.form fieldset.type3 {
+	background: #FFF;
+	}
+	
+.form fieldset.label-bold label {font-weight: bold;}
+.form fieldset.label-bold label.width-auto {font-weight: normal;}
+	
+.form fieldset br {clear: both;}
+
+
+/* Inner divs */
+.form .row DIV {
+	float:left;
+	display:inline;
+	padding:2px 0;
+	}
+
+.form .row select,
+.form .row input,
+.form .row textarea,
+.form .row label {float: left; margin-right: 5px;}
+
+.form .row select option {padding-right: 4px;}
+
+.form .row .align-top {
+	position: relative;
+	top: 3px;
+}
+
+* HTML .form .row .align-top {
+	top: 0;
+}
+
+.form .row label {
+	position:relative;
+	top:3px;
+	width: 120px;
+	font-size: .7em;
+	}
+.form .row input.check-box {
+	position:relative;
+	top: 3px;
+	width: auto;
+	}
+	* HTML .form .row  input.check-box {
+		top: 0px;
+		}
+
+.form .row label.width-auto {width: auto !important;}
+.form .row input.width-auto {width: auto !important;}
+
+.form .row.divider {
+	border-bottom: 1px solid #B8B8B8;
+	padding-bottom: 9px;
+	}
+
+.form .row.after-divider {
+	padding-top: 9px;
+	}
+
+.form .row label.error {color: #e20074;}
+
+.form .row select.wide  {width:128px;}
+.form .row textarea {width:126px;}
+.form .row input.short {width:20px !important;}
+.form .row input.medium {width:35px !important;}
+.form .row select.short {width:55px !important;}
+
+/* Buttons
+----------------------------------------------- */
+.form .row .btn,
+.form .row .btn-arrow {
+	padding: 0;
+	}
+.form .row .btn input,
+.form .row .btn-arrow input {
+	margin-right: 0;
+	}
+
+/* Form - layout width 432
+----------------------------------------------- */
+/* .row one-column
+----------------------------------------------- */
+.form .row.one-column label {
+	width: 160px;
+	}
+.form .row.one-column input {
+	width: 180px;
+	}
+.form .row.one-column select.wide {
+	width: 184px;
+	}
+/* .row two-columns
+----------------------------------------------- */
+.form .row.two-columns div {
+	width: 206px;
+	}
+* HTML .form .row.two-columns div {
+	width: 185px;
+	w\idth: 207px;
+	}
+.form .row.two-columns label {
+	width: 75px;
+	}
+.form .row.two-columns input {
+	width: 100px;
+	}
+.form .row.two-columns select.wide {
+	width: 104px;
+	}
+* HTML .form .row.two-columns select.wide {
+	width: 100px;
+	w\idth: 104px;
+	}
+
+/* .row two-columns - top
+----------------------------------------------- */
+.form .row.two-columns div.top label {
+	width: 180px;
+	padding-bottom: 3px;
+	}
+.form .row.two-columns div.top input {
+	width: 180px;
+	}
+.form .row.two-columns div.top select.wide {
+	width: 184px;
+	}
+/* Form - layout width 594
+----------------------------------------------- */
+/* .row one-column
+----------------------------------------------- */
+#two-columns .form .row.one-column label {
+	width: 145px;
+	}
+#two-columns .form .row.one-column input {
+	width: 220px;
+	}
+#two-columns .form .row.one-column select.wide {
+	width: 223px;
+	}
+
+/* .row two-columns
+----------------------------------------------- */
+#two-columns .form .row.two-columns div {
+	width: 287px;
+	}
+* HTML #two-columns .form .row.two-columns div {
+	width: 265px;
+	w\idth: 287px;
+	}
+#two-columns .form .row.two-columns label {
+	width: 120px;
+	}
+/* Form - layout width 719
+----------------------------------------------- */
+/* .row one-column
+----------------------------------------------- */
+#one-column .form .row.one-column label {
+	width: 120px;
+	}
+#one-column .form .row.one-column input {
+	width: 220px;
+	}
+#one-column .form .row.one-column select.wide {
+	width: 224px;
+	}
+/* .row two-columns
+----------------------------------------------- */
+#one-column .form .row.two-columns div {
+	width: 349px;
+	}
+* HTML #one-column .form .row.two-columns div {
+	width: 330px;
+	w\idth: 349px;
+	}
+#one-column .form .row.two-columns label {
+	width: 120px;
+	}
+#one-column .form .row.two-columns input {
+	width: 170px;
+	}
+#one-column .form .row.two-columns select.wide {
+	width: 174px;
+	}
+/* .row three-columns
+----------------------------------------------- */
+#one-column .form .row.three-columns div {
+	width: 230px;
+	}
+* HTML #one-column .form .row.three-columns div {
+	width: 220px;
+	w\idth: 230px;
+	}
+#one-column .form .row.three-columns label {
+	width: 80px;
+	}
+
+/* Error
+---------------------------------------------- */
+.form .row .message-note {
+	float: right;
+	width: 175px;
+	margin: 0 0 0 18px;
+	font-size: .8em;
+	color: #e20074;
+	}
+* HTML .form .row .message-note {
+	width: 140px;	
+	w\idth: 175px;	
+	}
+.form .row label.error-arrow {
+	background: url(../img/error_arrow.gif) 100% 45% no-repeat;
+	}
+	
+/* pound
+---------------------------------------------- */
+.form .row span.pound {
+	float: left;
+	padding: 2px 3px;;
+	font-size: .7em;
+	font-weight: bold;
+	margin-left: -12px;
+}	

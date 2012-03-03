@@ -1,0 +1,44 @@
+div.content-banner,
+div.focus-digit-banner {
+	height:108px;
+	width:432px;
+	position: relative;
+}
+
+div.focus-digit-banner {
+	height:126px;
+}
+
+div.content-banner .digit-top-a,
+div.content-banner .digit-top-b,
+div.content-banner .digit-bottom-a,
+div.content-banner .digit-bottom-b,
+div.content-banner .digit-bottom-c,
+div.content-banner .digit-bottom-d {
+	position: absolute;
+	top:-18px;
+	left:306px;
+	height:108px;
+	width:108px;
+	background-color:#e20074;
+}
+
+div.content-banner .digit-bottom-a,
+div.content-banner .digit-bottom-b,
+div.content-banner .digit-bottom-c,
+div.content-banner .digit-bottom-d {
+	top:18px;
+}
+
+div.content-banner .digit-bottom-a {
+	left:18px;
+}
+
+div.content-banner .digit-bottom-b {
+	left:100px;
+}
+
+div.content-banner .digit-top-a,
+div.content-banner .digit-bottom-c {
+	left:232px;
+}

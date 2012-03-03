@@ -1,0 +1,42 @@
+/* Top Links
+----------------------------------------------- */
+#utility-links li.basket {
+	border: 0;
+	width: 60px;
+}
+
+/* Main Navigation
+----------------------------------------------- */
+#main-nav li {
+	float: left;
+	width: 98px;
+	position: relative;
+}
+
+/* Action Links
+----------------------------------------------- */
+.action-link {
+	clear: both;
+	position: relative;
+	margin: 0.2em 0;
+}
+
+.action-link a {
+	font-size: 0.7em;
+	position: relative;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.action-link a span {
+	padding-right: 10px;
+	width: 10px;
+	background: url("../img/link_arrow.gif") no-repeat 100% 50%;
+}
+
+.action-link a:hover span {
+	background: url("../img/link_arrow_mg.gif") no-repeat 100% 50%;
+}
+
+.tab-menu-nav a { float: none; }
+

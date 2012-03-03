@@ -1,0 +1,7 @@
+#content h1 {font: 1.5em 'times new roman',serif; color: #e20074}
+
+h1.page-title {margin: 0; padding: 0; height: 25px; background-repeat: no-repeat}
+h1.page-title span {display: none}  /* better to use offleft or offtop technique to make sure that all screenreaders will read it */
+
+h1.page-title.txt {background-image: none}
+h1.page-title.txt span {display: block}

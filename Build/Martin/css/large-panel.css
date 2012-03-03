@@ -1,0 +1,29 @@
+#box1-1{
+	height:100px;
+	background:url(../img/why_box11.jpg) 100% 0 no-repeat;
+}
+
+html>body #box1-1 {min-height: 100px; height: auto;}
+
+#box1-1 .title{
+	height:110px; 
+	background-image: url(../img/why_box11.gif);
+}
+
+#box2-1 .title{	height:80px; background:url(../img/phonesPlans_box21.gif) no-repeat 100% 20px;}
+#box2-1 .digits{left:9px;}
+
+#box3-1 .title{
+	height:41px; 
+	background-image:url(../img/blocksC_box31.gif);
+}
+
+#box3-1{
+	height:110px;
+	background:url(../img/blocksC_box31.jpg) 0 0 no-repeat;
+}
+
+html>body #box3-1 {min-height: 110px; height: auto;}
+
+
+

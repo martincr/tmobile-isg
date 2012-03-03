@@ -1,0 +1,6 @@
+#column-middle h1 {font: 1.5em 'times new roman',serif; color: #e20074}
+
+h1.pagetitle {margin: 0; padding: 0; height: 25px; background-repeat: no-repeat}
+h1.pagetitle span {display: none}
+h1.pagetitle.txt {background-image: none}
+h1.pagetitle.txt span {display: block}

@@ -1,0 +1,14 @@
+#box1-1 .title{
+	height:25px; 
+	background-image: url(../imgs/containers/ctitles/helpAdvice_box11.gif);
+}
+
+#box2-1 .digits{left:9px;}
+#box2-1 .title{height:73px;background:url(../imgs/containers/ctitles/phonesPlans_box21.gif) no-repeat 100% 14px;}
+
+/*Offset box*/
+#box3-1 .title{	height:55px; background-image:url(../imgs/containers/ctitles/welcomeToMyTMobile_box31.gif);}
+#box3-1{height:88px;background:url(../imgs/containers/cbgrs/welcomeToMyTMobile_box31.gif) 100% 0 no-repeat;	}
+html>body #box3-1 {min-height: 77px; height: auto;}
+
+

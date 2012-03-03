@@ -1,0 +1,42 @@
+h4.title {
+	font-size:1em;
+	padding:0 0 20px 0;
+}
+
+.box {
+	width:700px;
+	float:left;
+	background:#fff;
+	margin:0 0 20px 0;
+	padding:20px;
+}
+
+.box-small {
+	width:210px;
+	float:left;
+	background:#fff;
+	margin:0 0 20px 0;
+	padding:20px;
+}
+
+.column	{
+	width:300px;
+	float:left;
+	background:#fff;
+	margin:0 0 20px 0;
+	padding:20px 0 20px 20px;
+}
+
+.htmlCode {
+	text-decoration:none;
+	font-size:.7em;
+	font-style: italic;
+}
+
+#content {
+	width: 1000px
+}
+
+#sidebar {
+	width: 1000px
+}

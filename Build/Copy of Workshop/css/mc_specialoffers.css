@@ -1,0 +1,130 @@
+/* Header page */
+.phone-title, .phone-image, .phone-choose {
+	float: left;
+}
+
+.phone-title {
+	width: 167px;
+	padding-right: 15px;
+}
+
+* html .phone-title {
+	width: 182px;
+	w\idth: 167px;
+}
+
+.phone-title .digit {
+	width: 79px;
+	height: 79px;
+	background-color: #e20074;
+	float: right;
+}
+
+.phone-title .title {
+	display: block;
+}
+
+.phone-image {
+	width: 146px;
+}
+
+.phone-choose {
+	width: 98px;
+	text-align: right;	
+}
+
+.phone-choose .breadcrumbs, .phone-choose select {
+	color: #333;
+	font-size: 0.7em;
+	width: 100%;
+}
+
+.phone-choose .button {
+	padding: 15px 0 15px 0;
+}
+
+/*  Panels
+----------------------------------------------- */
+.panel-offer-left, .panel-offer-right {
+	width: 206px;
+	float: left;
+	padding: 0 9px 0 0;
+	border-right: 1px solid #bebebe;
+	margin-bottom: 18px;
+}
+
+.panel-offer-right {
+	width: 206px;
+	float: left;
+	padding: 0 0 0 9px;
+	border: none;
+}
+
+* html .panel-offer-left, * html .panel-offer-right {
+	width: 216px;
+	w\idth: 206px;
+}
+
+/* Text formatting
+----------------------------------------------- */
+.panel-offer-left p, .panel-offer-right p {
+	font-size: 0.7em;
+	padding: 0 0 9px 0;
+	margin: 0px;
+}
+
+.panel-offer-left h3, .panel-offer-right h3 {
+	margin: 0;
+	padding: 0 0 8px 0;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+.panel-offer-left ul, .panel-offer-right ul {
+	margin: 0px 0 8px 17px;
+	padding: 0;
+	font-size: 0.7em;
+}
+
+.panel-offer-left ul li, .panel-offer-right ul li {
+	list-style: square url(../img/left_nav_current.gif);
+}
+
+/* style for special offers */
+.panel-offer-left .special ul {
+	background-color: #f2f2f2;
+	padding: 0;
+	margin: 0;
+}
+
+.panel-offer-left .special ul li {
+	padding: 5px 0 5px 20px;
+	list-style: none; 
+	list-style-image: none;
+	background:  url("../img/bullet_offers.gif") 5px 12px no-repeat;
+	border-bottom: 8px solid white
+}
+
+.panel-offer-left .special ul li h3 {
+	font-size: 1.6em;
+	font-weight: normal;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+/* additional styles for tables */
+.panel-offer-right .table-horiz-border caption {
+	margin: 0;
+	padding: 0 0 5px 0;
+	color: #666;
+	font-size: 0.7em;
+}
+
+.panel-offer-right .table-horiz-border td.caption {
+	color: #333;
+}
+
+#content p.small-print {
+	font-size: 0.6em;
+}

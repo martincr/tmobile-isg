@@ -1,0 +1,204 @@
+Suggested CSS naming conventions,,,,,,
+
+File,Generic Name,Iteration,Old CSS ID or class,New CSS ID or class,Alternative,Notes
+
+Framework.css,,,,,,Rename to style.css?
+,,,shadow0,shadow-meta,,
+,,,shadow1,shadow-right,,
+,,,shadow2,shadow-bottom,,
+,,,shadow3,shadow-corner,,
+,,,page,main,,Revised. This is the main middle block of the page.
+,,,contenAndLeftNav,content-container,Its not developed yet so the container still utites left-nav and the content,Revised. This will now contain the content and the sidebar.
+,,,columnLeft,left-nav-container,,
+,,,columnRight,sidebar,,
+,,,leftNav,left-nav,Could you please provide a title for the left-nav group as Trenton advised . Opened level 2 navigation item should be titled also to let the user know that the group of links belong to subnavigation level,
+,,,logoNavigation,logo-container,,
+,,,logos,logo,,
+,,,topExtraLinks,logo-links,How should the group the links be titled to let screen readers emphasizes ,
+,,,mainNav,main-nav,,
+,,,copyright,footer,,
+,,,metaNav,meta-nav,,
+,,,contentFooter,content-action,,
+,,,footerIcons,content-action,the group should be titled,
+,,,printIcon,content-action-print,,
+,,,emailIcon,content-action-email,,
+,,,footerNav,content-action-links,the group should be titled,
+,,,pageTitle,,,
+,,,firstItem,first-item,,
+Buttons.css,,,,,,
+,,,btnGrArrow,button-arrow-mtm,please rename to button-arrow-service,how should disabled buttons be named?
+,,,btnBlArrow,button-arrow-shop,,
+,,,btnGArrow,button-arrow,,
+,,,btnGr,button-mtm,please rename to button-service,"Duplicate this button for services, compare phones, etc."
+,,,btnBl,button-shop,,
+,,,btnG,button,,
+Account.css,,,,,,
+,,,.account,#account,"as this layout is used for compare phones and service its better to introduce the more abstract name for the class = service-panel for instanse, please provide us with a proper name","Duplicate this DIV for services, compare phones, etc."
+,,,.account .content,#account,,Can be merged?
+,,,.account .headerBg,#account-header,,
+,,,.account div.item,#account .block,,
+,,,.account .item .hello,#account .hello,,
+,,,.account .item .content,,,Replaced with <p> tag?
+,,,.account .item h3,#account h3,,h2 tag used?
+,,,.account .item h4,,,Replaced with <p> tag?
+,,,.account div.buttons,#account-buttons,,
+,,,.account .image,#account .image,,
+,,,.account .imageDesc,#account .detail,,
+,,,.account ul,#account ul,,
+actionLink.css,,,,,,Should be merged to main stylesheet
+,,,.actionLink ,.arrow-link,,Alter all instances
+Banners.css,,,,,,
+,,,div.mainBanner,content-banner,,
+,,,.digitsA,digit-top-a,,
+,,,.digitsB,digit-top-b,,
+,,,.digitsC,digit-bottom-a,,
+,,,.digitsD,digit-bottom-b,,
+,,,.digitsE,digit-bottom-c,,
+,,,.digitsF,digit-bottom-d,,
+,,,div.mainBanner .digitsA span,content-banner span,,For all
+,,,div.mainBanner .digitsA a,content-banner a,,Possibly can be changed for all?
+BannerA.css,,,,,,
+,,,#banner1,,,Needs an improved name
+Basket.css,,,,,,Similar issues as per account.css
+,,,.basket,#basket,,
+,,,.basket h2,#basket-header,,
+,,,.basket .content,#basket-content,,
+,,,.basket div.item,#basket .block,,
+,,,.basket div.item.end,#basket .last-block,,
+,,,.basket .item h3,,,Replaced with <p> tag?
+,,,.basket .item.current h3,,,Replaced with <p> tag?
+,,,.basket .item h4,,,?
+,,,.basket div.buttons,#basket-buttons,,
+,,,.basket table,#basket-table,,
+,,,.basket td.cost,,,
+,,,.basket td.caption,,,
+,,,.basket td.description,,,
+,,,.basket .total td.cost,,,
+,,,.basket .total td.caption,,,
+digit-bottom-a.css,,,,,,"And also digit-bottom-b.css, etc."
+,,,pageName-banner,banner-background,,Needs an improved name
+blocksA.css,,,,,,Applies to blocksB.css also
+
+Containers.css,,,,,,Rename to panels.css
+,,,div.mainContainer,.panel-container,,
+,,,div.mainContainer .actionLink,,,
+,,,,,,
+Headers.css,,,,,,
+,,,boxbody,content-title-container,,
+,,,contentHeader,content-title,,
+,,,pageName,,,Cannot find where these styles are used
+,,,pageNameData,,,Cannot find where these styles are used
+,,,#pageNameData .data ,,,Cannot find where these styles are used
+to_framework.css,,,,,,
+,,,.emph,,,Remove
+,,,.stroke,,,Remove (??) and what instead of this?
+,,,.l,alignleft,,
+,,,.c,aligncenter,,
+,,,.r,alignright,,
+mainTbl.css,,,,,,Rename to tables.css
+,,,.mainTbl,table,,
+,,,.mainTbl_vb,table-vert-border,,
+,,,.mainTbl_hb,table-horiz-border,,
+,,,.mainTbl td,,,Combine styles
+,,,.mainTbl_vb th.noborder,.noborder,,
+,,,.mainTbl th,,,Combine styles
+,,,,,,
+,,,tr.l th,,,"Too many styles-use alignleft, etc. (See above)"
+,,,.mainTbl caption,table-caption,,""".mainTbl caption"" defines a style of tag <caption>, that’s why it couldn`t be renamed."
+,,,.mainTbl_vb caption,,,
+,,,div.pages,,,Cannot find where these styles are used
+,,,,,,"Might be best to name specific tables, e.g. basket-table - to separate from the rest"
+menuTab.css,,,,,,
+,,,.t-zoneNav,,,Remove
+,,,.contentNav,content-nav,,
+contentFooter,,,,,,
+,,,contentFooter ,content-action,,As above
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,Naming of panels,,,,,
+
+,Small Panel,,,,,Use either hyphen or camelCaps case convention
+,S1,Full image,,smallpanel-full,spanel-full,Use HTML Snippets with HomeSite
+,S2,Overlap,,smallpanel-overlap,,
+,S3,Half image,,smallpanel-half,,
+
+,Medium Panel,,,,,
+,M1,Header image,,medpanel-header,mpanel-header,
+,M2,Full image,,medpanel-full,,
+,M3,Half image,,medpanel-half,,
+,M4,Mag digit top,,medpanel-mag,,
+
+,Large Panel,,,,,
+,L1,Header image,,largepanel-header,,
+,L2,Header image overlap,,largepanel-overlap,,
+,L3,Full image,,,,
+,L4,Half image,,,
+
+,XLarge Panel,,,,
+,X1,Tri section with overlap,,xlargepanel-tri,xpanel-tri
+,X2,Header image,,,xpanel-header
+,X3,Large header image,,,xpanel-large
+
+,Double Promo,,,,
+,D1,Special offer,,double-special,double-special
+
+,Banner,,,,
+,B1,Magenta digit btm,,banner-digit-bottom,
+,B2,Magenta digit top,,banner-digit-top,
+,B3,Focus digit,,banner-focus,
+,B4,Handset,,banner-handset,
+,B5,Special offer,,banner-special,
+,B6,Plans special offer,,banner-plans
+,B7,One-off graphics,,
+
+,Home,,,
+,H1,Slot 1 - promo,,home-slot-1
+,H2,Slot 2 - promo,,
+,H3,Slot 3 - double lrg,,
+,H4,Slot 4/5 - double sml,,
+,H5,Right nav hidden,,
+
+,My T-Mobile,,,
+,MTM1,Phone slot,,mtm-phone
+,MTM2,Service promo x 2,,mtm-promo
+,MTM3,Service double promo,,mtm-double
+,MTM4,Text image,,mtm-text
+,MTM5,Double horiz promo,,mtm-horiz
+,MTM6,Medium promo,,mtm-medium,,
+
+,,Meta navigation,,meta-nav,,
+,,Font Size Controls,,,,
+,,Main navigation,,main-nav,,
+
+,,Container elements,,container-,,Prefix container elements
+
+,,Header,,header,,
+,,Main content area,,main,,
+,,"Footer, copright, etc.",,footer,,
+,,Logo,,logo,,

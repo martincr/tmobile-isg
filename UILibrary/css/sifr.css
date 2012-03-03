@@ -1,0 +1,132 @@
+h1
+{
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: normal !important;
+	letter-spacing: -.05em !important;
+	margin: -5px 0 0 0 !important;
+	padding: 0 !important;
+	color:#e20074 !important;
+	
+}
+
+h1{font-size: 1.55em !important;}
+/*h1.sub-title{font-size: 1.4em !important;}*/
+
+div.container h2.title,
+div.container.overlap h2.title,
+div.container.offset h2.title
+{
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: normal !important;
+	letter-spacing: -.05em !important;
+	line-height:1.15em;
+	margin: 0 !important;
+	color:#e20074;
+	margin-left:9px !important;
+
+}
+
+div.container h2.title{
+	padding-top:6px !important;
+	font-size: 1.15em !important;
+}
+
+div.container.overlap h2.title{
+	padding-top:0 !important;
+	font-size: 1.15em !important;
+}
+
+div.container.offset h2.title{
+	padding-top:15px !important;
+	font-size: 1.15em !important;
+}
+
+/*.grey{
+	padding-top:0 !important;
+	color:#333 !important;
+
+}*/
+
+/*Grey parts of headlines*/
+h1 em,
+h2.title em {
+	font-style:normal;
+	color:#333;
+}
+
+/*For Double Panels*/
+
+div.panel-double h2.title{
+	padding-top:6px !important;
+	font-size: 1.3em !important;
+}
+
+div.panel-double .offset h2.title{
+	padding-top:24px !important;
+	font-size: 1.3em !important;
+}
+
+div.panel-double-link h2.title{
+
+	font-size: 1.3em !important;
+}
+
+/* These are standard sIFR styles... do not modify */
+
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+
+
+
+.sIFR-hasFlash h1 {
+	/*visibility: hidden;*/
+	letter-spacing: -.05em;
+	font-size: 1.55em;
+}
+
+/*.sIFR-hasFlash h1.sub-title{
+	
+	letter-spacing: -.05em;
+	font-size: 1.4em;}*/
+	
+.sIFR-hasFlash div.panel-double h2.title,
+.sIFR-hasFlash div.panel-double .offset h2.title,
+.sIFR-hasFlash div.panel-double-link h2.title {
+	/*visibility: hidden;*/
+	letter-spacing: -.05em;
+	font-size: 1.3em;}
+
+.sIFR-hasFlash div.container h2.title,
+.sIFR-hasFlash div.container.overlap h2.title,
+.sIFR-hasFlash div.container.offset h2.title {
+	/*visibility: hidden;*/
+	
+	letter-spacing: -.05em;
+	font-size: 1.15em;
+	
+}
+
+
+
+
+
+

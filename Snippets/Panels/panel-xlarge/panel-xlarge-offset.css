@@ -1,0 +1,4 @@
+/* xLarge panel with offset */
+#box3-1 .title{	height:55px; background-image:url(../imgs/containers/ctitles/blocksD_box31.gif);}
+#box3-1{height:113px;background:url(../imgs/containers/cbgrs/blocksD_box31.gif) 100% 0px no-repeat;}
+html>body #box3-1 {min-height: 104px; height: auto;}

@@ -1,0 +1,181 @@
+/*  Buttons Generic */
+.btn {
+	border: 0;
+	margin: 5px 0;
+	padding: 0;
+	height: 19px;
+	text-align: center;
+	cursor: pointer;
+	cursor: hand;
+	font: bold 0.7em Arial, Helvetica, sans-serif;
+	/*min-width: 144px;
+	min-width: auto;*/
+}
+
+.btn.servicelarge {
+	width: 124px;
+	background: #fbfbfc url(../img/btn_service_124x19.gif) bottom center no-repeat;
+	color: #669a65;
+	/*margin: 0 0 0 10px;*/
+}
+
+input.btn.servicelarge {
+	width: 114px;
+}
+
+/* Hide from IE-Mac \*/
+input.btn.servicelarge {
+	width: 124px;
+}
+/* End hide */
+
+html>body .btn {
+	min-height: 19px;
+	height: auto;
+}
+
+.btn a, .btn p, input.btn {
+   padding: 0 15px 0 0;
+   text-decoration: none;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+/* Regular Button */
+.btn.regularlink a:link, .btn.regularlink a:visited, .btn.regularlink a:hover, input.btn.regularsmall, input.btn.regularmed, input.btn.regularlarge, input.btn.regularxlarge {
+	color: #666;
+	padding: 0;
+	margin: 0;
+}
+
+.btn.regularsmall p, .btn.regularmed p, .btn.regularlarge p, .btn.regularxlarge p {
+	padding: 0;
+	margin: 0;
+}
+
+.btn.regularsmall {
+	width: 62px;
+	background: url(../img/btn_regular_62x19.gif) top center no-repeat;
+	color: #666;
+}
+
+.btn.regularmed {
+	width: 93px;
+	background: url(../img/btn_regular_93x19.gif) top center no-repeat;
+	color: #666;
+}
+
+.btn.regularlarge {
+	width: 124px;
+	background: url(../img/btn_regular_124x19.gif) top center no-repeat;
+	color: #666;
+}
+
+.btn.regularxlarge {
+	width: 186px;
+	background: url(../img/btn_regular_186x19.gif) top center no-repeat;
+}
+
+.btn.regulardisabled {
+	color: #bbb;
+	cursor: default;
+}
+
+/* Standard Process */
+.btn.standardlink a:link, .btn.standardlink a:visited, .btn.standardlink a:hover {
+	color: #666;
+}
+
+.btn.standardsmall {
+	width: 62px;
+	background: url(../img/btn_standard_62x19.gif) top center no-repeat;
+	color: #666;
+}
+
+.btn.standardmed {
+	width: 93px;
+	background: url(../img/btn_standard_93x19.gif) top center no-repeat;
+	color: #666;
+}
+
+.btn.standardlarge {
+	width: 124px;
+	background: url(../img/btn_standard_124x19.gif) top center no-repeat;
+	color: #666;
+}
+
+.btn.standardxlarge {
+	background: url(../img/btn_standard_186x19.gif) top center no-repeat;
+	color: #666;
+}
+
+.btn.standarddisabled {
+	color: #bbb;
+	cursor: default;
+}
+
+/* Service Process */
+.btn.servicelink a:link, .btn.servicelink a:visited, .btn.servicelink a:hover {
+	color: #669a65;
+} 
+
+.btn.servicesmall {
+	width: 62px;
+	background: url(../img/btn_service_62x19.gif) top center no-repeat;
+	color: #669a65;
+}
+
+.btn.servicemed {
+	width: 93px;
+	background: url(../img/btn_service_93x19.gif) top center no-repeat;
+	color: #669a65;
+}
+
+* html .btn.servicelarge {
+	/*margin: 0 0 0 10px;*/
+}
+
+.btn.servicexlarge {
+	width: 186px;
+	background: url(../img/btn_service_186x19.gif) top center no-repeat;
+	color: #669a65;
+}
+
+.btn.servicedisabled {
+	color: #a9d3a8;
+	cursor: default;
+}
+
+/* Shop Process */
+.btn.shoplink a:link, .btn.shoplink a:visited, .btn.shoplink a:hover {
+	color: #5ca5dc;
+}
+
+.btn.shopsmall {
+	width: 62px;
+	background: url(../img/btn_shop_62x19.gif) top center no-repeat;
+	color: #5ca5dc;
+}
+
+.btn.shopmed {
+	width: 93px;
+	background: url(../img/btn_shop_93x19.gif) top center no-repeat;
+	color: #5ca5dc;
+}
+
+.btn.shoplarge {
+	width: 124px;
+	background: url(../img/btn_shop_124x19.gif) top center no-repeat;
+	color: #5ca5dc;
+}
+
+.btn.shopxlarge {
+	width: 186px;
+	background: url(../img/btn_shop_186x19.gif) top center no-repeat;
+	color: #5ca5dc;
+}
+
+.btn.shopdisabled {
+	color: #a4c2d9;
+	cursor: default;
+}

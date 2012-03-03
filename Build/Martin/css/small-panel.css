@@ -1,0 +1,14 @@
+#box1-1 .title {height:32px; background-image: url(../img/welcomeToMyTMobile_box11.gif);}
+#box1-1 {height:77px; background:url(../img/blocksA_box11.gif) no-repeat 100% 100%;}
+
+#box2-1 .title{height:23px; background-image: url(../img/messaging_box21.gif);}
+#box2-1{height:100px; background:url(../img/messaging_box21.gif) no-repeat 100% 0;}
+html>body #box2-1 {min-height: 100px; height: auto;}
+#box2-1 .content {padding-right:100px}
+
+#box3-1 .title{height:55px; background-image: url(../img/welcomeToMyTMobile_box31.gif);}
+#box3-1{height:87px; background:url(../img/welcomeToMyTMobile_box31.gif) 100% 0px no-repeat;}
+
+#box4-1 .title{height: 25px; background-image: url(../img/messaging_box21.gif);}
+html>body #box4-1 {min-height: 100px; height: auto;}
+#box4-1 .content {padding-right:100px}

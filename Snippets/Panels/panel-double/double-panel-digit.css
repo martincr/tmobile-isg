@@ -1,0 +1,4 @@
+/* Double panel with digit */
+#box3-1 .title{height:30px; background-image: url(../imgs/double-panel.gif);}
+#box3-1{height:118px; background:url(../imgs/2_1_specialoffers_banner.gif) 220px 0px no-repeat;}
+html>body #box3-1 {min-height: 118px; height: auto;}

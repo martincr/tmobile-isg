@@ -1,0 +1,289 @@
+/****  Panels ******/
+
+div.panel-container {
+	float:left;
+	margin: 0px 12px 18px 0px;
+	border:1px solid #BEBEBE;
+	width:208px;
+	display:inline;
+}
+
+.offset{
+	position:relative;
+	top:-9px;
+	margin-bottom:-9px;
+	padding-top:0;
+}
+
+.overlap{
+	position:relative;
+	bottom:-6px;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+div.panel-container .actionLink {
+	margin:0; 
+	background-color: #F2F2F2; 
+	padding: 4px 9px; 
+	border-top:1px solid #B6B6B6;
+}
+
+div.container{
+	position:relative;
+}
+
+div.container .content,
+div.panel-tabs-top .content,
+div.panel-tabs-middle .content{
+	padding:9px 9px 0 9px;	
+}
+
+
+/* smallPanel */
+
+.panel-small-link{
+	height: 77px;
+}
+
+html>body .panel-small-link {min-height: 77px; height: auto;}
+
+.panel-small{
+	height:100px;
+}
+
+html>body .panel-small {min-height: 100px; height: auto;}
+
+
+/* mediumPanelLink */
+
+.panel-med-link{
+	height:144px;
+}
+
+html>body .panel-med-link {min-height: 144px; height: auto;}
+
+.panel-med{
+	height:167px;
+}
+
+html>body .panel-med {min-height: 167px; height: auto;}
+
+
+
+/* largePanel */
+
+.panel-large-link{
+	height:191px;
+}
+
+html>body .panel-large-link {min-height: 191px; height: auto;}
+
+.panel-large{
+	height:216px;
+}
+
+html>body .panel-large {min-height: 216px; height: auto;}
+
+
+/* xLargePanel */
+.panel-xlarge-link{
+	height:241px;
+}
+
+html>body .panel-xlarge-link {min-height: 241px; height: auto;}
+
+.panel-xlarge{
+	height:264px;
+}
+
+html>body .panel-xlarge {min-height: 264px; height: auto;}
+
+
+/* Panels for content Navigation */
+
+
+.panel-tabs-top{
+	float:left;
+	margin: 0px 0px 18px 0px;
+	border:1px solid #BEBEBE;
+	border-top:none;
+	width:412px;
+	padding:9px;
+	clear:both;
+}
+
+.panel-tabs-middle{
+	float:left;
+	margin: 0px 0px 18px 0px;
+	border:1px solid #BEBEBE;
+	width:412px;
+	padding:9px;
+}
+
+
+/* Double panels */
+
+.panel-double {
+	height:103px;
+}
+
+html>body .panel-double {min-height: 103px; height: auto;}
+
+.panel-double-link{
+	height:78px;
+}
+
+html>body .panel-double-link {min-height: 78px; height: auto;}
+
+
+
+div.panel-double .offset{
+	position:relative;
+	top:-18px;
+	margin-bottom:-18px;
+}
+
+div.container .digits,
+div.panel-double .digits,
+div.panel-double .offset .digits {
+	position:absolute;
+	top:-9px;
+	right:9px;
+	width:72px;
+	height:72px;
+	background-color:#e20074;
+}
+
+
+div.panel-double .offset .digits,
+div.panel-double .digits {
+	right:18px;
+	width:108px;
+	height:108px;
+}
+
+div.panel-double .offset .digits{
+	top:0;
+}
+
+div.panel-double .digits{
+	top:-18px;
+}
+
+
+
+
+/* Panels width */
+
+div.panel-container.width33{
+	width:136px;
+	margin-right:9px;
+	margin-bottom:8px;
+}
+
+div.panel-container.width66{
+	width:142px;
+	margin-bottom:8px;
+}
+
+div.panel-container.width75{
+	width:278px;
+	margin-right:8px;
+}
+
+div.panel-container.width100{
+	width:430px;
+}
+
+
+.text{
+	width:432px;
+	margin: 0px 12px 18px 0px;
+	padding:9px;
+}
+
+.line,
+.line-width100 {
+	margin: 0 9px;
+	height: 1px;
+	overflow: hidden;
+	background:#b6b6b6;
+	clear:both;	
+}
+
+.line-width100 {
+	margin: 0;
+}
+
+/* Styles for text */
+div.panel-container .content .caption{
+	font-size:0.7em;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+
+div.panel-container .content p,
+div.panel-tabs-middle p {
+	font-size:0.7em;
+	margin:0;
+	padding:0 0 8px 0;
+}
+
+div.panel-tabs-middle p{
+	padding:0;
+}
+
+div.panel-container .content ul {
+	margin: 0px 0 8px 17px;
+	padding: 0;
+	font-size:0.7em;
+}
+
+div.panel-container .content ul li {
+	list-style: square url("../imgs/generic/4pxmagenta.gif");
+}
+
+div.panel-container .content .cost{
+	font-size:1.6em;
+	color: #333;
+}
+
+div.panel-container .content a:link, 
+div.panel-container .content a:visited{
+	color: #333;
+}
+
+div.panel-container .content a:active, 
+div.panel-container .content a:hover {
+	color: #e20074;
+}
+
+
+div.content .actionLink {
+	background: none; 
+	border-top:none;
+	padding: 0;
+	margin: 0 0 0.2em 0;
+}
+
+div.content .actionLink a:link,
+div.content .actionLink a:visited{
+	color: #666;
+}
+
+div.content .actionLink a:active, 
+div.content .actionLink a:hover {
+	color: #e20074;
+}
+
+
+div.panel-container .header {	
+	margin: 0;
+	padding: 4px 9px;
+	background-color: #E4E4E4;
+	color: #333;
+	font-size: 0.7em;
+	border-bottom:1px solid #BEBEBE;
+}

@@ -1,0 +1,115 @@
+#basket {
+	min-width: 145px;
+}
+
+#basket h2 {	
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 2px 9px 2px 32px;
+	background: #5BA4DB url(../imgs/generic/icons/axNav_basket.gif) no-repeat 9px 6px;
+}
+
+#basket .content {
+	padding: 0px 9px;
+	margin:0px;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	background-color: #fff;
+}
+
+
+#basket .block {
+	position:relative;
+	clear: both;
+	margin: 0;
+	padding: 10px 0px;
+	border-bottom: 1px solid #E7E7E7;
+
+}
+
+#basket .block.last {
+	border-bottom: none;
+}
+
+
+#basket .block h3 {
+	margin:0px;
+	padding:0px;
+	font-weight: bold;    
+	font-size: 0.7em;
+	color:#666;
+}
+
+#basket .block.current h3 {
+	margin:0px;
+	padding:0px;
+	font-weight: bold;    
+	font-size: 0.7em;
+	color:#5BA4DB;
+}
+
+
+
+#basket .block h4 {
+	margin:0px;
+	padding:0px;
+	font-weight: bold;    
+	font-size: 1.2em;
+	color:#333;
+}
+
+
+#basket .buttons {
+	background-color:#fff;
+	border:none;
+	padding: 0 0 8px 0;
+	margin: 0;
+}
+
+#basket div.buttons .clear {
+	height: 4px
+}
+
+#basket table {
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+#basket td {
+	font-size:0.7em;
+}
+
+#basket td span.image {
+	float:left;
+	padding:0 5px 0 0;
+}
+
+#basket td.cost,
+#basket .total td.cost {
+	text-align:right;
+	font-weight:bold;
+	vertical-align:bottom; 
+	color:#333;
+	width:20%;
+}
+
+#basket td.caption,
+#basket .total td.caption,
+#basket td.description {
+	font-weight:bold; 
+	vertical-align:bottom;
+	color:#333;
+}
+
+#basket .total td.cost,
+#basket .total td.caption
+{
+	color:#999;
+}
+
+#basket td.description {
+	color:#666;
+}

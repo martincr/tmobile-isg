@@ -1,0 +1,97 @@
+#box1-1 .title{
+	height:35px; 
+	background-image: url(../imgs/cpanels/titles/myPhone_box1-1.gif);
+}
+
+#box1-1{
+	height:189px; 
+}
+
+html>body #box1-1 {min-height: 189px; height: auto;}
+
+
+
+#box1-2{
+	height:69px; 
+}
+
+html>body #box1-2 {min-height: 69px; height: auto;}
+
+#box1-3{
+	height:68px; 
+}
+
+html>body #box1-3 {min-height: 68px; height: auto;}
+
+
+
+
+/*Offset box*/
+#box2-1 .title{
+	height:55px; 
+	background-image: url(../imgs/cpanels/titles/myPhone_box2-1.gif);
+}
+
+#box2-1{
+	height:108px;
+	background:url(../imgs/cpanels/bgrs/myPhone_box2-1.gif) 100% 0px no-repeat;
+}
+
+html>body #box2-1 {min-height:108px; height: auto;}
+
+
+#box2-2{
+	height:65px;
+}
+
+html>body #box2-2 {min-height:65px; height: auto;}
+
+
+
+#box3-1 .title{
+	height:45px; 
+	background-image: url(../imgs/cpanels/titles/myPhone_box3-1.gif);
+}
+
+#box3-1{
+	height:108px;
+	background:url(../imgs/cpanels/bgrs/myPhone_box3-1.gif) 100% 0px no-repeat;
+}
+
+html>body #box3-1 {min-height: 120px; height: auto;}
+
+
+
+#box4{
+	width:432px;
+	margin:0;
+	clear:both;
+}
+
+#box4-1 .title{
+	height:70px; 
+	background-image: url(../imgs/cpanels/titles/myPhone_box4-1.gif);
+}
+
+#box4-2 .content {
+	font-size:1em;
+}
+
+
+#box4-2 .content .intro{
+	font-size:0.7em;
+	padding: 0 0 7px 0;
+}
+
+
+#box4-2 .content td{
+	padding:3px;
+}
+
+
+
+/* Title Page */
+
+#myPhone{
+	background-image: url(../imgs/ptitles/myPhone.gif);
+}

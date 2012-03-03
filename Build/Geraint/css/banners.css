@@ -1,0 +1,86 @@
+/* Banners */
+/* Start banners containers */
+
+div.content-banner-top,
+div.content-banner-btm, 
+div.focus-digit-banner {
+	height:108px;
+	width:432px;
+	position:relative;
+	margin:18px 0px;
+}
+
+div.content-banner-btm {
+	margin: 18px 0px 36px 0px;
+}
+
+div.focus-digit-banner {
+	height: 126px;
+	margin: 0px 0px 18px 0px;
+}
+
+/* End banners containers */
+/* Start Banner digits */
+
+div.focus-digit-banner a{
+	display:block;
+	width:432px;
+	height:126px;
+}
+
+div.focus-digit-banner a span{
+	position:absolute;
+	left:-5000px;
+}
+
+.digit-top-right-a,
+.digit-top-right-b,
+.digit-bottom-left-a,
+.digit-bottom-left-b,
+.digit-bottom-right-c,
+.digit-bottom-right-d{
+	position:absolute;
+	background-color:#e20074;
+	height:108px;
+	width:108px;
+	top:18px;
+}
+
+.digit-top-right-a {
+	left:232px;
+	top:-18px;
+}
+
+.digit-top-right-b {
+	left:306px;
+	top:-18px;
+}
+
+.digit-bottom-left-a {
+	left:18px;
+}
+
+.digit-bottom-left-b {
+	left:100px;
+}
+
+.digit-bottom-right-c {
+	left:232px;
+}
+
+.digit-bottom-right-d {
+	left:306px;
+}
+
+.digit-top-right-a img,
+.digit-top-right-b img,
+.digit-bottom-left-a img,
+.digit-bottom-left-b img,
+.digit-bottom-right-c img,
+.digit-bottom-right-d img{
+	height:108px;
+	width:108px;
+}
+
+/* End Banner digits */
+/* End Banners */

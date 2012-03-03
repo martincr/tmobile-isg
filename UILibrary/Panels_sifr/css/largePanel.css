@@ -1,0 +1,31 @@
+#box1-1{
+	height:110px;
+	background:url(../imgs/containers/cbgrs/why_box11.jpg) 100% 0 no-repeat;
+}
+html>body #box1-1 {min-height: 110px; height: auto;}
+
+#box1-2{
+	height:82px;
+}
+
+html>body #box1-2 {min-height: 82px; height: auto;}
+
+/**/
+#box2-1{ height:65px;}
+
+html>body #box1-2 {min-height: 65px; height: auto;}
+/*Increase Sifr Font and Right Aligned Sifr Headline*/
+#box2-1 .title {float:right; width:100px; height:80px;}
+/*Left Aligned Digit */
+#box2-1 .digits{left:9px;}
+
+/**/
+#box3-1{
+	height:110px;
+	background:url(../imgs/containers/cbgrs/blocksC_box31.jpg) 0 0 no-repeat;
+}
+
+html>body #box3-1 {min-height: 110px; height: auto;}
+
+
+

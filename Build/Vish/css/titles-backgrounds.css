@@ -1,0 +1,47 @@
+.container h2{
+	padding:0;	
+	margin:0;
+}
+
+.container h2{
+	background-position:9px 9px;
+	background-repeat:no-repeat;
+}
+
+.container.offset h2{
+	background-position:9px 18px;
+	background-repeat:no-repeat;
+}
+
+.container.overlap h2{
+	background-position:9px 0;
+	background-repeat:no-repeat;
+}
+
+.container .titletxt,
+.container.overlap .titletxt,
+.container.offset .titletxt 
+ {
+	padding: 7px 0 0 9px;
+	margin:0px;
+	text-indent:0;
+	font: bold 1em "Times New Roman",serif;
+	color:#e20074;
+}
+
+.container.overlap .titletxt {
+	padding: 0px 0 0 9px;
+}
+
+.container.offset .titletxt {
+	padding: 18px 0 0 9px;
+}
+
+h2txt {background-image: none}
+h2 span {position:absolute; left:-5000px;}
+h2txt span {position:static; left:0;}
+
+.panel-double .container.offset h2{
+	background-position:9px 27px;
+	background-repeat:no-repeat;
+}

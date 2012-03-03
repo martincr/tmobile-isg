@@ -1,0 +1,131 @@
+/* Main table */
+
+.table-main, 
+.table-vert-border,
+.table-horiz-border,
+.table-main-content {
+	width: 100%;
+	margin: 18px 0;
+	border-collapse: collapse;
+}
+
+.table-vert-border td{
+	border-right: 1px solid #e7e7e7;
+}
+.table-horiz-border td{
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.table-main-content td{
+	padding: 3px 0;
+}
+
+.table-main td,
+.table-vert-border td,
+.table-horiz-border td	{
+	padding: 5px 7px;
+	
+}
+
+.table-main td,
+.table-vert-border td,
+.table-horiz-border td,
+.table-main-content td {
+	font-size: 0.7em;
+}
+
+.table-vert-border th.noborder,
+.table-vert-border td.noborder {
+	border: none;
+}
+
+.table-main th,
+.table-vert-border th,
+.table-horiz-border th {
+	background-color: #e4e4e4;
+	color: #333;
+	font-size: 0.7em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.table-main tr.basket th,
+.table-vert-border tr.basket th,
+.table-horiz-border tr.basket th {
+	background-color: #5ca5dc;
+	color: #fff;
+	padding: 5px 7px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.table-main th,
+.table-vert-border th,
+.table-horiz-border th {
+	padding: 5px 7px;
+	border-bottom: 1px solid #b6b6b6;
+	border-right: 1px solid #b6b6b6;
+}
+
+.table-main tr.bgr td,
+.table-vert-border tr.bgr td,
+.table-horiz-border tr.bgr td,
+.table-main td.bgr,
+.table-vert-border td.bgr,
+.table-horiz-border td.bgr{
+	background-color: #f2f2f2;
+	
+}
+
+.table-main tr.divider td,
+.table-vert-border tr.divider td,
+.table-horiz-border tr.divider td{
+	border-top: 1px solid #e7e7e7;	
+}
+
+.table-main tr.subheader td,
+.table-vert-border tr.subheader td,
+.table-horiz-border tr.subheader td{
+	border: none;
+	padding: 10px 7px;
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+}
+
+tr.left th, tr.left td, th.left, td.left  {
+	text-align: left;
+}
+
+tr.center th, tr.center td, th.center, td.center {
+	text-align: center;
+}
+
+tr.right th, tr.right td, th.right, td.right {
+	text-align: right;
+}
+
+.table-main caption,
+.table-vert-border caption,
+.table-horiz-border caption {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #333;
+	text-align: left;
+	padding: 10px 0;
+}
+
+.table-main caption.bgr,
+.table-vert-border caption.bgr,
+.table-horiz-border caption.bgr {
+	background-color: #e4e4e4;
+}
+
+.table-main td.caption1,
+.table-vert-border td.caption1,
+.table-horiz-border td.caption1,
+.table-main-content td.caption1 {
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #333;
+}
